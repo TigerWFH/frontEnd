@@ -12,7 +12,7 @@ module.exports = {
     resolve: {
         extensions: ["", ".ts", ".tsx", ".js"]
     },
-    modeule: {
+    module: {
         loaders: [{
             test: /\.js$/,
             exclude: /(node_modules | bower_components)/,

@@ -18,7 +18,7 @@ class Card extends React.Component<P, S> {
     render () {
         return (
             <div>
-                <input type="button" value="BTN" />
+                <input type="button" value="BTNinCard" />
             </div>
         );
     }
