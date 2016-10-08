@@ -12,8 +12,8 @@ var __extends = (this && this.__extends) || function (d, b) {
 var React = require('react');
 var Card = (function (_super) {
     __extends(Card, _super);
-    function Card(param) {
-        _super.call(this, param);
+    function Card(props) {
+        _super.call(this, props);
     }
     Card.prototype.render = function () {
         return (React.createElement("div", null, 
@@ -24,4 +24,3 @@ var Card = (function (_super) {
 }(React.Component));
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = Card;
-//# sourceMappingURL=card.js.map

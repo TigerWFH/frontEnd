@@ -11,8 +11,8 @@ interface P {}
 interface S {}
 
 class Card extends React.Component<P, S> {
-    constructor(param: P) {
-        super(param);
+    constructor(props: P) {
+        super(props);
     }
 
     render () {
