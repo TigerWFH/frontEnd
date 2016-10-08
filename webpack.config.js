@@ -1,3 +1,11 @@
+// name: webpack.config.js
+// author: monkey@lwork.com
+// date: 10-8-2016
+// functions:
+// 1.编译文件
+// 2.压缩文件
+
+// libs
 let webpack = require('webpack');
 let path = require('path');
 
