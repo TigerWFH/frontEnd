@@ -4,4 +4,6 @@
 // functions:
 
 import * as React from 'react';
+import * as ReactDOM from 'react-dom';
 
+ReactDOM.render(<div>1232123</div>, document.getElementById('main'));
