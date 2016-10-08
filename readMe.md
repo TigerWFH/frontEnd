@@ -5,3 +5,5 @@
         typings install(需要配置一个typings.json)
 3.安装各种loader
 4.配置webpack,gulp
+5.tsc可以识别并编译tsx等文件中的es6语法，但是无法识别js文件中的es6新语法。
+    所以，需要配置新的babel-loader以及babel-preset-es2015和babel-preset-react
