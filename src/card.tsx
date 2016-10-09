@@ -5,7 +5,7 @@
 
 // libs
 import * as React from 'react';
-import * as ReactDOM from 'react-dom';
+// import * as ReactDOM from 'react-dom';
 
 interface P {}
 interface S {}
@@ -18,6 +18,7 @@ class Card extends React.Component<P, S> {
     render () {
         return (
             <div>
+                <div>for gulp watch test</div>
                 <input type="button" value="BTNinCard" />
             </div>
         );

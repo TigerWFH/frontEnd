@@ -10,17 +10,17 @@ let webpack = require('webpack');
 let path = require('path');
 
 module.exports = {
-    entry: {
+    "entry": {
         index: './src/index.tsx'
     },
-    output: {
-        path: path.resolve('./dist'),
+    "output": {
+        path: path.resolve('./dev/dist'),
         filename: '[name].js'
     },
-    resolve: {
+    "resolve": {
         extensions: ["", ".ts", ".tsx", ".js"]
     },
-    module: {
+    "module": {
         loaders: [{
             test: /\.js$/,
             exclude: /(node_modules | bower_components)/,
@@ -30,5 +30,12 @@ module.exports = {
             exclude: /(node_modules | bower_components)/,
             loaders: ['ts-loader']
         }]
+    },
+    "plugins": [],
+    "externals": {
+        'react': 'React',
+        'react-dom': 'ReactDOM',
+        'jquery': 'jQuery',
+        'moment': 'moment'
     }
 };

@@ -9,6 +9,7 @@ import * as ReactDOM from 'react-dom';
 
 // components
 import Card from './card';
+import Panel from './panel';
 let elem: JSX.Element = <div>
     <Card />
 </div>;
