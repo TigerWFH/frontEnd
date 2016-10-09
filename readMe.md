@@ -7,3 +7,9 @@
 4.配置webpack,gulp
 5.tsc可以识别并编译tsx等文件中的es6语法，但是无法识别js文件中的es6新语法。
     所以，需要配置新的babel-loader以及babel-preset-es2015和babel-preset-react
+6.externals就是为了防止编译外部库的，通过设定外部库的require名字，和库的名字链接在一起，进行识别
+    require('jquery);
+    'jquery':'jQuery'
+    library和libraryTarget可以用来编译打包自己的模块库
+    参考资料:https://github.com/zhengweikeng/blog/issues/10
+7.gulp-replace-task,gulp-rename,gulp-run-sequence,del
