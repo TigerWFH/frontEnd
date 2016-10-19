@@ -14,7 +14,14 @@ class Card extends React.Component<P, S> {
     constructor(props: P) {
         super(props);
     }
-
+    
+    componentWillMount () {
+        
+    }
+    componentDidMount () {
+        
+    }
+    
     render () {
         return (
             <div>
