@@ -27,6 +27,7 @@ class Card extends React.Component<P, S> {
             <div>
                 <div>for gulp watch test</div>
                 <input type="button" value="BTNinCard" />
+                <input type="text" value="monkey"/>
             </div>
         );
     }

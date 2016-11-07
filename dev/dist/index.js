@@ -92,10 +92,15 @@
 	    function Card(props) {
 	        return _super.call(this, props) || this;
 	    }
+	    Card.prototype.componentWillMount = function () {
+	    };
+	    Card.prototype.componentDidMount = function () {
+	    };
 	    Card.prototype.render = function () {
 	        return (React.createElement("div", null,
 	            React.createElement("div", null, "for gulp watch test"),
-	            React.createElement("input", { type: "button", value: "BTNinCard" })));
+	            React.createElement("input", { type: "button", value: "BTNinCard" }),
+	            React.createElement("input", { type: "text", value: "monkey" })));
 	    };
 	    return Card;
 	}(React.Component));

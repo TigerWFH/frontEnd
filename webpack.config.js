@@ -11,7 +11,8 @@ let path = require('path');
 
 module.exports = {
     "entry": {
-        index: './src/index.tsx'
+        index: './src/index.tsx',
+        test: './src/test.ts'
     },
     "output": {
         path: path.resolve('./dev/dist'),
