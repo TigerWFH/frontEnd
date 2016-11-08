@@ -60,7 +60,9 @@
 	var react_router_1 = __webpack_require__(3);
 	// components
 	var card_1 = __webpack_require__(60);
-	var panel_1 = __webpack_require__(61);
+	// modules
+	var module1_1 = __webpack_require__(61);
+	var module2_1 = __webpack_require__(62);
 	var App = (function (_super) {
 	    __extends(App, _super);
 	    function App() {
@@ -73,10 +75,10 @@
 	}(React.Component));
 	var elem = (React.createElement(react_router_1.Router, { history: react_router_1.hashHistory },
 	    React.createElement(react_router_1.Route, { path: "/", component: App },
-	        React.createElement(react_router_1.Route, { path: "first", component: card_1.default },
-	            React.createElement(react_router_1.Route, { path: "/1", component: panel_1.default }),
+	        React.createElement(react_router_1.Route, { path: "first", component: module1_1.Module1 },
+	            React.createElement(react_router_1.Route, { path: "/1", component: card_1.default }),
 	            React.createElement(react_router_1.Route, { path: "2", component: card_1.default })),
-	        React.createElement(react_router_1.Route, { path: "second", component: panel_1.default }))));
+	        React.createElement(react_router_1.Route, { path: "second", component: module2_1.Module2 }))));
 	ReactDOM.render(elem, document.getElementById('main'));
 
 
@@ -5544,19 +5546,46 @@
 	};
 	// libs
 	var React = __webpack_require__(1);
-	var Panel = (function (_super) {
-	    __extends(Panel, _super);
-	    function Panel(props) {
-	        return _super.call(this, props) || this;
+	var Module1 = (function (_super) {
+	    __extends(Module1, _super);
+	    function Module1(prop) {
+	        return _super.call(this, prop) || this;
 	    }
-	    Panel.prototype.render = function () {
+	    Module1.prototype.render = function () {
 	        return (React.createElement("div", null,
-	            React.createElement("div", null, "panel")));
+	            "first Module1",
+	            this.props.children));
 	    };
-	    return Panel;
+	    return Module1;
 	}(React.Component));
-	Object.defineProperty(exports, "__esModule", { value: true });
-	exports.default = Panel;
+	exports.Module1 = Module1;
+
+
+/***/ },
+/* 62 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	// libs
+	var React = __webpack_require__(1);
+	var Module2 = (function (_super) {
+	    __extends(Module2, _super);
+	    function Module2(prop) {
+	        return _super.call(this, prop) || this;
+	    }
+	    Module2.prototype.render = function () {
+	        return (React.createElement("div", null,
+	            "second Module1",
+	            this.props.children));
+	    };
+	    return Module2;
+	}(React.Component));
+	exports.Module2 = Module2;
 
 
 /***/ }

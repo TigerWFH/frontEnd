@@ -4,13 +4,16 @@
 // functions:
 
 // libs
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
-import { Router, Route, hashHistory } from 'react-router';
+import * as React from 'react'
+import * as ReactDOM from 'react-dom'
+import { Router, Route, hashHistory } from 'react-router'
 
 // components
-import Card from './components/card';
-import Panel from './components/panel';
+import Card from './components/card'
+// modules
+import { Module1 } from './module1'
+import { Module2 } from './module2'
+import { Module3 } from './module3'
 
 
 interface P { }
@@ -29,13 +32,13 @@ class App extends React.Component<P, S> {
 let elem: JSX.Element = (
     <Router history={hashHistory}>
         <Route path="/" component={App}>
-            <Route path="first" component={Card}>
-                <Route path="/1" component={Panel}>
+            <Route path="first" component={Module1}>
+                <Route path="/1" component={Card}>
                 </Route>
                 <Route path="2" component={Card}>
                 </Route>
             </Route>
-            <Route path="second" component={Panel}>
+            <Route path="second" component={Module2}>
             </Route>
         </Route>
     </Router>
