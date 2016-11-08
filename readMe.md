@@ -13,3 +13,4 @@
     library和libraryTarget可以用来编译打包自己的模块库
     参考资料:https://github.com/zhengweikeng/blog/issues/10
 7.gulp-replace-task,gulp-rename,gulp-run-sequence,del
+8.https://react-guide.github.io/react-router-cn/参考信息router
