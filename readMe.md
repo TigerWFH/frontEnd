@@ -14,3 +14,6 @@
     参考资料:https://github.com/zhengweikeng/blog/issues/10
 7.gulp-replace-task,gulp-rename,gulp-run-sequence,del
 8.https://react-guide.github.io/react-router-cn/参考信息router
+9.module-->模块（嘛）
+  model-->模型;模特（麻豆）
+  modal-->模态（某豆）

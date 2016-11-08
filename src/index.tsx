@@ -9,8 +9,8 @@ import * as ReactDOM from 'react-dom';
 import { Router, Route, hashHistory } from 'react-router';
 
 // components
-import Card from './card';
-import Panel from './panel';
+import Card from './components/card';
+import Panel from './components/panel';
 
 
 interface P { }

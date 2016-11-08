@@ -67,9 +67,7 @@
 	        return _super.apply(this, arguments) || this;
 	    }
 	    App.prototype.render = function () {
-	        return (React.createElement("div", null,
-	            "abc",
-	            this.props.children));
+	        return (React.createElement("div", null, this.props.children));
 	    };
 	    return App;
 	}(React.Component));

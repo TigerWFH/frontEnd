@@ -15,7 +15,7 @@ let runSequence = require('gulp-run-sequence');
 
 function compileHTML(isWatch) {
     if (isWatch) {
-        gulp.watch('./*.html', function() {
+        gulp.watch('./src/*.html', function() {
             compile();
         });
     } else {
@@ -23,7 +23,7 @@ function compileHTML(isWatch) {
     }
 
     function compile() {
-        gulp.src('./*.html').pipe(gulp.dest(output));
+        gulp.src('./src/*.html').pipe(gulp.dest(output));
     }
 }
 
