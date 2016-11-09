@@ -17,3 +17,4 @@
 9.module-->模块（嘛）
   model-->模型;模特（麻豆）
   modal-->模态（某豆）
+10.inline images页内图片，就像将图片转换成base64代码
