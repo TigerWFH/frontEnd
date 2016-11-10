@@ -73,15 +73,20 @@ function compileCSS(isWatch) {
 gulp.task('html', function() {
     compileHTML(false);
 });
-
 gulp.task('html-watch', function() {
     compileHTML(true);
+});
+
+gulp.task('css', function() {
+    compileCSS(false);
+});
+gulp.task('css-watch', function() {
+    compileCSS(true);
 });
 
 gulp.task('js', function() {
     compileJS(false);
 });
-
 gulp.task('js-watch', function() {
     compileJS(true);
 });
@@ -98,7 +103,7 @@ gulp.task('prepareCDN', function() {
 
 gulp.task('resources', function() {
     // 此处可以将图片资源，三方库，字体等一并拷贝到部署路径中
-    var resources = ['./cdn/jquery/**/*', './cdn/react/**/*', './cdn/moment/**/*', './cdn/react-dom/**/*'];
+    var resources = ['./cdn/jquery/**/*', './cdn/react/**/*', './cdn/moment/**/*', './cdn/react-dom/**/*', './images/**/*'];
     return gulp.src(resources, { base: '.' }).pipe(gulp.dest(output));
 })
 
@@ -114,5 +119,5 @@ gulp.task('server', function() {
 })
 
 gulp.task('dev', function() {
-    runSequence('html', 'js', 'prepareCDN', 'resources', 'server');
+    runSequence('html', 'css', 'js', 'prepareCDN', 'resources', 'server');
 })
