@@ -57,6 +57,15 @@ function compileCSS(isWatch) {
     }
 
     function compile() {
+        var postcss = require('gulp-postcss');
+        var plugins = [
+            require('autoprefixer')({ browers: ['last 2 versions'] }),
+            require('prescc'),
+            require('postcss-assets')({ loadPaths: ['./images/'] })
+        ];
+        gulp.src('./css/*.css', { base: '.' })
+            .pipe(postcss(plugins))
+            .pipe(gulp.dest(output));
         console.log('compiling css is Done!');
     }
 }
