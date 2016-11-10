@@ -60,7 +60,7 @@ function compileCSS(isWatch) {
         var postcss = require('gulp-postcss');
         var plugins = [
             require('autoprefixer')({ browers: ['last 2 versions'] }),
-            require('prescc'),
+            require('precss'),
             require('postcss-assets')({ loadPaths: ['./images/'] })
         ];
         gulp.src('./css/*.css', { base: '.' })
