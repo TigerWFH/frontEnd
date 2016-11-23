@@ -62,7 +62,7 @@
 	var card_1 = __webpack_require__(60);
 	// modules
 	var module1_1 = __webpack_require__(61);
-	var module2_1 = __webpack_require__(62);
+	var module2_1 = __webpack_require__(65);
 	var App = (function (_super) {
 	    __extends(App, _super);
 	    function App() {
@@ -5546,6 +5546,9 @@
 	};
 	// libs
 	var React = __webpack_require__(1);
+	var appHeader_1 = __webpack_require__(62);
+	var appSidebar_1 = __webpack_require__(63);
+	var AppFooter_1 = __webpack_require__(64);
 	var Module1 = (function (_super) {
 	    __extends(Module1, _super);
 	    function Module1(prop) {
@@ -5553,8 +5556,10 @@
 	    }
 	    Module1.prototype.render = function () {
 	        return (React.createElement("div", null,
-	            "first Module1",
-	            this.props.children));
+	            React.createElement(appHeader_1.AppHeader, null),
+	            React.createElement(appSidebar_1.AppSidebar, null),
+	            React.createElement("div", null, this.props.children),
+	            React.createElement(AppFooter_1.AppFooter, null)));
 	    };
 	    return Module1;
 	}(React.Component));
@@ -5573,6 +5578,84 @@
 	};
 	// libs
 	var React = __webpack_require__(1);
+	var AppHeader = (function (_super) {
+	    __extends(AppHeader, _super);
+	    function AppHeader(props) {
+	        return _super.call(this, props) || this;
+	    }
+	    AppHeader.prototype.render = function () {
+	        return (React.createElement("div", null, "appHeader"));
+	    };
+	    return AppHeader;
+	}(React.Component));
+	exports.AppHeader = AppHeader;
+
+
+/***/ },
+/* 63 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	// libs
+	var React = __webpack_require__(1);
+	var AppSidebar = (function (_super) {
+	    __extends(AppSidebar, _super);
+	    function AppSidebar(props) {
+	        return _super.call(this, props) || this;
+	    }
+	    AppSidebar.prototype.render = function () {
+	        return (React.createElement("div", null, "appSidebar"));
+	    };
+	    return AppSidebar;
+	}(React.Component));
+	exports.AppSidebar = AppSidebar;
+
+
+/***/ },
+/* 64 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	// libs
+	var React = __webpack_require__(1);
+	var AppFooter = (function (_super) {
+	    __extends(AppFooter, _super);
+	    function AppFooter(props) {
+	        return _super.call(this, props) || this;
+	    }
+	    AppFooter.prototype.render = function () {
+	        return (React.createElement("div", null, "appFooter"));
+	    };
+	    return AppFooter;
+	}(React.Component));
+	exports.AppFooter = AppFooter;
+
+
+/***/ },
+/* 65 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	// libs
+	var React = __webpack_require__(1);
+	var appHeader_1 = __webpack_require__(62);
+	var appSidebar_1 = __webpack_require__(63);
+	var AppFooter_1 = __webpack_require__(64);
 	var Module2 = (function (_super) {
 	    __extends(Module2, _super);
 	    function Module2(prop) {
@@ -5580,8 +5663,11 @@
 	    }
 	    Module2.prototype.render = function () {
 	        return (React.createElement("div", null,
-	            "second Module1",
-	            this.props.children));
+	            React.createElement("div", null,
+	                React.createElement(appHeader_1.AppHeader, null),
+	                React.createElement(appSidebar_1.AppSidebar, null),
+	                React.createElement("div", null, this.props.children),
+	                React.createElement(AppFooter_1.AppFooter, null))));
 	    };
 	    return Module2;
 	}(React.Component));

@@ -1,11 +1,12 @@
 // libs
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
-// utils(common)
 
-// components
-import Card from '../components/card'
-
+// components and utils
+import Card from '../components/basic/card'
+import { AppHeader } from '../components/appHeader';
+import { AppSidebar } from '../components/appSidebar';
+import { AppFooter } from '../components/AppFooter';
 // models
 
 interface P { }
@@ -18,8 +19,12 @@ export class Module1 extends React.Component<P, S>{
     render() {
         return (
             <div>
-                first Module1
-                {this.props.children}
+                <AppHeader />
+                <AppSidebar />
+                <div>
+                    {this.props.children}
+                </div>
+                <AppFooter />
             </div>
         )
     }

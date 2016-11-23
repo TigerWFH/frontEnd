@@ -6,10 +6,8 @@
 // libs
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
-import { Router, Route, hashHistory } from 'react-router'
+import { Router, Route, IndexRoute, IndexRedirect, hashHistory } from 'react-router'
 
-// components
-import Card from './components/card'
 // modules
 import { Module1 } from './module1'
 import { Module2 } from './module2'
@@ -32,6 +30,7 @@ class App extends React.Component<P, S> {
 let elem: JSX.Element = (
     <Router history={hashHistory}>
         <Route path="/" component={App}>
+            <IndexRoute component={} />
             <Route path="first" component={Module1}>
                 <Route path="/1" component={Card}>
                 </Route>

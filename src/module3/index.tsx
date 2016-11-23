@@ -4,7 +4,7 @@ import * as ReactDOM from 'react-dom'
 // utils(common)
 
 // components
-import Card from '../components/card'
+import Card from '../components/basic/card'
 
 // models
 
