@@ -5588,7 +5588,7 @@
 	        return _super.call(this, props) || this;
 	    }
 	    AppSidebar.prototype.render = function () {
-	        return (React.createElement("div", null, "appSidebar"));
+	        return (React.createElement("div", { className: "appSidebar" }, "appSidebar"));
 	    };
 	    return AppSidebar;
 	}(React.Component));

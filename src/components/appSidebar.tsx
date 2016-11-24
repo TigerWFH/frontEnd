@@ -16,7 +16,7 @@ export class AppSidebar extends React.Component<SidebarProps, SidebarState>{
 
     render() {
         return (
-            <div>
+            <div className="appSidebar">
                 appSidebar
             </div>
         )
