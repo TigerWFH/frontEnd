@@ -30,11 +30,11 @@ class App extends React.Component<P, S> {
 let elem: JSX.Element = (
     <Router history={hashHistory}>
         <Route path="/" component={App}>
-            <IndexRoute component={} />
+            <IndexRoute component={Module1} />
             <Route path="first" component={Module1}>
-                <Route path="/1" component={Card}>
+                <Route path="/1" component={Module1}>
                 </Route>
-                <Route path="2" component={Card}>
+                <Route path="2" component={Module2}>
                 </Route>
             </Route>
             <Route path="second" component={Module2}>

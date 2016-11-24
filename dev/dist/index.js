@@ -58,11 +58,9 @@
 	var React = __webpack_require__(1);
 	var ReactDOM = __webpack_require__(2);
 	var react_router_1 = __webpack_require__(3);
-	// components
-	var card_1 = __webpack_require__(60);
 	// modules
-	var module1_1 = __webpack_require__(61);
-	var module2_1 = __webpack_require__(65);
+	var module1_1 = __webpack_require__(60);
+	var module2_1 = __webpack_require__(64);
 	var App = (function (_super) {
 	    __extends(App, _super);
 	    function App() {
@@ -75,9 +73,10 @@
 	}(React.Component));
 	var elem = (React.createElement(react_router_1.Router, { history: react_router_1.hashHistory },
 	    React.createElement(react_router_1.Route, { path: "/", component: App },
+	        React.createElement(react_router_1.IndexRoute, { component: module1_1.Module1 }),
 	        React.createElement(react_router_1.Route, { path: "first", component: module1_1.Module1 },
-	            React.createElement(react_router_1.Route, { path: "/1", component: card_1.default }),
-	            React.createElement(react_router_1.Route, { path: "2", component: card_1.default })),
+	            React.createElement(react_router_1.Route, { path: "/1", component: module1_1.Module1 }),
+	            React.createElement(react_router_1.Route, { path: "2", component: module2_1.Module2 })),
 	        React.createElement(react_router_1.Route, { path: "second", component: module2_1.Module2 }))));
 	ReactDOM.render(elem, document.getElementById('main'));
 
@@ -5501,10 +5500,6 @@
 /* 60 */
 /***/ function(module, exports, __webpack_require__) {
 
-	// name: card.tsx
-	// author: monkey@lwork.com
-	// date: 10-8-2016
-	// functions:
 	"use strict";
 	var __extends = (this && this.__extends) || function (d, b) {
 	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -5513,42 +5508,9 @@
 	};
 	// libs
 	var React = __webpack_require__(1);
-	var Card = (function (_super) {
-	    __extends(Card, _super);
-	    function Card(props) {
-	        return _super.call(this, props) || this;
-	    }
-	    Card.prototype.componentWillMount = function () {
-	    };
-	    Card.prototype.componentDidMount = function () {
-	    };
-	    Card.prototype.render = function () {
-	        return (React.createElement("div", null,
-	            this.props.children,
-	            React.createElement("input", { type: "button", value: "BTNinCard" }),
-	            React.createElement("input", { type: "text", value: "monkey" })));
-	    };
-	    return Card;
-	}(React.Component));
-	Object.defineProperty(exports, "__esModule", { value: true });
-	exports.default = Card;
-
-
-/***/ },
-/* 61 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	var __extends = (this && this.__extends) || function (d, b) {
-	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-	    function __() { this.constructor = d; }
-	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	};
-	// libs
-	var React = __webpack_require__(1);
-	var appHeader_1 = __webpack_require__(62);
-	var appSidebar_1 = __webpack_require__(63);
-	var AppFooter_1 = __webpack_require__(64);
+	var appHeader_1 = __webpack_require__(61);
+	var appSidebar_1 = __webpack_require__(62);
+	var AppFooter_1 = __webpack_require__(63);
 	var Module1 = (function (_super) {
 	    __extends(Module1, _super);
 	    function Module1(prop) {
@@ -5567,7 +5529,7 @@
 
 
 /***/ },
-/* 62 */
+/* 61 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -5581,18 +5543,35 @@
 	var AppHeader = (function (_super) {
 	    __extends(AppHeader, _super);
 	    function AppHeader(props) {
-	        return _super.call(this, props) || this;
+	        var _this = _super.call(this, props) || this;
+	        _this.setHeaderTitle = function (title) {
+	            _this.setState({
+	                title: title
+	            });
+	        };
+	        _this.state = {
+	            title: null
+	        };
+	        return _this;
 	    }
 	    AppHeader.prototype.render = function () {
-	        return (React.createElement("div", null, "appHeader"));
+	        var newClass = this.props.className ? 'appHeader' + this.props.className : 'appHeader';
+	        return (React.createElement("div", { className: newClass, style: this.props.style },
+	            React.createElement("div", { className: "logo" },
+	                React.createElement("img", { style: this.props.logoStyle, src: "", alt: "logo" })),
+	            React.createElement("div", { className: "title" },
+	                React.createElement("span", null, this.state.title || this.props.title))));
 	    };
 	    return AppHeader;
 	}(React.Component));
 	exports.AppHeader = AppHeader;
+	AppHeader.defaultProps = {
+	    title: 'Monkey的家'
+	};
 
 
 /***/ },
-/* 63 */
+/* 62 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -5617,7 +5596,7 @@
 
 
 /***/ },
-/* 64 */
+/* 63 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -5642,7 +5621,7 @@
 
 
 /***/ },
-/* 65 */
+/* 64 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -5653,9 +5632,9 @@
 	};
 	// libs
 	var React = __webpack_require__(1);
-	var appHeader_1 = __webpack_require__(62);
-	var appSidebar_1 = __webpack_require__(63);
-	var AppFooter_1 = __webpack_require__(64);
+	var appHeader_1 = __webpack_require__(61);
+	var appSidebar_1 = __webpack_require__(62);
+	var AppFooter_1 = __webpack_require__(63);
 	var Module2 = (function (_super) {
 	    __extends(Module2, _super);
 	    function Module2(prop) {
