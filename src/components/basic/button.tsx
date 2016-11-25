@@ -27,14 +27,14 @@ export class Button extends React.Component<ButtonProps, ButtonState>{
             text: null
         };
     }
-    _onClick = (text: any, instance: any) => {
-        this.props.onClick && this.props.onClick(text, instance);
+    _onClick = () => {
+        this.props.onClick && this.props.onClick('', this);
     }
     render() {
         return (
             <div>
                 <button className={this.props.className || 'btn'}
-                    onClick={this._onClick.bind(null, 'abc', this)}>
+                    onClick={this._onClick}>
                     {this.state.text || this.props.text}
                 </button>
             </div>
