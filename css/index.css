@@ -1,3 +1,6 @@
-@import './shared/base.css';
+@import './shared/shared.css';
+@import './basic/widget.css';
 @import './appHeader/appHeader.css';
 @import './appSidebar/appSidebar.css';
+@import './appContent/appContent.css';
+

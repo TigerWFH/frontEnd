@@ -18,14 +18,14 @@ export class Module2 extends React.Component<P, S>{
     render() {
         return (
             <div>
-               <div>
-                <AppHeader />
-                <AppSidebar />
                 <div>
-                    {this.props.children}
+                    <AppHeader />
+                    <AppSidebar />
+                    <div>
+                        {this.props.children}
+                        <AppFooter />
+                    </div>
                 </div>
-                <AppFooter />
-            </div>
             </div>
         )
     }

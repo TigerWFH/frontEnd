@@ -19,7 +19,7 @@ interface S { }
 class App extends React.Component<P, S> {
     render() {
         return (
-            <div>
+            <div style={{ width: '100%', height: '100%' }}>
                 {this.props.children}
             </div>
         )
@@ -32,9 +32,7 @@ let elem: JSX.Element = (
         <Route path="/" component={App}>
             <IndexRoute component={Module1} />
             <Route path="first" component={Module1}>
-                <Route path="/1" component={Module1}>
-                </Route>
-                <Route path="2" component={Module2}>
+                <Route path="/2" component={Module2}>
                 </Route>
             </Route>
             <Route path="second" component={Module2}>

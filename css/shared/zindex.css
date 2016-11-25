@@ -1,0 +1,5 @@
+/*
+  The way of z-index management, plz refer to:
+  http://www.w3cplus.com/preprocessor/sassy-z-index-management-for-complex-layouts.html
+*/
+$elements: appContent, appHeader;
