@@ -8,6 +8,7 @@ import { AppHeader } from '../components/appHeader';
 import { AppSidebar } from '../components/appSidebar';
 import { AppFooter } from '../components/appFooter';
 import { AppContent } from '../components/appContent';
+import { View } from '../components/basic/view';
 // models
 
 interface P { }
@@ -23,8 +24,10 @@ export class Module1 extends React.Component<P, S>{
                 <AppHeader />
                 <AppSidebar />
                 <AppContent>
-                    123123123
-                    <AppFooter />
+                    <View>
+                        123123123
+                        <AppFooter />
+                    </View>
                 </AppContent>
             </div>
         )

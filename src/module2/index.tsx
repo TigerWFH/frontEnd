@@ -5,7 +5,9 @@ import * as ReactDOM from 'react-dom'
 import Card from '../components/basic/card'
 import { AppHeader } from '../components/appHeader';
 import { AppSidebar } from '../components/appSidebar';
-import { AppFooter } from '../components/AppFooter';
+import { AppFooter } from '../components/appFooter';
+import { AppContent } from '../components/appContent';
+import { ViewPage } from '../components/basic/viewPage';
 // models
 
 interface P { }
@@ -20,11 +22,11 @@ export class Module2 extends React.Component<P, S>{
             <div>
                 <div>
                     <AppHeader />
-                    <AppSidebar />
-                    <div>
-                        {this.props.children}
-                        <AppFooter />
-                    </div>
+                    <AppContent>
+                        <ViewPage>
+                            <AppFooter />
+                        </ViewPage>
+                    </AppContent>
                 </div>
             </div>
         )

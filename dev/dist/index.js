@@ -60,7 +60,7 @@
 	var react_router_1 = __webpack_require__(3);
 	// modules
 	var module1_1 = __webpack_require__(60);
-	var module2_1 = __webpack_require__(65);
+	var module2_1 = __webpack_require__(66);
 	var App = (function (_super) {
 	    __extends(App, _super);
 	    function App() {
@@ -74,8 +74,7 @@
 	var elem = (React.createElement(react_router_1.Router, { history: react_router_1.hashHistory },
 	    React.createElement(react_router_1.Route, { path: "/", component: App },
 	        React.createElement(react_router_1.IndexRoute, { component: module1_1.Module1 }),
-	        React.createElement(react_router_1.Route, { path: "first", component: module1_1.Module1 },
-	            React.createElement(react_router_1.Route, { path: "/2", component: module2_1.Module2 })),
+	        React.createElement(react_router_1.Route, { path: "first", component: module1_1.Module1 }),
 	        React.createElement(react_router_1.Route, { path: "second", component: module2_1.Module2 }))));
 	ReactDOM.render(elem, document.getElementById('main'));
 
@@ -5511,6 +5510,7 @@
 	var appSidebar_1 = __webpack_require__(62);
 	var appFooter_1 = __webpack_require__(63);
 	var appContent_1 = __webpack_require__(64);
+	var view_1 = __webpack_require__(65);
 	var Module1 = (function (_super) {
 	    __extends(Module1, _super);
 	    function Module1(prop) {
@@ -5521,8 +5521,9 @@
 	            React.createElement(appHeader_1.AppHeader, null),
 	            React.createElement(appSidebar_1.AppSidebar, null),
 	            React.createElement(appContent_1.AppContent, null,
-	                "123123123",
-	                React.createElement(appFooter_1.AppFooter, null))));
+	                React.createElement(view_1.View, null,
+	                    "123123123",
+	                    React.createElement(appFooter_1.AppFooter, null)))));
 	    };
 	    return Module1;
 	}(React.Component));
@@ -5656,28 +5657,21 @@
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
+	// view-1 just for layout
 	// libs
 	var React = __webpack_require__(1);
-	var appHeader_1 = __webpack_require__(61);
-	var appSidebar_1 = __webpack_require__(62);
-	var AppFooter_1 = __webpack_require__(66);
-	var Module2 = (function (_super) {
-	    __extends(Module2, _super);
-	    function Module2(prop) {
-	        return _super.call(this, prop) || this;
+	var View = (function (_super) {
+	    __extends(View, _super);
+	    function View(props) {
+	        return _super.call(this, props) || this;
 	    }
-	    Module2.prototype.render = function () {
-	        return (React.createElement("div", null,
-	            React.createElement("div", null,
-	                React.createElement(appHeader_1.AppHeader, null),
-	                React.createElement(appSidebar_1.AppSidebar, null),
-	                React.createElement("div", null,
-	                    this.props.children,
-	                    React.createElement(AppFooter_1.AppFooter, null)))));
+	    View.prototype.render = function () {
+	        return (React.createElement("div", { className: "view" },
+	            React.createElement("article", { className: "viewport" }, this.props.children)));
 	    };
-	    return Module2;
+	    return View;
 	}(React.Component));
-	exports.Module2 = Module2;
+	exports.View = View;
 
 
 /***/ },
@@ -5692,17 +5686,53 @@
 	};
 	// libs
 	var React = __webpack_require__(1);
-	var AppFooter = (function (_super) {
-	    __extends(AppFooter, _super);
-	    function AppFooter(props) {
+	var appHeader_1 = __webpack_require__(61);
+	var appFooter_1 = __webpack_require__(63);
+	var appContent_1 = __webpack_require__(64);
+	var viewPage_1 = __webpack_require__(67);
+	var Module2 = (function (_super) {
+	    __extends(Module2, _super);
+	    function Module2(prop) {
+	        return _super.call(this, prop) || this;
+	    }
+	    Module2.prototype.render = function () {
+	        return (React.createElement("div", null,
+	            React.createElement("div", null,
+	                React.createElement(appHeader_1.AppHeader, null),
+	                React.createElement(appContent_1.AppContent, null,
+	                    React.createElement(viewPage_1.ViewPage, null,
+	                        React.createElement(appFooter_1.AppFooter, null))))));
+	    };
+	    return Module2;
+	}(React.Component));
+	exports.Module2 = Module2;
+
+
+/***/ },
+/* 67 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	// 网站宣传
+	// libs
+	var React = __webpack_require__(1);
+	var ViewPage = (function (_super) {
+	    __extends(ViewPage, _super);
+	    function ViewPage(props) {
 	        return _super.call(this, props) || this;
 	    }
-	    AppFooter.prototype.render = function () {
-	        return (React.createElement("div", null, "appFooter"));
+	    ViewPage.prototype.render = function () {
+	        return (React.createElement("div", { className: "viewPage" },
+	            React.createElement("article", { className: "viewport" }, this.props.children)));
 	    };
-	    return AppFooter;
+	    return ViewPage;
 	}(React.Component));
-	exports.AppFooter = AppFooter;
+	exports.ViewPage = ViewPage;
 
 
 /***/ }

@@ -6,13 +6,13 @@ import * as ReactDOM from 'react-dom';
 // models
 
 interface HeaderProps {
-    title?: string | JSX.Element;
+    title?: string | React.ReactNode;
     className?: string;
     style?: { [name: string]: string | boolean | number };
     logoStyle?: { [name: string]: string | boolean | number };
 }
 interface HeaderState {
-    title?: string | JSX.Element;
+    title?: string | React.ReactNode;
 }
 
 export class AppHeader extends React.Component<HeaderProps, HeaderState>{

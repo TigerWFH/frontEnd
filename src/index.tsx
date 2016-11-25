@@ -32,8 +32,6 @@ let elem: JSX.Element = (
         <Route path="/" component={App}>
             <IndexRoute component={Module1} />
             <Route path="first" component={Module1}>
-                <Route path="/2" component={Module2}>
-                </Route>
             </Route>
             <Route path="second" component={Module2}>
             </Route>
