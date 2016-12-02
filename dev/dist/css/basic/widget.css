@@ -19,3 +19,15 @@
 .viewPage .viewport {
     background: #fff;
 }
+.monkey-button {
+    border: 1px solid transparent;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 1px;
+    font-size: 14px;
+    padding: 0 15px;
+    height: 32px;
+    user-select: none;
+    transition: all 0.5s;
+}

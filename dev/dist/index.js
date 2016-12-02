@@ -60,7 +60,7 @@
 	var react_router_1 = __webpack_require__(3);
 	// modules
 	var module1_1 = __webpack_require__(60);
-	var module2_1 = __webpack_require__(66);
+	var module2_1 = __webpack_require__(67);
 	var App = (function (_super) {
 	    __extends(App, _super);
 	    function App() {
@@ -5511,6 +5511,7 @@
 	var appFooter_1 = __webpack_require__(63);
 	var appContent_1 = __webpack_require__(64);
 	var view_1 = __webpack_require__(65);
+	var button_1 = __webpack_require__(66);
 	var Module1 = (function (_super) {
 	    __extends(Module1, _super);
 	    function Module1(prop) {
@@ -5523,6 +5524,7 @@
 	            React.createElement(appContent_1.AppContent, null,
 	                React.createElement(view_1.View, null,
 	                    "123123123",
+	                    React.createElement(button_1.Button, null),
 	                    React.createElement(appFooter_1.AppFooter, null)))));
 	    };
 	    return Module1;
@@ -5686,10 +5688,52 @@
 	};
 	// libs
 	var React = __webpack_require__(1);
+	var Button = (function (_super) {
+	    __extends(Button, _super);
+	    function Button(props) {
+	        var _this = _super.call(this, props) || this;
+	        _this.changeText = function (text) {
+	            _this.setState({
+	                text: text
+	            });
+	        };
+	        _this._onClick = function () {
+	            _this.props.onClick && _this.props.onClick(_this);
+	        };
+	        _this.state = {
+	            text: null
+	        };
+	        return _this;
+	    }
+	    Button.prototype.render = function () {
+	        var className = this.props.className ? this.props.className + ' ' : '';
+	        return (React.createElement("div", null,
+	            React.createElement("button", { className: className + 'monkey-button', onClick: this._onClick }, this.state.text || this.props.text)));
+	    };
+	    return Button;
+	}(React.Component));
+	exports.Button = Button;
+	Button.defaultProps = {
+	    text: 'BUTTON'
+	};
+
+
+/***/ },
+/* 67 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	// libs
+	var React = __webpack_require__(1);
 	var appHeader_1 = __webpack_require__(61);
 	var appFooter_1 = __webpack_require__(63);
 	var appContent_1 = __webpack_require__(64);
-	var viewPage_1 = __webpack_require__(67);
+	var viewPage_1 = __webpack_require__(68);
 	var Module2 = (function (_super) {
 	    __extends(Module2, _super);
 	    function Module2(prop) {
@@ -5709,7 +5753,7 @@
 
 
 /***/ },
-/* 67 */
+/* 68 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";

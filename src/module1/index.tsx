@@ -9,6 +9,7 @@ import { AppSidebar } from '../components/appSidebar';
 import { AppFooter } from '../components/appFooter';
 import { AppContent } from '../components/appContent';
 import { View } from '../components/basic/view';
+import { Button } from '../components/basic/button';
 // models
 
 interface P { }
@@ -26,6 +27,7 @@ export class Module1 extends React.Component<P, S>{
                 <AppContent>
                     <View>
                         123123123
+                        <Button />
                         <AppFooter />
                     </View>
                 </AppContent>

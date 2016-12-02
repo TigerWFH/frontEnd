@@ -1,0 +1,16 @@
+.monkey-button{
+    border: 1px solid transparent;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 1px;
+    font-size: 14px;
+    padding: 0 15px;
+    height: 32px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
