@@ -1,4 +1,5 @@
-.default-button{
+.button-wrapper {
+    .default-button{
     border: 1px solid transparent;
     outline: none;
     cursor: pointer;
@@ -20,4 +21,6 @@
 .primary {
     color: #fff;
     background: #00a3fe;
+}
+
 }

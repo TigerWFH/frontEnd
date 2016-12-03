@@ -1,4 +1,4 @@
-.default-button{
+.button-wrapper .default-button{
     border: 1px solid transparent;
     outline: none;
     cursor: pointer;
@@ -8,22 +8,19 @@
     padding: 0 15px;
     height: 32px;
     -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     -webkit-transition: all 0.5s;
     transition: all 0.5s
 }
-
-.default-button:hover{
+.button-wrapper .default-button:hover {
     background: #058cd6
 }
-
-.default-button:active{
+.button-wrapper .default-button:active {
     background: #058cd6
 }
-
-.primary {
+.button-wrapper .primary {
     color: #fff;
     background: #00a3fe;
 }

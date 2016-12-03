@@ -36,7 +36,7 @@ html, body {
 .viewPage .viewport {
     background: #fff;
 }
-.default-button {
+.button-wrapper .default-button {
     border: 1px solid transparent;
     outline: none;
     cursor: pointer;
@@ -48,13 +48,13 @@ html, body {
     user-select: none;
     transition: all 0.5s;
 }
-.default-button:hover {
+.button-wrapper .default-button:hover {
     background: #058cd6;
 }
-.default-button:active {
+.button-wrapper .default-button:active {
     background: #058cd6;
 }
-.primary {
+.button-wrapper .primary {
     color: #fff;
     background: #00a3fe;
 }

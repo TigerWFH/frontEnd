@@ -5707,7 +5707,7 @@
 	    }
 	    Button.prototype.render = function () {
 	        var className = this.props.className ? this.props.className + ' ' : '';
-	        return (React.createElement("div", null,
+	        return (React.createElement("div", { className: 'button-wrapper' },
 	            React.createElement("button", { className: className + 'default-button', title: this.props.title, onClick: this._onClick }, this.state.text || this.props.text)));
 	    };
 	    return Button;
