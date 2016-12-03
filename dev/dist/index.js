@@ -5512,10 +5512,15 @@
 	var appContent_1 = __webpack_require__(64);
 	var view_1 = __webpack_require__(65);
 	var button_1 = __webpack_require__(66);
+	var input_1 = __webpack_require__(69);
 	var Module1 = (function (_super) {
 	    __extends(Module1, _super);
 	    function Module1(prop) {
-	        return _super.call(this, prop) || this;
+	        var _this = _super.call(this, prop) || this;
+	        _this._onClickButton = function (self) {
+	            console.log('home-->', _this.refs.home.getInputText());
+	        };
+	        return _this;
 	    }
 	    Module1.prototype.render = function () {
 	        return (React.createElement("div", { style: { width: '100%', height: '100%' } },
@@ -5524,7 +5529,8 @@
 	            React.createElement(appContent_1.AppContent, null,
 	                React.createElement(view_1.View, null,
 	                    "123123123",
-	                    React.createElement(button_1.Button, { className: "primary ghost" }),
+	                    React.createElement(button_1.Button, { className: "primary ghost", onClick: this._onClickButton }),
+	                    React.createElement(input_1.TextInput, { ref: "home", placeholder: "placeholder" }),
 	                    React.createElement(appFooter_1.AppFooter, null)))));
 	    };
 	    return Module1;
@@ -5777,6 +5783,41 @@
 	    return ViewPage;
 	}(React.Component));
 	exports.ViewPage = ViewPage;
+
+
+/***/ },
+/* 69 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	// libs
+	var React = __webpack_require__(1);
+	var TextInput = (function (_super) {
+	    __extends(TextInput, _super);
+	    function TextInput(props) {
+	        var _this = _super.call(this, props) || this;
+	        _this.getInputText = function () {
+	            return _this.refs.input.value;
+	        };
+	        return _this;
+	    }
+	    TextInput.prototype.render = function () {
+	        var className = this.props.className ?
+	            this.props.className + ' ' : '';
+	        return (React.createElement("div", { className: "input-wrapper" },
+	            React.createElement("input", { ref: "input", defaultValue: this.props.defaultValue, value: this.props.value, placeholder: this.props.placeholder, type: this.props.type, className: 'default-text' + this.props.className, style: this.props.style })));
+	    };
+	    return TextInput;
+	}(React.Component));
+	exports.TextInput = TextInput;
+	TextInput.defaultProps = {
+	    type: 'text'
+	};
 
 
 /***/ }
