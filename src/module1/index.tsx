@@ -27,7 +27,7 @@ export class Module1 extends React.Component<P, S>{
                 <AppContent>
                     <View>
                         123123123
-                        <Button />
+                        <Button className='primary' />
                         <AppFooter />
                     </View>
                 </AppContent>

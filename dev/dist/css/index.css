@@ -36,7 +36,7 @@ html, body {
 .viewPage .viewport {
     background: #fff;
 }
-.monkey-button {
+.default-button {
     border: 1px solid transparent;
     outline: none;
     cursor: pointer;
@@ -47,6 +47,19 @@ html, body {
     height: 32px;
     user-select: none;
     transition: all 0.5s;
+}
+.default-button:hover {
+    background: #058cd6;
+}
+.default-button:active {
+    background: red;
+}
+.default-button:focus {
+    background: yellow;
+}
+.primary {
+    color: #fff;
+    background: #00a3fe;
 }
 .appHeader {
     position: fixed;

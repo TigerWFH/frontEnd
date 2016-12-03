@@ -4,6 +4,7 @@ import * as ReactDOM from 'react-dom';
 
 interface ButtonProps {
     text?: string;
+    title?: string;
     className?: string;
     onClick?: { (instance: any): void }
 }
@@ -34,7 +35,8 @@ export class Button extends React.Component<ButtonProps, ButtonState>{
 
         return (
             <div>
-                <button className={className + 'monkey-button'}
+                <button className={className + 'default-button'}
+                    title={this.props.title}
                     onClick={this._onClick}>
                     {this.state.text || this.props.text}
                 </button>

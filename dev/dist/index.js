@@ -4544,57 +4544,57 @@
 
 	exports.__esModule = true;
 	var loopAsync = exports.loopAsync = function loopAsync(turns, work, callback) {
-	  var currentTurn = 0,
-	      isDone = false;
-	  var isSync = false,
-	      hasNext = false,
-	      doneArgs = void 0;
+	    var currentTurn = 0,
+	        isDone = false;
+	    var isSync = false,
+	        hasNext = false,
+	        doneArgs = void 0;
 
-	  var done = function done() {
-	    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-	      args[_key] = arguments[_key];
-	    }
+	    var done = function done() {
+	        for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+	            args[_key] = arguments[_key];
+	        }
 
-	    isDone = true;
+	        isDone = true;
 
-	    if (isSync) {
-	      // Iterate instead of recursing if possible.
-	      doneArgs = args;
-	      return;
-	    }
+	        if (isSync) {
+	            // Iterate instead of recursing if possible.
+	            doneArgs = args;
+	            return;
+	        }
 
-	    callback.apply(undefined, args);
-	  };
+	        callback.apply(undefined, args);
+	    };
 
-	  var next = function next() {
-	    if (isDone) return;
+	    var next = function next() {
+	        if (isDone) return;
 
-	    hasNext = true;
+	        hasNext = true;
 
-	    if (isSync) return; // Iterate instead of recursing if possible.
+	        if (isSync) return; // Iterate instead of recursing if possible.
 
-	    isSync = true;
+	        isSync = true;
 
-	    while (!isDone && currentTurn < turns && hasNext) {
-	      hasNext = false;
-	      work(currentTurn++, next, done);
-	    }
+	        while (!isDone && currentTurn < turns && hasNext) {
+	            hasNext = false;
+	            work(currentTurn++, next, done);
+	        }
 
-	    isSync = false;
+	        isSync = false;
 
-	    if (isDone) {
-	      // This means the loop finished synchronously.
-	      callback.apply(undefined, doneArgs);
-	      return;
-	    }
+	        if (isDone) {
+	            // This means the loop finished synchronously.
+	            callback.apply(undefined, doneArgs);
+	            return;
+	        }
 
-	    if (currentTurn >= turns && hasNext) {
-	      isDone = true;
-	      callback();
-	    }
-	  };
+	        if (currentTurn >= turns && hasNext) {
+	            isDone = true;
+	            callback();
+	        }
+	    };
 
-	  next();
+	    next();
 	};
 
 /***/ },
@@ -5524,7 +5524,7 @@
 	            React.createElement(appContent_1.AppContent, null,
 	                React.createElement(view_1.View, null,
 	                    "123123123",
-	                    React.createElement(button_1.Button, null),
+	                    React.createElement(button_1.Button, { className: 'primary' }),
 	                    React.createElement(appFooter_1.AppFooter, null)))));
 	    };
 	    return Module1;
@@ -5708,7 +5708,7 @@
 	    Button.prototype.render = function () {
 	        var className = this.props.className ? this.props.className + ' ' : '';
 	        return (React.createElement("div", null,
-	            React.createElement("button", { className: className + 'monkey-button', onClick: this._onClick }, this.state.text || this.props.text)));
+	            React.createElement("button", { className: className + 'default-button', title: this.props.title, onClick: this._onClick }, this.state.text || this.props.text)));
 	    };
 	    return Button;
 	}(React.Component));
