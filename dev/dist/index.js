@@ -5524,7 +5524,7 @@
 	            React.createElement(appContent_1.AppContent, null,
 	                React.createElement(view_1.View, null,
 	                    "123123123",
-	                    React.createElement(button_1.Button, { className: 'primary' }),
+	                    React.createElement(button_1.Button, { className: "primary ghost" }),
 	                    React.createElement(appFooter_1.AppFooter, null)))));
 	    };
 	    return Module1;
