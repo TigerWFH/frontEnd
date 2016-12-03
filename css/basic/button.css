@@ -13,10 +13,7 @@
         background: #058cd6;
     }
     &:active {
-        background: red;
-    }
-    &:focus{
-        background: yellow;
+        background: #058cd6;
     }
 }
 

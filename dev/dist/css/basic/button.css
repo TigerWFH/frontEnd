@@ -20,11 +20,7 @@
 }
 
 .default-button:active{
-    background: red
-}
-
-.default-button:focus{
-    background: yellow
+    background: #058cd6
 }
 
 .primary {
