@@ -34,7 +34,7 @@ export class Button extends React.Component<ButtonProps, ButtonState>{
         let className = this.props.className ? this.props.className + ' ' : '';
 
         return (
-            <div className='button-wrapper'>
+            <div className='monkey-button-wrapper'>
                 <button className={className + 'default-button'}
                     title={this.props.title}
                     onClick={this._onClick}>

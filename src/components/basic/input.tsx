@@ -24,18 +24,22 @@ export class TextInput extends React.Component<TextProps, TextState>{
         return this.refs.input.value;
     }
 
+    _onChange = () => {
+
+    }
     render() {
         let className = this.props.className ?
             this.props.className + ' ' : '';
         return (
-            <div className="input-wrapper">
+            <div className="monkey-input-wrapper">
                 <input ref="input"
                     defaultValue={this.props.defaultValue}
                     value={this.props.value}
                     placeholder={this.props.placeholder}
                     type={this.props.type}
-                    className={'default-text' + this.props.className}
-                    style={this.props.style} />
+                    className={className + "default-input"}
+                    style={this.props.style}
+                    onChange={this._onChange} />
             </div>
         )
     }

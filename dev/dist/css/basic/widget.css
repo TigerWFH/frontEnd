@@ -19,7 +19,7 @@
 .viewPage .viewport {
     background: #fff;
 }
-.button-wrapper .default-button {
+.monkey-button-wrapper .default-button {
     outline: none;
     cursor: pointer;
     border-radius: 4px;
@@ -32,39 +32,57 @@
     border: 1px solid #d5d5d5;
     background-color: transparent;
 }
-.button-wrapper .default-button:hover {
+.monkey-button-wrapper .default-button:hover {
     border: 1px solid #00a3fe;
     color: #00a3fe;
 }
-.button-wrapper .default-button:active {
+.monkey-button-wrapper .default-button:active {
     border: 1px solid #00a3fe;
     color: #00a3fe;
 }
-.button-wrapper .primary {
+.monkey-button-wrapper .primary {
     color: #fff;
     background-color: #00a3fe;
     border: 1px solid #00a3fe;
 }
-.button-wrapper .primary:hover {
+.monkey-button-wrapper .primary:hover {
     color: #fff;
     background-color: #058cd6;
 }
-.button-wrapper .primary:active {
+.monkey-button-wrapper .primary:active {
     color: #fff;
     background-color: #058cd6;
 }
-.button-wrapper .ghost {
+.monkey-button-wrapper .ghost {
     color: #696969;
     background-color: transparent;
     border: 1px solid #d5d5d5;
 }
-.button-wrapper .ghost:hover {
+.monkey-button-wrapper .ghost:hover {
     background-color: transparent;
     border: 1px solid #00a3fe;
     color: #00a3fe;
 }
-.button-wrapper .ghost:active {
+.monkey-button-wrapper .ghost:active {
     background-color: transparent;
     border: 1px solid #00a3fe;
     color: #00a3fe;
+}
+.monkey-input-wrapper .default-input {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #d5d5d5;
+    border-radius: 4px;
+    background-color: transparent;
+    font-size: 14px;
+    color: #fff;
+    outline: none;
+}
+.monkey-input-wrapper .default-input:hover {
+    border-color: #00a3fe;
+}
+.monkey-input-wrapper .default-input:focus {
+    border-color: #00a3fe;
 }

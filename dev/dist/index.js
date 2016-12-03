@@ -60,7 +60,7 @@
 	var react_router_1 = __webpack_require__(3);
 	// modules
 	var module1_1 = __webpack_require__(60);
-	var module2_1 = __webpack_require__(67);
+	var module2_1 = __webpack_require__(68);
 	var App = (function (_super) {
 	    __extends(App, _super);
 	    function App() {
@@ -5512,7 +5512,7 @@
 	var appContent_1 = __webpack_require__(64);
 	var view_1 = __webpack_require__(65);
 	var button_1 = __webpack_require__(66);
-	var input_1 = __webpack_require__(69);
+	var input_1 = __webpack_require__(67);
 	var Module1 = (function (_super) {
 	    __extends(Module1, _super);
 	    function Module1(prop) {
@@ -5713,7 +5713,7 @@
 	    }
 	    Button.prototype.render = function () {
 	        var className = this.props.className ? this.props.className + ' ' : '';
-	        return (React.createElement("div", { className: 'button-wrapper' },
+	        return (React.createElement("div", { className: 'monkey-button-wrapper' },
 	            React.createElement("button", { className: className + 'default-button', title: this.props.title, onClick: this._onClick }, this.state.text || this.props.text)));
 	    };
 	    return Button;
@@ -5736,10 +5736,47 @@
 	};
 	// libs
 	var React = __webpack_require__(1);
+	var TextInput = (function (_super) {
+	    __extends(TextInput, _super);
+	    function TextInput(props) {
+	        var _this = _super.call(this, props) || this;
+	        _this.getInputText = function () {
+	            return _this.refs.input.value;
+	        };
+	        _this._onChange = function () {
+	        };
+	        return _this;
+	    }
+	    TextInput.prototype.render = function () {
+	        var className = this.props.className ?
+	            this.props.className + ' ' : '';
+	        return (React.createElement("div", { className: "monkey-input-wrapper" },
+	            React.createElement("input", { ref: "input", defaultValue: this.props.defaultValue, value: this.props.value, placeholder: this.props.placeholder, type: this.props.type, className: className + "default-input", style: this.props.style, onChange: this._onChange })));
+	    };
+	    return TextInput;
+	}(React.Component));
+	exports.TextInput = TextInput;
+	TextInput.defaultProps = {
+	    type: 'text'
+	};
+
+
+/***/ },
+/* 68 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	// libs
+	var React = __webpack_require__(1);
 	var appHeader_1 = __webpack_require__(61);
 	var appFooter_1 = __webpack_require__(63);
 	var appContent_1 = __webpack_require__(64);
-	var viewPage_1 = __webpack_require__(68);
+	var viewPage_1 = __webpack_require__(69);
 	var Module2 = (function (_super) {
 	    __extends(Module2, _super);
 	    function Module2(prop) {
@@ -5759,7 +5796,7 @@
 
 
 /***/ },
-/* 68 */
+/* 69 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -5783,41 +5820,6 @@
 	    return ViewPage;
 	}(React.Component));
 	exports.ViewPage = ViewPage;
-
-
-/***/ },
-/* 69 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	var __extends = (this && this.__extends) || function (d, b) {
-	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-	    function __() { this.constructor = d; }
-	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	};
-	// libs
-	var React = __webpack_require__(1);
-	var TextInput = (function (_super) {
-	    __extends(TextInput, _super);
-	    function TextInput(props) {
-	        var _this = _super.call(this, props) || this;
-	        _this.getInputText = function () {
-	            return _this.refs.input.value;
-	        };
-	        return _this;
-	    }
-	    TextInput.prototype.render = function () {
-	        var className = this.props.className ?
-	            this.props.className + ' ' : '';
-	        return (React.createElement("div", { className: "input-wrapper" },
-	            React.createElement("input", { ref: "input", defaultValue: this.props.defaultValue, value: this.props.value, placeholder: this.props.placeholder, type: this.props.type, className: 'default-text' + this.props.className, style: this.props.style })));
-	    };
-	    return TextInput;
-	}(React.Component));
-	exports.TextInput = TextInput;
-	TextInput.defaultProps = {
-	    type: 'text'
-	};
 
 
 /***/ }
