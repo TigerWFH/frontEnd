@@ -40,4 +40,10 @@
 .button-wrapper .primary {
     color: #fff;
     background: #00a3fe;
+    border: 1px solid #00a3fe;
+}
+.button-wrapper .ghost {
+    color: #696969;
+    background: #d5d5d5;
+    border: 1px solid #d5d5d5;
 }
