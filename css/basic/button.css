@@ -19,6 +19,10 @@
             border: 1px solid #00a3fe;
             color: #00a3fe;
         }
+        &:focus{
+            border: 1px solid #00a3fe;
+            color: #00a3fe;
+        }
     }
     .primary {
         color: #fff;
@@ -29,6 +33,10 @@
             background-color: #058cd6;
         }
         &:active {
+            color: #fff;
+            background-color: #058cd6;
+        }
+         &:focus {
             color: #fff;
             background-color: #058cd6;
         }
@@ -43,6 +51,11 @@
             color: #00a3fe;
         }
         &:active{
+            background-color: transparent;
+            border: 1px solid #00a3fe;
+            color: #00a3fe;
+        }
+        &:focus{
             background-color: transparent;
             border: 1px solid #00a3fe;
             color: #00a3fe;
