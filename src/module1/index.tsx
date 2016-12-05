@@ -14,15 +14,21 @@ import { TextInput } from '../components/basic/input';
 // models
 
 interface P { }
-interface S { }
+interface S {
+}
 export class Module1 extends React.Component<P, S>{
     refs: any;
     constructor(prop: P) {
-        super(prop)
+        super(prop);
+
     }
 
     _onClickButton = (self: any) => {
-        console.log('home-->', this.refs.home.getInputText())
+        console.log('home-->', this.refs.home.getInputText());
+        this.refs.home.setInputText('set')
+    }
+    _onChange = () => {
+
     }
     render() {
         return (
@@ -35,7 +41,9 @@ export class Module1 extends React.Component<P, S>{
                         <Button className="primary ghost"
                             onClick={this._onClickButton} />
                         <TextInput ref="home"
-                            placeholder={"placeholder"} />
+                            placeholder="123"
+                            onChange={this._onChange}
+                            />
                         <AppFooter />
                     </View>
                 </AppContent>

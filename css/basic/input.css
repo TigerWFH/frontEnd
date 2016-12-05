@@ -8,7 +8,7 @@
         border-radius: 4px;
         background-color: transparent;
         font-size: 14px;
-        color: #fff;
+        color: #000;
         outline: none;
         &:hover{
             border-color: #00a3fe;

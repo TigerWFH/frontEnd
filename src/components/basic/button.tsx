@@ -13,20 +13,24 @@ interface ButtonState {
 }
 
 export class Button extends React.Component<ButtonProps, ButtonState>{
+    refs: any;
+    // 初始化列表
     static defaultProps = {
         text: 'BUTTON'
     };
-    changeText = (text: string) => {
-        this.setState({
-            text: text
-        });
-    }
     constructor(props: ButtonProps) {
         super(props);
         this.state = {
             text: null
         };
     }
+    // 外部调用接口列表
+    changeText = (text: string) => {
+        this.setState({
+            text: text
+        });
+    }
+    // 内部调用接口列表
     _onClick = () => {
         this.props.onClick && this.props.onClick(this);
     }
