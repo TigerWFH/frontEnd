@@ -1,1 +1,6 @@
 dev/
+
+.vscode
+node_modules
+dev
+cdn
