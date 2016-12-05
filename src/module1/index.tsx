@@ -11,6 +11,7 @@ import { AppContent } from '../components/appContent';
 import { View } from '../components/basic/view';
 import { Button } from '../components/basic/button';
 import { TextInput } from '../components/basic/input';
+import { Select } from '../components/basic/select';
 // models
 
 interface P { }
@@ -26,9 +27,15 @@ export class Module1 extends React.Component<P, S>{
     _onClickButton = (self: any) => {
         console.log('home-->', this.refs.home.getInputText());
         this.refs.home.setInputText('set')
+        console.log(this.refs.select);
+        console.log('select-->', this.refs.select.getSelectedItem());
+        this.refs.select.setSelectedItem(0);
     }
     _onChange = () => {
 
+    }
+    _onSelect = () => {
+        console.log(event);
     }
     render() {
         return (
@@ -44,6 +51,12 @@ export class Module1 extends React.Component<P, S>{
                             placeholder="123"
                             onChange={this._onChange}
                             />
+                        <Select ref="select"
+                            data={[
+                                { label: 'monkey', value: "888" },
+                                { label: 'cat', value: "666" },
+                                { label: 'elephant', value: "333" }
+                            ]} />
                         <AppFooter />
                     </View>
                 </AppContent>
