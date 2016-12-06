@@ -27,9 +27,9 @@ export class Module1 extends React.Component<P, S>{
     _onClickButton = (self: any) => {
         console.log('home-->', this.refs.home.getInputText());
         this.refs.home.setInputText('set')
-        console.log(this.refs.select);
         console.log('select-->', this.refs.select.getSelectedItem());
-        this.refs.select.setSelectedItem(0);
+        // this.refs.select.setSelectedItemByIndex(0);
+        // this.refs.select.setSelectedItemByLabel('cat');
     }
     _onChange = () => {
 
@@ -51,11 +51,12 @@ export class Module1 extends React.Component<P, S>{
                             placeholder="123"
                             onChange={this._onChange}
                             />
+                        <br />
                         <Select ref="select"
                             data={[
                                 { label: 'monkey', value: "888" },
                                 { label: 'cat', value: "666" },
-                                { label: 'elephant', value: "333" }
+                                { label: 'elephant888888888888', value: "333" }
                             ]} />
                         <AppFooter />
                     </View>

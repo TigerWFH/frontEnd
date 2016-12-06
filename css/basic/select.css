@@ -1,0 +1,57 @@
+.monkeySelectWrapper{
+    position: relative;
+    min-width: 60px;
+    width: 80px;
+    user-select: none;
+    &:hover {
+        .selectedLabel{
+             border: 1px solid #00a3fe;
+        }
+        .selectMenu{
+             border: 1px solid #00a3fe;
+        }
+    }
+    .selectedLabel{
+        position: relative;
+        width: 100%;
+        display: inline-block;
+        line-height: 30px;
+        text-indent: 5px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        vertical-align: bottom;
+        border: 1px solid #d5d5d5;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+    .selectMenu{
+        display: none;
+        position: relative;
+        top: -1px;
+        border: 1px solid #d5d5d5;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li {
+            height: 30px;
+            line-height: 30px;
+            text-align: left;
+            text-indent: 5px;
+            white-space: nowrap;
+            overflow: hidden;
+            vertical-align: bottom;
+            &:hover{
+                background: #f1f4f9;
+            }
+        }
+    }
+    .open{
+        .selectMenu{
+            display: block;
+        }
+    }
+    .defaultSelect{
+
+    }
+}

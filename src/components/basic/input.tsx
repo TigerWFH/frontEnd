@@ -50,13 +50,13 @@ export class TextInput extends React.Component<TextProps, TextState>{
         let className = this.props.className ?
             this.props.className + ' ' : '';
         return (
-            <div className="monkey-input-wrapper">
+            <div className="monkeyInputWrapper">
                 <input ref="input"
                     defaultValue={this.props.defaultValue}
                     value={this.state.value}
                     placeholder={this.props.placeholder}
                     type={this.props.type}
-                    className={className + "default-input"}
+                    className={className + "defaultInput"}
                     style={this.props.style}
                     maxLength={this.props.maxLength}
                     onChange={this._onChange} />

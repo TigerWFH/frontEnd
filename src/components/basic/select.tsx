@@ -3,8 +3,8 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
 export interface SelectData {
-    label: string | number;
-    value: string | number;
+    label: string;
+    value: string;
 }
 
 interface SelectProps {
@@ -12,59 +12,124 @@ interface SelectProps {
     onChange?: { (text: string, self: any): void };
 }
 interface SelectState {
-    selected?: boolean;
+    label?: string;
+    value?: string;
+    selectedIndex?: number;
 }
 
 export class Select extends React.Component<SelectProps, SelectState>{
     refs: any;
+    isShowMenu: boolean = false;
     // 初始化列表
     constructor(props: SelectProps) {
         super(props);
+        let data = this.props.data;
+        let label = '';
+        let value = '';
+        let selectedIndex = -1;
+        if (data instanceof Array) {
+            if (data.length > 0) {
+                label = data[0].label;
+                value = data[0].value;
+                selectedIndex = 0;
+            }
+        }
+        this.state = {
+            label: label,
+            value: value,
+            selectedIndex: selectedIndex
+        };
     }
     // 外部调用接口列表
     getSelectedItem = () => {
-        let options = this.refs.select.options;
-        if (options.length <= 0) {
-            return;
-        }
         return {
-            label: this.refs.select.options[this.refs.select.selectedIndex].text,
-            value: this.refs.select.value
+            label: this.state.label,
+            value: this.state.value
         };
     }
-    setSelectedItem = (selectedIndex: number) => {
-        if (selectedIndex < 0 || selectedIndex >= this.refs.select.options.length) {
+    setSelectedItemByIndex = (selectedIndex: number) => {
+        let data = this.props.data;
+        let length = 0;
+        if (data instanceof Array) {
+            length = data.length;
+        }
+        if (selectedIndex < 0 || selectedIndex >= length) {
             return;
         }
-
-        this.refs.select.selectedIndex = selectedIndex;
+        this.setState({
+            label: data[selectedIndex].label,
+            value: data[selectedIndex].value,
+            selectedIndex: selectedIndex
+        });
+    }
+    setSelectedItemByLabel = (label: string) => {
+        let data = this.props.data;
+        let value = '';
+        let index = -1;
+        let item: SelectData;
+        if (data instanceof Array) {
+            item = data.find((item: SelectData, index: number) => {
+                if (item.label === label) {
+                    index = index;
+                    return true;
+                }
+            });
+            if (item) {
+                this.setState({
+                    label: item.label,
+                    value: item.value,
+                    selectedIndex: index
+                });
+            }
+        }
+    }
+    isMenuShow = () => {
+        this._onIsShowMenu();
     }
     // 内部调用接口列表
-    _onChange = () => {
-        if (typeof this.props.onChange === 'function') {
-            this.props.onChange('abc', this);
+    _onIsShowMenu = () => {
+        if (!this.isShowMenu) {
+            this.refs.wrapper.className = "open";
         }
+        else {
+            this.refs.wrapper.className = "";
+        }
+        this.isShowMenu = !this.isShowMenu;
     }
     _renderOptions = (data: Array<SelectData>) => {
-        let options: Array<React.ReactNode> = [];
-        if (data instanceof Array) {
-            data.forEach((item: SelectData) => {
-                let obj = <option value={item.value}>
-                    {item.label}
-                </option>;
-                options.push(obj);
-            })
+        if (!(data instanceof Array)) {
+            return [];
         }
+        let liList = data.map((item: SelectData, index: number) => {
+            return <li style={item.label === this.state.label ? { color: '#00a3fe' } : null}
+                onClick={this._onMenuItem.bind(null, item, index)}
+                >
+                {item.label}
+            </li>
+        });
 
-        return options;
+        return liList;
+    }
+    _onMenuItem = (item: SelectData, index: number) => {
+        this.setState({
+            label: item.label,
+            value: item.value,
+            selectedIndex: index
+        });
+        this._onIsShowMenu();
     }
     render() {
         return (
-            <div className="monkey-select-wrapper">
-                <select ref='select'
-                    onChange={this._onChange}>
-                    {this._renderOptions(this.props.data)}
-                </select>
+            <div className="monkeySelectWrapper">
+                <div ref="wrapper">
+                    <span className="selectedLabel"
+                        onClick={this._onIsShowMenu}>
+                        {this.state.label || ''}
+                    </span>
+                    <ul className="selectMenu">
+                        {this._renderOptions(this.props.data)}
+                    </ul>
+                </div>
             </div>
         )
     }

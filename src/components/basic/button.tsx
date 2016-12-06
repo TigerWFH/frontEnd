@@ -38,8 +38,8 @@ export class Button extends React.Component<ButtonProps, ButtonState>{
         let className = this.props.className ? this.props.className + ' ' : '';
 
         return (
-            <div className='monkey-button-wrapper'>
-                <button className={className + 'default-button'}
+            <div className='monkeyButtonWrapper'>
+                <button className={className + 'defaultButton'}
                     title={this.props.title}
                     onClick={this._onClick}>
                     {this.state.text || this.props.text}
