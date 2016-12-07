@@ -9,6 +9,9 @@ export interface SelectData {
 
 interface SelectProps {
     data?: Array<SelectData>;
+    className?: string;
+    textStyle?: { [name: string]: string };
+    menuStyle?: { [name: string]: string };
     onChange?: { (text: string, self: any): void };
 }
 interface SelectState {
@@ -64,7 +67,6 @@ export class Select extends React.Component<SelectProps, SelectState>{
     }
     setSelectedItemByLabel = (label: string) => {
         let data = this.props.data;
-        let value = '';
         let index = -1;
         let item: SelectData;
         if (data instanceof Array) {
@@ -83,6 +85,7 @@ export class Select extends React.Component<SelectProps, SelectState>{
             }
         }
     }
+
     isMenuShow = () => {
         this._onIsShowMenu();
     }
@@ -101,7 +104,9 @@ export class Select extends React.Component<SelectProps, SelectState>{
             return [];
         }
         let liList = data.map((item: SelectData, index: number) => {
-            return <li style={item.label === this.state.label ? { color: '#00a3fe' } : null}
+            let style = item.label === this.state.label ? { color: '#00a3fe' } : null;
+            let menuStyle = this.props.menuStyle ? this.props.menuStyle : {};
+            return <li style={Object.assign({}, style, menuStyle)}
                 onClick={this._onMenuItem.bind(null, item, index)}
                 >
                 {item.label}
@@ -119,10 +124,13 @@ export class Select extends React.Component<SelectProps, SelectState>{
         this._onIsShowMenu();
     }
     render() {
+        let className = this.props.className ?
+            this.props.className + ' ' : '';
         return (
-            <div className="monkeySelectWrapper">
+            <div className={className + "monkeySelectWrapper"}>
                 <div ref="wrapper">
                     <span className="selectedLabel"
+                        style={this.props.textStyle}
                         onClick={this._onIsShowMenu}>
                         {this.state.label || ''}
                     </span>
