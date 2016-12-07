@@ -63,7 +63,7 @@ function compileCSS(isWatch) {
             require('precss'),
             require('postcss-assets')({ loadPaths: ['./images/'] })
         ];
-        gulp.src('./css/**/*.css', { base: '.' })
+        gulp.src('./css/*.css', { base: '.' })
             .pipe(postcss(plugins))
             .pipe(gulp.dest(output));
         console.log('compiling css is Done!');
@@ -103,7 +103,7 @@ gulp.task('prepareCDN', function () {
 
 gulp.task('resources', function () {
     // 此处可以将图片资源，三方库，字体等一并拷贝到部署路径中
-    var resources = ['./cdn/jquery/**/*', './cdn/react/**/*', './cdn/moment/**/*', './cdn/react-dom/**/*', './images/**/*'];
+    var resources = ['./cdn/jquery/**/*', './cdn/react/**/*', './cdn/moment/**/*', './cdn/react-dom/**/*', './images/**/*', './css/libs/**/*'];
     return gulp.src(resources, { base: '.' }).pipe(gulp.dest(output));
 })
 

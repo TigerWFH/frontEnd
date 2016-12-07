@@ -59,6 +59,9 @@ export class Module1 extends React.Component<P, S>{
                                 { label: 'cat', value: "666" },
                                 { label: 'elephant888888888888', value: "333" }
                             ]} />
+                        <br />
+                        <span className="iconfont icon-about01"></span>
+                        <span className="fa fa-plus-circle"></span>
                         <AppFooter />
                     </View>
                 </AppContent>

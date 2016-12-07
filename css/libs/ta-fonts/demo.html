@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>IconFont</title>
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="iconfont.css">
+</head>
+<body>
+    <div class="main">
+        <h1>IconFont 图标</h1>
+        <ul class="icon_lists clear">
+            
+                <li>
+                <i class="icon iconfont">&#xe67e;</i>
+                    <div class="name">TA-当前帐户</div>
+                    <div class="code">&amp;#xe67e;</div>
+                    <div class="fontclass">.dangqianzhanghu01</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe67d;</i>
+                    <div class="name">TA-向上</div>
+                    <div class="code">&amp;#xe67d;</div>
+                    <div class="fontclass">.xiangshang01</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe67c;</i>
+                    <div class="name">TA-向下</div>
+                    <div class="code">&amp;#xe67c;</div>
+                    <div class="fontclass">.xiangxia01</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe67a;</i>
+                    <div class="name">TA-日历</div>
+                    <div class="code">&amp;#xe67a;</div>
+                    <div class="fontclass">.rili01</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe673;</i>
+                    <div class="name">TA-上传</div>
+                    <div class="code">&amp;#xe673;</div>
+                    <div class="fontclass">.shangchuan</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe672;</i>
+                    <div class="name">TA-编辑</div>
+                    <div class="code">&amp;#xe672;</div>
+                    <div class="fontclass">.tabianji</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe670;</i>
+                    <div class="name">TA-资金管理</div>
+                    <div class="code">&amp;#xe670;</div>
+                    <div class="fontclass">.zijinguanli01</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe66e;</i>
+                    <div class="name">TA-账户管理</div>
+                    <div class="code">&amp;#xe66e;</div>
+                    <div class="fontclass">.zhanghuguanli01</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe66f;</i>
+                    <div class="name">TA-我的资料</div>
+                    <div class="code">&amp;#xe66f;</div>
+                    <div class="fontclass">.wodeziliao01</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe679;</i>
+                    <div class="name">TA-勾选</div>
+                    <div class="code">&amp;#xe679;</div>
+                    <div class="fontclass">.gouxuan01</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe678;</i>
+                    <div class="name">TA-成功提示</div>
+                    <div class="code">&amp;#xe678;</div>
+                    <div class="fontclass">.chenggongtishi01</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe66b;</i>
+                    <div class="name">TA-相关管理</div>
+                    <div class="code">&amp;#xe66b;</div>
+                    <div class="fontclass">.xiangguan01</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe676;</i>
+                    <div class="name">TA-新增</div>
+                    <div class="code">&amp;#xe676;</div>
+                    <div class="fontclass">.xinzeng01</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe669;</i>
+                    <div class="name">TA-注销</div>
+                    <div class="code">&amp;#xe669;</div>
+                    <div class="fontclass">.zhuxiao01</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe675;</i>
+                    <div class="name">TA-提示</div>
+                    <div class="code">&amp;#xe675;</div>
+                    <div class="fontclass">.tishi01</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe666;</i>
+                    <div class="name">TA-客服</div>
+                    <div class="code">&amp;#xe666;</div>
+                    <div class="fontclass">.kefu01</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe668;</i>
+                    <div class="name">TA-关于</div>
+                    <div class="code">&amp;#xe668;</div>
+                    <div class="fontclass">.about01</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe674;</i>
+                    <div class="name">TA-关闭</div>
+                    <div class="code">&amp;#xe674;</div>
+                    <div class="fontclass">.close01</div>
+                </li>
+            
+        </ul>
+
+
+        <div class="helps">
+            第一步：使用font-face声明字体
+            <pre>
+@font-face {font-family: 'iconfont';
+    src: url('iconfont.eot'); /* IE9*/
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('iconfont.woff') format('woff'), /* chrome、firefox */
+    url('iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+</pre>
+第二步：定义使用iconfont的样式
+            <pre>
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+</pre>
+第三步：挑选相应图标并获取字体编码，应用于页面
+<pre>
+&lt;i class="iconfont"&gt;&amp;#x33;&lt;/i&gt;
+</pre>
+        </div>
+
+    </div>
+</body>
+</html>
