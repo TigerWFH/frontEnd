@@ -47,6 +47,15 @@ export class Module1 extends React.Component<P, S>{
                         123123123
                         <Button className="primary ghost"
                             onClick={this._onClickButton} />
+                        <Button className="primary ghost"
+                            iconLeft="fa fa-plus"
+                            onClick={this._onClickButton} />
+                        <Button className="primary ghost"
+                            iconOnly="fa fa-plus"
+                            onClick={this._onClickButton} />
+                        <Button className="primary ghost"
+                            iconRight="fa fa-plus"
+                            onClick={this._onClickButton} />
                         <TextInput ref="home"
                             placeholder="123"
                             onChange={this._onChange}

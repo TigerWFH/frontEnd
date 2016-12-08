@@ -7,6 +7,9 @@ interface ButtonProps {
     title?: string;
     className?: string;
     onClick?: { (instance: any): void }
+    iconLeft?: string;//图标在左边
+    iconRight?: string;//图标在右边
+    iconOnly?: string;//仅仅显示图标
 }
 interface ButtonState {
     text?: string;
@@ -35,14 +38,38 @@ export class Button extends React.Component<ButtonProps, ButtonState>{
         this.props.onClick && this.props.onClick(this);
     }
     render() {
-        let className = this.props.className ? this.props.className + ' ' : '';
-
+        let className = this.props.className ?
+            this.props.className + ' ' : '';
+        let content: React.ReactNode;
+        if (this.props.iconOnly) {
+            content = <i className={this.props.iconOnly}></i>
+        }
+        else {
+            content = this.props.iconLeft ?
+                <span>
+                    <i className={this.props.iconLeft}>
+                    </i>
+                    {this.state.text || this.props.text}
+                </span> :
+                this.props.iconRight ?
+                    <span>
+                        {this.state.text || this.props.text}
+                        <i className={this.props.iconRight}>
+                        </i>
+                    </span> :
+                    <span>
+                        {this.state.text || this.props.text}
+                    </span>;
+        }
         return (
             <div className='monkeyButtonWrapper'>
                 <button className={className + 'defaultButton'}
                     title={this.props.title}
                     onClick={this._onClick}>
-                    {this.state.text || this.props.text}
+                    {
+                        content
+                    }
+
                 </button>
             </div>
         )
