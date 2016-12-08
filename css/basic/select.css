@@ -14,6 +14,8 @@
     .selectedLabel{
         position: relative;
         width: 100%;
+        height: 30px;
+        line-height: 30px;
         display: inline-block;
         line-height: 30px;
         text-indent: 5px;
@@ -24,6 +26,18 @@
         border: 1px solid #d5d5d5;
         border-top-left-radius: 4px;
         border-top-right-radius: 4px;
+        .label {
+            display: inline-block;
+            position: absolute;
+            left: 0;
+            right: 20px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .icons{
+            position: absolute;
+            right: 5px;
+        }
     }
     .selectMenu{
         display: none;
@@ -42,6 +56,7 @@
             white-space: nowrap;
             overflow: hidden;
             vertical-align: bottom;
+            text-overflow: ellipsis;
             &:hover{
                 background: #f1f4f9;
             }

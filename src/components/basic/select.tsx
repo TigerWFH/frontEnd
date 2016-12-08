@@ -9,21 +9,28 @@ export interface SelectData {
 
 interface SelectProps {
     data?: Array<SelectData>;
-    className?: string;
-    textStyle?: { [name: string]: string };
-    menuStyle?: { [name: string]: string };
+    className?: string;//整个控件的样式
+    textStyle?: { [name: string]: string };//选定文本样式
+    menuStyle?: { [name: string]: string };//菜单样式
     onChange?: { (text: string, self: any): void };
+    iconUp?: string;
+    iconDown?: string;
 }
 interface SelectState {
     label?: string;
     value?: string;
     selectedIndex?: number;
+    isDown?: boolean;
 }
 
 export class Select extends React.Component<SelectProps, SelectState>{
     refs: any;
     isShowMenu: boolean = false;
     // 初始化列表
+    static defaultProps = {
+        iconDown: 'iconfont icon-xiangxia01',
+        iconUp: 'iconfont icon-xiangshang01'
+    };
     constructor(props: SelectProps) {
         super(props);
         let data = this.props.data;
@@ -40,7 +47,8 @@ export class Select extends React.Component<SelectProps, SelectState>{
         this.state = {
             label: label,
             value: value,
-            selectedIndex: selectedIndex
+            selectedIndex: selectedIndex,
+            isDown: true
         };
     }
     // 外部调用接口列表
@@ -98,6 +106,9 @@ export class Select extends React.Component<SelectProps, SelectState>{
             this.refs.wrapper.className = "";
         }
         this.isShowMenu = !this.isShowMenu;
+        this.setState({
+            isDown: !this.state.isDown
+        });
     }
     _renderOptions = (data: Array<SelectData>) => {
         if (!(data instanceof Array)) {
@@ -119,20 +130,26 @@ export class Select extends React.Component<SelectProps, SelectState>{
         this.setState({
             label: item.label,
             value: item.value,
-            selectedIndex: index
+            selectedIndex: index,
         });
         this._onIsShowMenu();
     }
     render() {
         let className = this.props.className ?
             this.props.className + ' ' : '';
+        let icon = this.state.isDown ?
+            'icons ' + this.props.iconDown :
+            'icons ' + this.props.iconUp;
         return (
             <div className={className + "monkeySelectWrapper"}>
                 <div ref="wrapper">
                     <span className="selectedLabel"
                         style={this.props.textStyle}
                         onClick={this._onIsShowMenu}>
-                        {this.state.label || ''}
+                        <span className="label">
+                            {this.state.label || ''}
+                        </span>
+                        <i className={icon}></i>
                     </span>
                     <ul className="selectMenu">
                         {this._renderOptions(this.props.data)}

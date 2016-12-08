@@ -53,7 +53,6 @@ export class Module1 extends React.Component<P, S>{
                             />
                         <br />
                         <Select ref="select"
-                            menuStyle={{ background: '#ffff00' }}
                             data={[
                                 { label: 'monkey', value: "888" },
                                 { label: 'cat', value: "666" },
