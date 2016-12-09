@@ -49,15 +49,19 @@ export class Button extends React.Component<ButtonProps, ButtonState>{
                 <span>
                     <i className={this.props.iconLeft}>
                     </i>
-                    {this.state.text || this.props.text}
+                    <span className="text">
+                        {this.state.text || this.props.text}
+                    </span>
                 </span> :
                 this.props.iconRight ?
                     <span>
-                        {this.state.text || this.props.text}
+                        <span className="text">
+                            {this.state.text || this.props.text}
+                        </span>
                         <i className={this.props.iconRight}>
                         </i>
                     </span> :
-                    <span>
+                    <span className="text">
                         {this.state.text || this.props.text}
                     </span>;
         }
@@ -69,7 +73,6 @@ export class Button extends React.Component<ButtonProps, ButtonState>{
                     {
                         content
                     }
-
                 </button>
             </div>
         )
