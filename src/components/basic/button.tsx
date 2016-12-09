@@ -7,9 +7,9 @@ interface ButtonProps {
     title?: string;
     className?: string;
     onClick?: { (instance: any): void }
-    iconLeft?: string;//图标在左边，优先级为2
-    iconRight?: string;//图标在右边，优先级为3
-    iconOnly?: string;//仅仅显示图标,优先级为1（最高）
+    iconLeft?: string;//图标在左边，优先级为2（支持的是字体图标）
+    iconRight?: string;//图标在右边，优先级为3（支持的是字体图标）
+    iconOnly?: string;//仅仅显示图标,优先级为1（最高）（支持的是字体图标）
 }
 interface ButtonState {
     text?: string;
