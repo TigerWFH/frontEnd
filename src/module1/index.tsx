@@ -12,6 +12,7 @@ import { View } from '../components/basic/view';
 import { Button } from '../components/basic/button';
 import { TextInput } from '../components/basic/input';
 import { Select } from '../components/basic/select';
+import { Checkbox } from '../components/basic/checkbox';
 // models
 
 interface P { }
@@ -30,6 +31,7 @@ export class Module1 extends React.Component<P, S>{
         console.log('select-->', this.refs.select.getSelectedItem());
         // this.refs.select.setSelectedItemByIndex(0);
         // this.refs.select.setSelectedItemByLabel('cat');
+        this.refs.checkbox.toggleState('123');
     }
     _onChange = () => {
 
@@ -77,6 +79,7 @@ export class Module1 extends React.Component<P, S>{
                                 { label: 'elephant888888888888', value: "333" }
                             ]} />
                         <br />
+                        <Checkbox ref="checkbox" label="label" />
                         <span className="iconfont icon-about01"></span>
                         <span className="fa fa-plus-circle"></span>
                         <AppFooter />
