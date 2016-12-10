@@ -3,7 +3,7 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
 interface CheckboxProps {
-    label?: string; //显示文字
+    label?: Monkey.MonkeyText; //显示文字
 }
 interface CheckboxState {
     checked?: boolean;

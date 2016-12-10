@@ -13,11 +13,31 @@ import { Button } from '../components/basic/button';
 import { TextInput } from '../components/basic/input';
 import { Select } from '../components/basic/select';
 import { Checkbox } from '../components/basic/checkbox';
+import { CheckboxGroup } from '../components/basic/checkboxGroup';
 // models
 
 interface P { }
 interface S {
 }
+
+let data = [
+    {
+        label: 'monkey1',
+        value: 'monkey'
+    },
+    {
+        label: 'monkey2',
+        value: 'monkey'
+    },
+    {
+        label: 'monkey3',
+        value: 'monkey'
+    },
+    {
+        label: 'monkey4',
+        value: 'monkey'
+    }
+];
 export class Module1 extends React.Component<P, S>{
     refs: any;
     constructor(prop: P) {
@@ -73,13 +93,12 @@ export class Module1 extends React.Component<P, S>{
                             />
                         <br />
                         <Select ref="select"
-                            data={[
-                                { label: 'monkey', value: "888" },
-                                { label: 'cat', value: "666" },
-                                { label: 'elephant888888888888', value: "333" }
-                            ]} />
+                            data={data} />
                         <br />
                         <Checkbox ref="checkbox" label="label" />
+                        <br />
+                        <CheckboxGroup data={data} />
+                        <br />
                         <span className="iconfont icon-about01"></span>
                         <span className="fa fa-plus-circle"></span>
                         <AppFooter />

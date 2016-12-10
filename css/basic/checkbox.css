@@ -1,5 +1,6 @@
 .monkeyCheckboxWrapper{
     position: relative;
+    display: inline;
     .defaultState {
         position: relative;
         margin-right: 10px;
