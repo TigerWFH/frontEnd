@@ -23,16 +23,35 @@ export class CheckboxGroup extends React.Component<CheckboxGroupProps, CheckboxG
         super(props);
     }
     // 外部调用接口列表
+    getSelectedItem = (): Array<CheckboxGroupData> => {
+        let data = this.props.data;
+        if (!data || !data.length) {
+            return [];
+        }
+        let dataList: Array<CheckboxGroupData> = [];
+        data.forEach((item: CheckboxGroupData, index: number) => {
+            if (this.refs[index.toString()].getCheckboxState()) {
+                let obj: CheckboxGroupData = {
+                    label: item.label,
+                    value: item.value
+                };
+                dataList.push(obj);
+            }
+        });
+
+        return dataList;
+    }
     // 内部调用接口列表
     _renderCheckboxes = (data: Array<CheckboxGroupData>): any => {
         if (!data || !data.length) {
             return null;
         }
         let elems: Array<React.ReactNode> = data.map((item: CheckboxGroupData, index: number) => {
-            return <Checkbox label={item.label} key={index} />
+            return <Checkbox ref={index.toString()}
+                label={item.label}
+                key={index} />
         });
 
-        console.log('--->', elems);
         return elems;
     }
     render() {

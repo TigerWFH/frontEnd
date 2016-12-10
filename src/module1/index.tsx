@@ -52,6 +52,9 @@ export class Module1 extends React.Component<P, S>{
         // this.refs.select.setSelectedItemByIndex(0);
         // this.refs.select.setSelectedItemByLabel('cat');
         this.refs.checkbox.toggleState('123');
+        console.log('checkboxgroup--->',
+            this.refs.checkboxGroup.getSelectedItem());
+
     }
     _onChange = () => {
 
@@ -97,7 +100,8 @@ export class Module1 extends React.Component<P, S>{
                         <br />
                         <Checkbox ref="checkbox" label="label" />
                         <br />
-                        <CheckboxGroup data={data} />
+                        <CheckboxGroup ref="checkboxGroup"
+                            data={data} />
                         <br />
                         <span className="iconfont icon-about01"></span>
                         <span className="fa fa-plus-circle"></span>
