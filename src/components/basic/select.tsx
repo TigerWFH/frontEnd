@@ -3,22 +3,22 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
 export interface SelectData {
-    label: string;
-    value: string;
+    label: Monkey.MonkeyText;
+    value: Monkey.MonkeyText;
 }
 
 interface SelectProps {
     data?: Array<SelectData>;
     className?: string;//整个控件的样式
-    textStyle?: { [name: string]: string };//选定文本样式
-    menuStyle?: { [name: string]: string };//菜单样式
+    textStyle?: {};//选定文本样式
+    menuStyle?: {};//菜单样式
     onChange?: { (text: string, self: any): void };
     iconUp?: string;
     iconDown?: string;
 }
 interface SelectState {
-    label?: string;
-    value?: string;
+    label?: Monkey.MonkeyText;
+    value?: Monkey.MonkeyText;
     selectedIndex?: number;
     isDown?: boolean;
 }
@@ -34,8 +34,8 @@ export class Select extends React.Component<SelectProps, SelectState>{
     constructor(props: SelectProps) {
         super(props);
         let data = this.props.data;
-        let label = '';
-        let value = '';
+        let label: Monkey.MonkeyText = '';
+        let value: Monkey.MonkeyText = '';
         let selectedIndex = -1;
         if (data instanceof Array) {
             if (data.length > 0) {

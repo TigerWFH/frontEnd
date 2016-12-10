@@ -4,7 +4,7 @@ import * as REactDOM from 'react-dom';
 
 interface TextProps {
     className?: string;
-    style?: { [name: string]: string };
+    style?: {};
     type?: string;
     defaultValue?: string;
     value?: string;
