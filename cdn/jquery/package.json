@@ -1,19 +1,12 @@
 {
   "_args": [
     [
-      {
-        "raw": "jquery",
-        "scope": null,
-        "escapedName": "jquery",
-        "name": "jquery",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
-      },
-      "C:\\Users\\Monkey\\projects\\demos\\demo-ts"
+      "jquery@^3.1.1",
+      "D:\\Documents\\GitHub\\frontEnd"
     ]
   ],
-  "_from": "jquery@latest",
+  "_cnpm_publish_time": 1474583569360,
+  "_from": "jquery@>=3.1.1 <4.0.0",
   "_id": "jquery@3.1.1",
   "_inCache": true,
   "_installable": true,
@@ -24,29 +17,27 @@
     "tmp": "tmp/jquery-3.1.1.tgz_1474583566957_0.15473420196212828"
   },
   "_npmUser": {
-    "name": "timmywil",
-    "email": "4timmywil@gmail.com"
+    "email": "4timmywil@gmail.com",
+    "name": "timmywil"
   },
   "_npmVersion": "3.10.3",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "jquery",
-    "scope": null,
-    "escapedName": "jquery",
     "name": "jquery",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
+    "raw": "jquery@^3.1.1",
+    "rawSpec": "^3.1.1",
+    "scope": null,
+    "spec": ">=3.1.1 <4.0.0",
+    "type": "range"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/jquery/-/jquery-3.1.1.tgz",
+  "_resolved": "https://registry.npm.taobao.org/jquery/download/jquery-3.1.1.tgz",
   "_shasum": "347c1c21c7e004115e0a4da32cece041fad3c8a3",
   "_shrinkwrap": null,
-  "_spec": "jquery",
-  "_where": "C:\\Users\\Monkey\\projects\\demos\\demo-ts",
+  "_spec": "jquery@^3.1.1",
+  "_where": "D:\\Documents\\GitHub\\frontEnd",
   "author": {
     "name": "jQuery Foundation and other contributors",
     "url": "https://github.com/jquery/jquery/blob/3.1.1/AUTHORS.txt"
@@ -55,7 +46,6 @@
     "url": "https://github.com/jquery/jquery/issues"
   },
   "commitplease": {
-    "nohook": true,
     "components": [
       "Docs",
       "Tests",
@@ -82,6 +72,7 @@
       "Wrap"
     ],
     "markerPattern": "^((clos|fix|resolv)(e[sd]|ing))|(refs?)",
+    "nohook": true,
     "ticketPattern": "^((Closes|Fixes) ([a-zA-Z]{2,}-)[0-9]+)|(Refs? [^#])"
   },
   "dependencies": {},
@@ -121,8 +112,10 @@
   },
   "directories": {},
   "dist": {
+    "noattachment": false,
     "shasum": "347c1c21c7e004115e0a4da32cece041fad3c8a3",
-    "tarball": "https://registry.npmjs.org/jquery/-/jquery-3.1.1.tgz"
+    "size": 408894,
+    "tarball": "http://registry.npm.taobao.org/jquery/download/jquery-3.1.1.tgz"
   },
   "gitHead": "1b30f3ad466ebf2714d47eda34dbd7fdf6849fe3",
   "homepage": "https://jquery.com",
@@ -136,24 +129,25 @@
   "main": "dist/jquery.js",
   "maintainers": [
     {
-      "name": "dmethvin",
-      "email": "dave.methvin@gmail.com"
+      "email": "dave.methvin@gmail.com",
+      "name": "dmethvin"
     },
     {
-      "name": "scott.gonzalez",
-      "email": "scott.gonzalez@gmail.com"
+      "email": "m.goleb@gmail.com",
+      "name": "mgol"
     },
     {
-      "name": "m_gol",
-      "email": "m.goleb@gmail.com"
+      "email": "scott.gonzalez@gmail.com",
+      "name": "scott.gonzalez"
     },
     {
-      "name": "timmywil",
-      "email": "timmywillisn@gmail.com"
+      "email": "timmywillisn@gmail.com",
+      "name": "timmywil"
     }
   ],
   "name": "jquery",
   "optionalDependencies": {},
+  "publish_time": 1474583569360,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
