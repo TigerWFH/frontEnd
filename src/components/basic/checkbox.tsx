@@ -39,7 +39,7 @@ export class Checkbox extends React.Component<CheckboxProps, CheckboxState>{
         return (
             <div className="monkeyCheckboxWrapper">
                 <span className={this.state.checked && "checked"}>
-                    <div className="defaultState checkedState"
+                    <div className="defaultCheckbox checkedState"
                         onClick={this._onToggleState}>
                         {
                             checkedIcon &&

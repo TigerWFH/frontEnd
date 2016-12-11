@@ -14,6 +14,7 @@ import { TextInput } from '../components/basic/input';
 import { Select } from '../components/basic/select';
 import { Checkbox } from '../components/basic/checkbox';
 import { CheckboxGroup } from '../components/basic/checkboxGroup';
+import { Radio } from '../components/basic/radio';
 // models
 
 interface P { }
@@ -108,6 +109,7 @@ export class Module1 extends React.Component<P, S>{
                         <CheckboxGroup ref="checkboxGroup"
                             data={data} />
                         <br />
+                        <Radio />
                         <span className="iconfont icon-about01"></span>
                         <span className="fa fa-plus-circle"></span>
                         <AppFooter />
