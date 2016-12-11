@@ -16,7 +16,7 @@ export class Checkbox extends React.Component<CheckboxProps, CheckboxState>{
     constructor(props: CheckboxProps) {
         super(props);
         this.state = {
-            checked: this.props.checked || false
+            checked: this.props.defaultChecked || false
         };
     }
     // 外部调用接口列表
