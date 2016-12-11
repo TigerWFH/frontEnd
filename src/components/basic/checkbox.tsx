@@ -4,6 +4,7 @@ import * as ReactDOM from 'react-dom';
 
 interface CheckboxProps {
     label?: Monkey.MonkeyText; //显示文字
+    defaultChecked?: boolean;
 }
 interface CheckboxState {
     checked?: boolean;
@@ -15,7 +16,7 @@ export class Checkbox extends React.Component<CheckboxProps, CheckboxState>{
     constructor(props: CheckboxProps) {
         super(props);
         this.state = {
-            checked: false
+            checked: this.props.checked || false
         };
     }
     // 外部调用接口列表
