@@ -109,7 +109,7 @@ export class Module1 extends React.Component<P, S>{
                         <CheckboxGroup ref="checkboxGroup"
                             data={data} />
                         <br />
-                        <Radio />
+                        <Radio label="radio" />
                         <span className="iconfont icon-about01"></span>
                         <span className="fa fa-plus-circle"></span>
                         <AppFooter />
