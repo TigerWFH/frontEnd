@@ -24,12 +24,6 @@ export class Checkbox extends React.Component<CheckboxProps, CheckboxState>{
         return this.state.checked;
     }
     toggleState = (checked: boolean) => {
-        if (checked) {
-            this.refs.active.className = "checked";
-        }
-        else {
-            this.refs.active.className = "";
-        }
         this.setState({
             checked: checked
         });
@@ -50,7 +44,7 @@ export class Checkbox extends React.Component<CheckboxProps, CheckboxState>{
         let checkedIcon = this.state.checked ? 'iconfont icon-gouxuan01' : '';
         return (
             <div className="monkeyCheckboxWrapper">
-                <span ref="active">
+                <span className={this.state.checked && "checked"}>
                     <div className="defaultState checkedState" onClick={this._onToggleState}>
                         {
                             checkedIcon &&

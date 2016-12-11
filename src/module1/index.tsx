@@ -98,7 +98,11 @@ export class Module1 extends React.Component<P, S>{
                         <Select ref="select"
                             data={data} />
                         <br />
-                        <Checkbox ref="checkbox" label="label" />
+                        <Checkbox ref="checkbox"
+                            label="label" />
+                        <Checkbox ref="checkbox"
+                            label="label2"
+                            defaultChecked={true} />
                         <br />
                         <CheckboxGroup ref="checkboxGroup"
                             data={data} />
