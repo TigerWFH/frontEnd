@@ -3,7 +3,7 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
 interface CheckboxProps {
-    label?: Monkey.MonkeyText; //显示文字
+    label?: Monkey.MonkeyText | React.ReactNode; //显示文字
     defaultChecked?: boolean;
 }
 interface CheckboxState {
@@ -39,7 +39,8 @@ export class Checkbox extends React.Component<CheckboxProps, CheckboxState>{
         return (
             <div className="monkeyCheckboxWrapper">
                 <span className={this.state.checked && "checked"}>
-                    <div className="defaultState checkedState" onClick={this._onToggleState}>
+                    <div className="defaultState checkedState"
+                        onClick={this._onToggleState}>
                         {
                             checkedIcon &&
                             <i className={checkedIcon}>
