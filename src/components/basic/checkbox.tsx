@@ -30,12 +30,6 @@ export class Checkbox extends React.Component<CheckboxProps, CheckboxState>{
     }
     // 内部调用接口列表
     _onToggleState = () => {
-        if (this.state.checked) {
-            this.refs.active.className = "";
-        }
-        else {
-            this.refs.active.className = "checked";
-        }
         this.setState({
             checked: !this.state.checked
         });
