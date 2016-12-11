@@ -23,7 +23,8 @@ interface S {
 let data = [
     {
         label: 'monkey1',
-        value: 'monkey'
+        value: 'monkey',
+        defaultState: true
     },
     {
         label: 'monkey2',

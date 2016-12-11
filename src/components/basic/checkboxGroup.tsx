@@ -6,6 +6,7 @@ import { Checkbox } from './checkbox';
 export interface CheckboxGroupData {
     label: Monkey.MonkeyText;
     value: Monkey.MonkeyText;
+    defaultState?: boolean;
 }
 interface CheckboxGroupProps {
     data?: Array<CheckboxGroupData>;
@@ -33,7 +34,7 @@ export class CheckboxGroup extends React.Component<CheckboxGroupProps, CheckboxG
             if (this.refs[index.toString()].getCheckboxState()) {
                 let obj: CheckboxGroupData = {
                     label: item.label,
-                    value: item.value
+                    value: item.value,
                 };
                 dataList.push(obj);
             }
@@ -49,7 +50,8 @@ export class CheckboxGroup extends React.Component<CheckboxGroupProps, CheckboxG
         let elems: Array<React.ReactNode> = data.map((item: CheckboxGroupData, index: number) => {
             return <Checkbox ref={index.toString()}
                 label={item.label}
-                key={index} />
+                key={index}
+                defaultChecked={item.defaultState} />
         });
 
         return elems;
