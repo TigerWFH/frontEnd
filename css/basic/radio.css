@@ -20,7 +20,11 @@
     }
     .active {
         .checked{
+            display: inline-block;
             background: #00a3fe;
+            width: 6px;
+            height: 6px;
+            border-radius: 100%;
         }
     }
 }

@@ -7,12 +7,12 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 import { Router, Route, IndexRoute, IndexRedirect, hashHistory } from 'react-router'
+import 'es6-shim'
 
 // modules
 import { Module1 } from './module1'
 import { Module2 } from './module2'
 import { Module3 } from './module3'
-
 
 interface P { }
 interface S { }

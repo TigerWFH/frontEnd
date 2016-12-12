@@ -38,9 +38,14 @@ export class Radio extends React.Component<RadioProps, RadioState>{
         return (
             <div className="monkeyRadioWrapper">
                 <span className={activedClass}>
-                    <div className="defaultRadio checked"
+                    <span className="defaultRadio"
                         onClick={this._onToggleState}>
-                    </div>
+                        {
+                            this.state.checked &&
+                            <span className="checked">
+                            </span>
+                        }
+                    </span>
                     <div className="defaultLabel">
                         {this.props.label}
                     </div>

@@ -1,52 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <style>
-        .active {}
-        
-        .module1 .test1 {
-            background-color: yellow;
-            width: 100px;
-            height: 100px;
+    <style type="text/css">
+        p.normal {
+            font-weight: normal
         }
         
-        .active .test1 {
-            color: lightpink;
+        p.thick {
+            font-weight: bold
         }
         
-        .module2 .test1 {
-            background-color: red;
-            width: 100px;
-        }
-        
-        .t2 {
-            background: blue;
-        }
-        
-        .t1 {
-            background: red;
+        p.thicker {
+            font-weight: 900
         }
     </style>
 </head>
 
 <body>
-    <div class="module1 active">
-        <div class="test1">
-            firstlalalalla
-        </div>
-    </div>
-    <div class="module2 active">
-        <div class="test1">
-            secondlalalalala
-        </div>
-    </div>
-    <div class="t1 t2">
-        t1t2
-    </div>
+    <p class="normal">This is a paragraph</p>
+
+    <p class="thick">This is a paragraph</p>
+
+    <p class="thicker">This is a paragraph</p>
 </body>
-<script></script>
 
 </html>
