@@ -6,6 +6,9 @@ interface RadioProps {
     label: Monkey.MonkeyText | React.ReactNode;
     defaultChecked?: boolean;
     onClick?: { (state: boolean, self: any): boolean };//用于radioGroup
+    className?: string;//组件样式
+    labelStyle?: React.CSSProperties;//文字（label）样式
+    radioStyle?: React.CSSProperties;//图标（icon）样式
 }
 interface RadioState {
     checked?: boolean;
@@ -40,10 +43,12 @@ export class Radio extends React.Component<RadioProps, RadioState>{
         });
     }
     render() {
+        let className = this.props.className ? this.props.className + ' ' : '';
         return (
-            <div className="monkeyRadioWrapper">
+            <div className={className + "monkeyRadioWrapper"}>
                 <span className={this.state.checked && "active"}>
                     <span className="defaultRadio"
+                        style={this.props.radioStyle}
                         onClick={this._onToggleRadioState}>
                         {
                             this.state.checked &&
@@ -51,7 +56,7 @@ export class Radio extends React.Component<RadioProps, RadioState>{
                             </span>
                         }
                     </span>
-                    <div className="defaultLabel">
+                    <div className="defaultLabel" style={this.props.labelStyle}>
                         {this.props.label}
                     </div>
                 </span>

@@ -11,6 +11,10 @@ export interface RadioGroupData {
 interface RadioGroupProps {
     data?: Array<RadioGroupData>;
     defaultValue?: Monkey.MonkeyText;
+    className?: string;//radioGroup组件样式
+    radioClassName?: string;//radio组件样式
+    labelStyle?: React.CSSProperties;//文字（label）样式
+    radioStyle?: React.CSSProperties;//图标（icon）样式
 }
 interface RadioGroupState {
 }
@@ -50,6 +54,9 @@ export class RadioGroup extends React.Component<RadioGroupProps, RadioGroupState
         }
         let elems: Array<React.ReactNode> = data.map((item: RadioGroupData, index: number) => {
             return <Radio ref={index.toString()}
+                className={this.props.radioClassName}
+                radioStyle={this.props.radioStyle}
+                labelStyle={this.props.labelStyle}
                 onClick={this._onToggleRadioGroupState}
                 label={item.label || item}
                 key={index}
@@ -73,8 +80,9 @@ export class RadioGroup extends React.Component<RadioGroupProps, RadioGroupState
         return true
     }
     render() {
+        let className = this.props.className ? this.props.className + ' ' : '';
         return (
-            <div className="monkeyRadioGroupWrapper">
+            <div className={className + "monkeyRadioGroupWrapper"}>
                 {this.props.data && this._renderRadioes(this.props.data)}
             </div>
         );
