@@ -5,6 +5,9 @@ import * as ReactDOM from 'react-dom';
 interface CheckboxProps {
     label?: Monkey.MonkeyText | React.ReactNode; //显示文字
     defaultChecked?: boolean;
+    className?: string;//组件样式
+    checkboxStyle?: React.CSSProperties;//图标（icon)样式
+    labelStyle?: React.CSSProperties;//文字（label）样式
 }
 interface CheckboxState {
     checked?: boolean;
@@ -35,19 +38,21 @@ export class Checkbox extends React.Component<CheckboxProps, CheckboxState>{
         });
     }
     render() {
-        let checkedIcon = this.state.checked ? 'iconfont icon-gouxuan01' : '';
+        let className = this.props.className ? this.props.className + ' ' : '';
         return (
-            <div className="monkeyCheckboxWrapper">
+            <div className={className + "monkeyCheckboxWrapper"}>
                 <span className={this.state.checked && "checked"}>
                     <div className="defaultCheckbox checkedState"
+                        style={this.props.checkboxStyle}
                         onClick={this._onToggleCheckboxState}>
                         {
-                            checkedIcon &&
-                            <i className={checkedIcon}>
+                            this.state.checked &&
+                            <i className={'iconfont icon-gouxuan01'}>
                             </i>
                         }
                     </div>
-                    <div className="defaultLabel">
+                    <div className="defaultLabel"
+                        style={this.props.labelStyle}>
                         {this.props.label}
                     </div>
                 </span>

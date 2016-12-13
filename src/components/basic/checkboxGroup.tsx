@@ -10,6 +10,10 @@ export interface CheckboxGroupData {
 }
 interface CheckboxGroupProps {
     data?: Array<CheckboxGroupData>;
+    className?: string;//组件样式
+    checkboxClassName?: string;//checkbox组件样式
+    checkboxStyle?: React.CSSProperties;//图标（icon)样式
+    labelStyle?: React.CSSProperties;//文字（label）样式
 }
 interface CheckboxGroupState {
 }
@@ -49,6 +53,9 @@ export class CheckboxGroup extends React.Component<CheckboxGroupProps, CheckboxG
         }
         let elems: Array<React.ReactNode> = data.map((item: CheckboxGroupData, index: number) => {
             return <Checkbox ref={index.toString()}
+                className={this.props.checkboxClassName}
+                checkboxStyle={this.props.checkboxStyle}
+                labelStyle={this.props.labelStyle}
                 label={item.label}
                 key={index}
                 defaultChecked={item.defaultState} />
@@ -57,8 +64,9 @@ export class CheckboxGroup extends React.Component<CheckboxGroupProps, CheckboxG
         return elems;
     }
     render() {
+        let className = this.props.className ? this.props.className + ' ' : '';
         return (
-            <div className="monkeyCheckboxGroupWrapper">
+            <div className={className + "monkeyCheckboxGroupWrapper"}>
                 {this.props.data && this._renderCheckboxes(this.props.data)}
             </div>
         );
