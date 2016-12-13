@@ -40,10 +40,9 @@ export class Radio extends React.Component<RadioProps, RadioState>{
         });
     }
     render() {
-        let activedClass = this.state.checked && "active";
         return (
             <div className="monkeyRadioWrapper">
-                <span className={activedClass}>
+                <span className={this.state.checked && "active"}>
                     <span className="defaultRadio"
                         onClick={this._onToggleRadioState}>
                         {

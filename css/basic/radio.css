@@ -20,6 +20,7 @@
         position: relative;
         display: inline-block;
         vertical-align: text-bottom;
+        user-select: none;
     }
     .active {
         .checked{
