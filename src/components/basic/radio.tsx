@@ -4,6 +4,7 @@ import * as ReactDOM from 'react-dom';
 
 interface RadioProps {
     label: Monkey.MonkeyText | React.ReactNode;
+    defaultChecked?: boolean;
 }
 interface RadioState {
     checked?: boolean;
@@ -15,12 +16,12 @@ export class Radio extends React.Component<RadioProps, RadioState>{
     constructor(props: RadioProps) {
         super(props);
         this.state = {
-            checked: true
+            checked: this.props.defaultChecked || false
         };
     }
     // 外部调用接口列表
     getCheckboxState = (): boolean => {
-        return false;
+        return this.state.checked;
     }
     toggleState = (checked: boolean) => {
         this.setState({

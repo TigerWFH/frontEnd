@@ -1,5 +1,7 @@
 .monkeyRadioWrapper{
     position: relative;
+    display: inline-block;
+    margin-right:5px;
     .defaultRadio{
         position: relative;
         margin-right: 10px;
@@ -24,6 +26,7 @@
             background: #00a3fe;
             width: 6px;
             height: 6px;
+            margin: 4px auto;/*自己分配，实现垂直居中*/
             border-radius: 100%;
         }
     }
