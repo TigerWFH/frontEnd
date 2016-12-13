@@ -23,13 +23,13 @@ export class Checkbox extends React.Component<CheckboxProps, CheckboxState>{
     getCheckboxState = (): boolean => {
         return this.state.checked;
     }
-    toggleState = (checked: boolean) => {
+    toggleCheckboxState = (checked: boolean) => {
         this.setState({
             checked: checked
         });
     }
     // 内部调用接口列表
-    _onToggleState = () => {
+    _onToggleCheckboxState = () => {
         this.setState({
             checked: !this.state.checked
         });
@@ -40,7 +40,7 @@ export class Checkbox extends React.Component<CheckboxProps, CheckboxState>{
             <div className="monkeyCheckboxWrapper">
                 <span className={this.state.checked && "checked"}>
                     <div className="defaultCheckbox checkedState"
-                        onClick={this._onToggleState}>
+                        onClick={this._onToggleCheckboxState}>
                         {
                             checkedIcon &&
                             <i className={checkedIcon}>

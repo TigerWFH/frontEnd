@@ -48,15 +48,27 @@ export class Module1 extends React.Component<P, S>{
     }
 
     _onClickButton = (self: any) => {
+        // TextInput
         console.log('home-->', this.refs.home.getInputText());
         this.refs.home.setInputText('set')
+        // Select
         console.log('select-->', this.refs.select.getSelectedItem());
         // this.refs.select.setSelectedItemByIndex(0);
         // this.refs.select.setSelectedItemByLabel('cat');
-        this.refs.checkbox.toggleState('123');
+        // Checkbox
+        let item = this.refs.checkbox.getCheckboxState();
+        let item2 = this.refs.checkbox2.getCheckboxState();
+        console.log('checkbox--->', item);
+        console.log('checkbox2--->', item2);
+        // CheckboxGroup
+        this.refs.checkbox.toggleCheckboxState(true);
         console.log('checkboxgroup--->',
             this.refs.checkboxGroup.getSelectedItem());
-
+        // Radio
+        let radio = this.refs.radio.getRadioState();
+        let radio2 = this.refs.radio2.getRadioState();
+        console.log('radio--->', radio);
+        console.log('radio2--->', radio2);
     }
     _onChange = () => {
 
@@ -102,16 +114,17 @@ export class Module1 extends React.Component<P, S>{
                         <br />
                         <Checkbox ref="checkbox"
                             label="label" />
-                        <Checkbox ref="checkbox"
+                        <Checkbox ref="checkbox2"
                             label="label2"
                             defaultChecked={true} />
-                        <br />
                         <CheckboxGroup ref="checkboxGroup"
                             data={data} />
                         <br />
-                        <Radio label="radio" defaultChecked={true} />
-                        <Radio label="radio" />
-                        <Radio label="radio" />
+                        <Radio ref="radio"
+                            label="radio"
+                            defaultChecked={true} />
+                        <Radio ref="radio2"
+                            label="radio2" />
                         <br />
                         <span className="iconfont icon-about01"></span>
                         <span className="fa fa-plus-circle"></span>

@@ -20,16 +20,16 @@ export class Radio extends React.Component<RadioProps, RadioState>{
         };
     }
     // 外部调用接口列表
-    getCheckboxState = (): boolean => {
+    getRadioState = (): boolean => {
         return this.state.checked;
     }
-    toggleState = (checked: boolean) => {
+    toggleRadioState = (checked: boolean) => {
         this.setState({
             checked: checked
         });
     }
     // 内部调用接口列表
-    _onToggleState = () => {
+    _onToggleRadioState = () => {
         this.setState({
             checked: !this.state.checked
         });
@@ -40,7 +40,7 @@ export class Radio extends React.Component<RadioProps, RadioState>{
             <div className="monkeyRadioWrapper">
                 <span className={activedClass}>
                     <span className="defaultRadio"
-                        onClick={this._onToggleState}>
+                        onClick={this._onToggleRadioState}>
                         {
                             this.state.checked &&
                             <span className="checked">
