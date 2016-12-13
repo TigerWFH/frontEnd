@@ -13,12 +13,13 @@
         height: 16px;
         line-height: 16px;
         text-align: center;
-        vertical-align: text-bottom;
+        vertical-align: bottom;
         transition: all 0.5s;
     }
     .defaultLabel{
         position: relative;
         display: inline-block;
+        vertical-align: text-bottom;
     }
     .active {
         .checked{

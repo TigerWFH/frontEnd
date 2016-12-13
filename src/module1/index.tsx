@@ -15,6 +15,7 @@ import { Select } from '../components/basic/select';
 import { Checkbox } from '../components/basic/checkbox';
 import { CheckboxGroup } from '../components/basic/checkboxGroup';
 import { Radio } from '../components/basic/radio';
+import { RadioGroup } from '../components/basic/radioGroup';
 // models
 
 interface P { }
@@ -24,21 +25,28 @@ interface S {
 let data = [
     {
         label: 'monkey1',
-        value: 'monkey',
-        defaultState: true
+        value: 'monkey1',
     },
     {
         label: 'monkey2',
-        value: 'monkey'
+        value: 'monkey2',
+        defaultState: true//用于复选框
     },
     {
         label: 'monkey3',
-        value: 'monkey'
+        value: 'monkey3'
     },
     {
         label: 'monkey4',
-        value: 'monkey'
+        value: 'monkey4'
     }
+];
+
+let data1 = [
+    'monkey',
+    'cat',
+    'mouse',
+    'elephant'
 ];
 export class Module1 extends React.Component<P, S>{
     refs: any;
@@ -69,6 +77,11 @@ export class Module1 extends React.Component<P, S>{
         let radio2 = this.refs.radio2.getRadioState();
         console.log('radio--->', radio);
         console.log('radio2--->', radio2);
+        // RadioGroup
+        let radioGroup = this.refs.radioGroup.getSelectedItem();
+        let radioGroup2 = this.refs.radioGroup2.getSelectedItem();
+        console.log('radioGroup--->', radioGroup);
+        console.log('radioGroup2--->', radioGroup2);
     }
     _onChange = () => {
 
@@ -125,6 +138,12 @@ export class Module1 extends React.Component<P, S>{
                             defaultChecked={true} />
                         <Radio ref="radio2"
                             label="radio2" />
+                        <RadioGroup ref="radioGroup"
+                            defaultValue={data[2].value}
+                            data={data} />
+                        <RadioGroup ref="radioGroup2"
+                            defaultValue={data1[2].value || data1[2]}
+                            data={data1} />
                         <br />
                         <span className="iconfont icon-about01"></span>
                         <span className="fa fa-plus-circle"></span>

@@ -5,6 +5,7 @@ import * as ReactDOM from 'react-dom';
 interface RadioProps {
     label: Monkey.MonkeyText | React.ReactNode;
     defaultChecked?: boolean;
+    onClick?: { (state: boolean, self: any): boolean };//用于radioGroup
 }
 interface RadioState {
     checked?: boolean;
@@ -30,8 +31,12 @@ export class Radio extends React.Component<RadioProps, RadioState>{
     }
     // 内部调用接口列表
     _onToggleRadioState = () => {
+        let state: boolean;
+        if (this.props.onClick) {
+            state = this.props.onClick(this.state.checked, this);
+        }
         this.setState({
-            checked: !this.state.checked
+            checked: state || !this.state.checked
         });
     }
     render() {
