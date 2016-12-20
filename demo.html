@@ -5,23 +5,72 @@
         p.normal {
             font-weight: normal
         }
-        
+
         p.thick {
             font-weight: bold
         }
-        
+
         p.thicker {
             font-weight: 900
         }
     </style>
+<script>
+    var isIE = (function () {
+        var browser = {};
+        return function (ver, c) {
+            var key = ver ? (c ? "is" + c + "IE" + ver : "isIE" + ver) : "isIE";
+            var v = browser[key];
+            if (typeof (v) != "undefined") {
+                return v;
+            }
+            if (!ver) {
+                v = (navigator.userAgent.indexOf('MSIE') !== -1 || navigator.appVersion.indexOf('Trident/') > 0);
+            }
+            else {
+                var match = navigator.userAgent.match(/(?:MSIE |Trident\/.*; rv:|Edge\/)(\d+)/);
+                if (match) {
+                    var v1 = parseInt(match[1]);
+                    v = c ? (c == 'lt' ? v1 < ver : (c == 'gt' ? v1 > ver : undefined)) : v1 == ver;
+                }
+                else if (ver <= 9) {//ie 版本小于9的检测方法
+                    var b = document.createElement('b')
+                    var s = '<!--[if ' + (c ? c : '') + ' IE ' + ver + ']><i></i><![endif]-->';
+                    b.innerHTML = s;
+                    v = b.getElementsByTagName('i').length === 1;
+                }
+                else {
+                    v = undefined;
+                }
+            }
+            browser[key] = v;
+            return v;
+        };
+    } ());
+    console.log('isIE', isIE());
+    console.log('ie--->', navigator);
+</script>
 </head>
 
 <body>
-    <p class="normal">This is a paragraph</p>
 
-    <p class="thick">This is a paragraph</p>
+    <div class="main">
+        <p class="normal">This is a paragraph</p>
 
-    <p class="thicker">This is a paragraph</p>
+        <p class="thick">This is a paragraph</p>
+
+        <p class="thicker">This is a paragraph</p>
+    </div>
+    <script>
+        function l() {
+            if (window.document.atob) {
+                document.body.innerHTML = '456';
+            }
+            else {
+                document.body.innerHTML = '123';
+            }
+        }
+        l();
+    </script>
 </body>
 
 </html>
