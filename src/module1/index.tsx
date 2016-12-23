@@ -16,6 +16,7 @@ import { Checkbox } from '../components/basic/checkbox';
 import { CheckboxGroup } from '../components/basic/checkboxGroup';
 import { Radio } from '../components/basic/radio';
 import { RadioGroup } from '../components/basic/radioGroup';
+import { Table, TableColumnsOptions } from '../components/basic/table';
 // models
 
 interface P { }
@@ -47,6 +48,24 @@ let data1 = [
     'cat',
     'mouse',
     'elephant'
+];
+
+let columns: Array<TableColumnsOptions> = [
+    {
+        title: 'monkey',
+        key: 'monkey',
+        dataIndex: 'monkey'
+    },
+    {
+        title: 'cat',
+        key: 'cat',
+        dataIndex: 'cat'
+    },
+    {
+        title: 'elephant',
+        key: 'elephant',
+        dataIndex: 'elephant'
+    }
 ];
 export class Module1 extends React.Component<P, S>{
     refs: any;
@@ -82,6 +101,8 @@ export class Module1 extends React.Component<P, S>{
         let radioGroup2 = this.refs.radioGroup2.getSelectedItem();
         console.log('radioGroup--->', radioGroup);
         console.log('radioGroup2--->', radioGroup2);
+        // table
+        console.log('------->');
     }
     _onChange = () => {
 
@@ -145,6 +166,7 @@ export class Module1 extends React.Component<P, S>{
                             defaultValue={data1[2].value || data1[2]}
                             data={data1} />
                         <br />
+                        <Table columns={columns} />
                         <span className="iconfont icon-about01"></span>
                         <span className="fa fa-plus-circle"></span>
                         <AppFooter />

@@ -1,0 +1,30 @@
+{
+    "name": {
+        "zh-CN": "monkey",
+        "tw-CN": "cat",
+        "hk-CN": "",
+        "en-US": "",
+        "ja-JP": ""
+    },
+    "age": {
+        "zh-CN": 12,
+        "tw-CN": 12,
+        "hk-CN": "",
+        "en-US": "",
+        "ja-JP": ""
+    },
+    "grade": {
+        "zh-CN": 3,
+        "tw-CN": 3,
+        "hk-CN": "",
+        "en-US": "",
+        "ja-JP": ""
+    },
+    "sex": {
+        "zh-CN": "1",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "",
+        "ja-JP": ""
+    }
+}
