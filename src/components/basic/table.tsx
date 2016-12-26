@@ -38,10 +38,10 @@ export class Table extends React.Component<TableProps, TableState>{
         }
         let _hasHeader = _columns.some(value => !!value.renderHeader || !!value.title);
         let _element: React.ReactNode = _hasHeader && <thead>
-            <tr>
+            <tr className="defaultHeader">
                 {
                     _columns.map((value: TableColumnsOptions) => {
-                        return <th key={'th-' + value.key}>
+                        return <th className="headerCell" key={'th-' + value.key}>
                             {(value.renderHeader && value.renderHeader()) || value.title}
                         </th>
                     })
@@ -57,10 +57,10 @@ export class Table extends React.Component<TableProps, TableState>{
         }
         let hasFooter = _columns.some(value => !!value.renderFooter)
         let element: React.ReactNode = hasFooter && <tfoot>
-            <tr>
+            <tr className="defaultFooter">
                 {
-                    _columns.map((value: TableColumnsOptions) => {
-                        return <td>
+                    _columns.map((value: TableColumnsOptions, index: number) => {
+                        return <td className="footerCell" key={"cell-" + index}>
                             {value.renderFooter && value.renderFooter()}
                         </td>
                     })
@@ -70,7 +70,6 @@ export class Table extends React.Component<TableProps, TableState>{
         return element;
     }
     _createTableBody = (data: Array<any>, columns: Array<TableColumnsOptions>) => {//td
-        console.log('body--->', data);
         let _data = data;
         let _columns = columns;
         if (!(_data instanceof Array)) {
@@ -80,7 +79,7 @@ export class Table extends React.Component<TableProps, TableState>{
             return null;
         }
         let _rowList = _data.map((rowData: any, index: number) => {
-            return <tr key={'row-' + index}>
+            return <tr className="defaultBody" key={'row-' + index} >
                 {this._createTableCells(rowData, index, _columns)}
             </tr>;
         });
@@ -108,7 +107,7 @@ export class Table extends React.Component<TableProps, TableState>{
             let _dataIndex = header.dataIndex;
             let _value = _rowData[_dataIndex];
             let _renderCell = header.renderCell ? header.renderCell(_rowData, _dataIndex, this) : _value;
-            return <td key={'cell-' + _rowIndex + '-' + colIndex}>
+            return <td className="bodyCell" key={'cell-' + _rowIndex + '-' + colIndex}>
                 {_renderCell}
             </td>;
         });
@@ -123,7 +122,7 @@ export class Table extends React.Component<TableProps, TableState>{
 
             }
         })
-        return <table>
+        return <table className="monkeyTableWrapper">
             {this._createTableHeader(this.props.columns)}
             {this._createTableFooter(this.props.columns)}
             {this._createTableBody(this.state.data, this.props.columns)}
