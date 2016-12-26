@@ -54,7 +54,10 @@ let columns: Array<TableColumnsOptions> = [
     {
         title: 'monkey',
         key: 'monkey',
-        dataIndex: 'monkey'
+        dataIndex: 'monkey',
+        renderFooter: () => {
+            return '1';
+        }
     },
     {
         title: 'cat',
@@ -64,7 +67,22 @@ let columns: Array<TableColumnsOptions> = [
     {
         title: 'elephant',
         key: 'elephant',
-        dataIndex: 'elephant'
+        dataIndex: 'elephant',
+        renderFooter: () => {
+            return '合计:'
+        }
+    }
+];
+let datas: Array<any> = [
+    {
+        monkey: '1',//dataIndex
+        cat: '2',
+        elephant: '3'
+    },
+    {
+        monkey: '11',//dataIndex
+        cat: '22',
+        elephant: '33'
     }
 ];
 export class Module1 extends React.Component<P, S>{
@@ -166,7 +184,7 @@ export class Module1 extends React.Component<P, S>{
                             defaultValue={data1[2].value || data1[2]}
                             data={data1} />
                         <br />
-                        <Table columns={columns} />
+                        <Table columns={columns} data={datas} />
                         <span className="iconfont icon-about01"></span>
                         <span className="fa fa-plus-circle"></span>
                         <AppFooter />
