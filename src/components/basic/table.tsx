@@ -6,10 +6,12 @@ export interface TableColumnsOptions {
     title?: string;//表头显示字段(优先级高于renderHeader属性)
     key: string;//用于React批量产生element时的key值
     dataIndex: string;//指定每列的key值，通过该值获取对应的数据
-    renderHeader?: Function;//(优先级低于title属性)
-    renderFooter?: Function;
-    renderCell?: Function;
+    renderHeader?: (title: string) => any;//(优先级低于title属性)
+    renderFooter?: () => any;
+    renderCell?: (rowData: any, dataIndex: string, instance: any) => any;
+    headerClickHandler?: () => void;
     width?: Monkey.MonkeyText;
+    sortable?: boolean;//能否排序
 }
 interface TableProps {
     data?: Array<any>;//数据
@@ -31,6 +33,9 @@ export class Table extends React.Component<TableProps, TableState>{
             data: this.props.data || this.props.defaultData
         };
     }
+    _sortData = (data: Array<any>, dataIndex: string, type: boolean) => {
+
+    }
     _createTableHeader = (columns: Array<TableColumnsOptions>) => {//th
         let _columns = columns;
         if (!(_columns instanceof Array)) {
@@ -41,8 +46,12 @@ export class Table extends React.Component<TableProps, TableState>{
             <tr className="defaultHeader">
                 {
                     _columns.map((value: TableColumnsOptions) => {
-                        return <th className="headerCell" key={'th-' + value.key}>
-                            {(value.renderHeader && value.renderHeader()) || value.title}
+                        let _clickHandler = value.sortable ? () => {
+                            alert('可以排序的');
+                        } : undefined;
+                        return <th className="headerCell" onClick={_clickHandler}
+                            key={'th-' + value.key}>
+                            {(value.renderHeader && value.renderHeader(value.title)) || value.title}
                         </th>
                     })
                 }

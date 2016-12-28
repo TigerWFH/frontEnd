@@ -57,7 +57,8 @@ let columns: Array<TableColumnsOptions> = [
         dataIndex: 'monkey',
         renderFooter: () => {
             return '1';
-        }
+        },
+        sortable: true
     },
     {
         title: 'cat',

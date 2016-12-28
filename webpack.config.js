@@ -12,7 +12,7 @@ let path = require('path');
 module.exports = {
     "entry": {
         index: './src/index.tsx',
-        test: './src/test.ts'
+        browser: './src/browser.ts'
     },
     "output": {
         path: path.resolve('./dev/dist'),

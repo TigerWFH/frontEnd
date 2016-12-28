@@ -11,72 +11,6 @@
     *{
         box-sizing: border-box;
     }
-    .test{
-        border: 1px solid red;
-        width:100%;
-        height: 50px;
-    }
-    .hide{
-        display: none;
-    }
-    .test:hover  .hide{
-        display:inline-block;
-        border:　1px solid green;
-        background: blue;
-    }
-    #main{
-        height: 100%;
-        border: 1px solid red;
-    }
-    #first{
-        border: 1px solid gray;
-        height: 100%;
-    }
-    body{
-        overflow: hidden;
-    }
-    .image{
-        max-width: 78px;
-        max-height: 78px;
-    }
-    .wrapper{
-        position:relative;
-    }
-    .box{
-        position: relative;
-        margin: 0 auto;
-        width:100px;
-        height: 200px;
-        border: 1px solid red;
-    }
-    .box:before{
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        height: 100%;
-        width: 100%;
-        content: "";
-        box-shadow: 0 5px 5px 5px rgba(255,0,0,0.2);
-        z-index: -12;
-    }
-    .dd{
-        position: absolute;
-        top: 0;
-        left: 150px;
-        width: 100px;
-        height: 100px;
-        background: red;
-        z-index:-1;
-    }
-    body{
-        background: yellow;
-    }
-    .cc{
-        width: 200px;
-        height: 200px;
-        background: green;
-    }
     </style>
 <script>
     var isIE = (function () {
@@ -110,8 +44,7 @@
             return v;
         };
     } ());
-    console.log('isIE', isIE());
-    console.log('ie--->', navigator);
+
 </script>
 </head>
 
