@@ -60,6 +60,23 @@
         box-shadow: 0 5px 5px 5px rgba(255,0,0,0.2);
         z-index: -12;
     }
+    .dd{
+        position: absolute;
+        top: 0;
+        left: 150px;
+        width: 100px;
+        height: 100px;
+        background: red;
+        z-index:-1;
+    }
+    body{
+        background: yellow;
+    }
+    .cc{
+        width: 200px;
+        height: 200px;
+        background: green;
+    }
     </style>
 <script>
     var isIE = (function () {
@@ -99,15 +116,15 @@
 </head>
 
 <body>
-    <img src="./images/test.jpg" class="image" />
-    <img src="./images/test.jpg" />
+    <!--<img src="./images/test.jpg" class="image" />
+    <img src="./images/test.jpg" />-->
     <!--<div id="main">
         <a href="#first">单页面1</a>
     </div>
     <div id="first">
         <a href="#main">单页面2</a>
     </div>-->
-    <table>
+    <!--<table>
         <tr>
             <th>Month</th>
             <th>Price</th>
@@ -160,10 +177,12 @@
         <div class="box">
             ceshi
         </div>
+    </div>-->
+    <div class="cc">
+        <div class="dd">
+
+        </div>
     </div>
 </body>
-<div>
-    body以外的东西
-</div>
 
 </html>

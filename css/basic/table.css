@@ -12,6 +12,8 @@
         border-bottom: 1px solid #e5e5e5;
         .headerCell{
             color:#666;
+            text-align: left;
+            padding: 0 20px;
         }
     }
     .defaultFooter{
@@ -19,6 +21,8 @@
         border-bottom: 1px solid #e5e5e5;
         .footerCell{
             position: relative;
+            text-align: left;
+            padding: 0 20px;
         }
     }
     .defaultBody{
@@ -26,6 +30,8 @@
         border-bottom: 1px solid #e5e5e5;
         .bodyCell{
             position: relative;
+            text-align: left;
+            padding: 0 20px;
         }
         /*阴影方式1*/
         /*&:hover{

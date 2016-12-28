@@ -71,18 +71,28 @@ let columns: Array<TableColumnsOptions> = [
         renderFooter: () => {
             return '合计:'
         }
+    },
+    {
+        title: '',
+        key: 'os',
+        dataIndex: 'os',
+        renderCell: (rowData: any, dataIndex: string, self: any) => {
+            return <Button className="primary" text={rowData[dataIndex]} />
+        }
     }
 ];
 let datas: Array<any> = [
     {
         monkey: '1',//dataIndex
         cat: '2',
-        elephant: '3'
+        elephant: '3',
+        os: 'os1'
     },
     {
         monkey: '11',//dataIndex
         cat: '22',
-        elephant: '33'
+        elephant: '33',
+        os: 'os2'
     }
 ];
 export class Module1 extends React.Component<P, S>{
@@ -136,8 +146,7 @@ export class Module1 extends React.Component<P, S>{
                 <AppContent>
                     <View>
                         123123123
-                        <Button className="primary ghost"
-                            onClick={this._onClickButton} />
+                        <Button onClick={this._onClickButton} />
                         <Button className="primary ghost"
                             iconLeft="fa fa-plus"
                             onClick={this._onClickButton} />
