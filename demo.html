@@ -39,6 +39,27 @@
         max-width: 78px;
         max-height: 78px;
     }
+    .wrapper{
+        position:relative;
+    }
+    .box{
+        position: relative;
+        margin: 0 auto;
+        width:100px;
+        height: 200px;
+        border: 1px solid red;
+    }
+    .box:before{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        content: "";
+        box-shadow: 0 5px 5px 5px rgba(255,0,0,0.2);
+        z-index: -12;
+    }
     </style>
 <script>
     var isIE = (function () {
@@ -80,12 +101,12 @@
 <body>
     <img src="./images/test.jpg" class="image" />
     <img src="./images/test.jpg" />
-    <div id="main">
+    <!--<div id="main">
         <a href="#first">单页面1</a>
     </div>
     <div id="first">
         <a href="#main">单页面2</a>
-    </div>
+    </div>-->
     <table>
         <tr>
             <th>Month</th>
@@ -135,6 +156,14 @@
             </tr>
         </tfoot>
     </table>
+    <div class="wrapper">
+        <div class="box">
+            ceshi
+        </div>
+    </div>
 </body>
+<div>
+    body以外的东西
+</div>
 
 </html>

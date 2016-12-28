@@ -1,5 +1,6 @@
 .monkeyTableWrapper{
     position: relative;
+    z-index: 1;
     width: 100%;
     font-size: 12px;
     border-spacing: 0;
@@ -17,19 +18,48 @@
         height: 48px;
         border-bottom: 1px solid #e5e5e5;
         .footerCell{
-            border-bottom:#e5e5e5;
-        }
-        &:hover{
-            box-shadow: -5px 0 10px rgba(0,0,0,0.1),5px 0 10px rgba(0,0,0,0.1),0 5px 10px rgba(0,0,0,0.1);
+            position: relative;
         }
     }
     .defaultBody{
-        height: 50px;
+        height: 48px;
+        border-bottom: 1px solid #e5e5e5;
         .bodyCell{
-
+            position: relative;
         }
-        &:hover{
+        /*阴影方式1*/
+        /*&:hover{
             box-shadow: -5px 0 10px rgba(0,0,0,0.1),5px 0 10px rgba(0,0,0,0.1),0 5px 10px rgba(0,0,0,0.1);
-        }
+        }*/
     }
+
+    .defaultFooter:hover,.defaultBody:hover{
+            /*阴影方式1*/
+            /*box-shadow: -5px 0 10px rgba(0,0,0,0.1),5px 0 10px rgba(0,0,0,0.1),0 5px 10px rgba(0,0,0,0.1);*/
+            /*阴影方式2*/
+            td:before{
+                position:absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                height: 48px;
+                width: calc(100% + 1px);
+                content:"";
+                background-color: #fff;
+                box-shadow: 10px 0 10px rgba(0, 0, 0, 0.08);
+                z-index: -1;
+            }
+            td:first-child:after{
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                width: 10px;
+                height: 48px;
+                background-color: #fff;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+                content:"";
+                z-index: -2;
+            }
+        }
 }

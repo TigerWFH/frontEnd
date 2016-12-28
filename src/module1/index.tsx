@@ -185,6 +185,8 @@ export class Module1 extends React.Component<P, S>{
                             data={data1} />
                         <br />
                         <Table columns={columns} data={datas} />
+                        <br />
+                        <br />
                         <span className="iconfont icon-about01"></span>
                         <span className="fa fa-plus-circle"></span>
                         <AppFooter />
