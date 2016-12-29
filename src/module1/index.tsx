@@ -63,7 +63,8 @@ let columns: Array<TableColumnsOptions> = [
     {
         title: 'cat',
         key: 'cat',
-        dataIndex: 'cat'
+        dataIndex: 'cat',
+        sortable: true,
     },
     {
         title: 'elephant',
@@ -84,15 +85,27 @@ let columns: Array<TableColumnsOptions> = [
 ];
 let datas: Array<any> = [
     {
-        monkey: '1',//dataIndex
-        cat: '2',
-        elephant: '3',
+        monkey: '123',//dataIndex
+        cat: '2211',
+        elephant: 'a3',
         os: 'os1'
     },
     {
-        monkey: '11',//dataIndex
-        cat: '22',
-        elephant: '33',
+        monkey: '133',//dataIndex
+        cat: '2',
+        elephant: 'f3',
+        os: 'os1'
+    },
+    {
+        monkey: '173',//dataIndex
+        cat: 'a2',
+        elephant: 'd3',
+        os: 'os1'
+    },
+    {
+        monkey: '112',//dataIndex
+        cat: 's2s2',
+        elephant: 'd33',
         os: 'os2'
     }
 ];

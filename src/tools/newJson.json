@@ -1,1 +1,3194 @@
-{"general.captcha.loading":{"zh-CN":"验证码加载中","tw-CN":"","hk-CN":"","en-US":"The captcha is in loading","ja-JP":""},"general.captcha.loadfailed":{"zh-CN":"验证码加载失败","tw-CN":"","hk-CN":"","en-US":"The captcha loaded failed","ja-JP":""},"general.captcha.refresh":{"zh-CN":"刷新","tw-CN":"","hk-CN":"","en-US":"Refresh","ja-JP":""},"general.captcha.uninitialized":{"zh-CN":"请等待验证码加载后，输入验证码","tw-CN":"","hk-CN":"","en-US":"Please enter the captcha after the captcha loaded","ja-JP":""},"general.captcha.invalid":{"zh-CN":"请先完成验证","tw-CN":"","hk-CN":"","en-US":"Please finish the verification first","ja-JP":""},"general.register":{"zh-CN":"注册","tw-CN":"","hk-CN":"","en-US":"Login","ja-JP":""},"general.verifycode":{"zh-CN":"验证码","tw-CN":"","hk-CN":"","en-US":"Captcha","ja-JP":""},"general.getverifycode":{"zh-CN":"获取验证码","tw-CN":"","hk-CN":"","en-US":"Get the captcha","ja-JP":""},"general.resend":{"zh-CN":"秒后重发","tw-CN":"","hk-CN":"","en-US":"Resend","ja-JP":""},"general.auditing":{"zh-CN":"审核中","tw-CN":"","hk-CN":"","en-US":"Auditting ","ja-JP":""},"general.back":{"zh-CN":"返回","tw-CN":"","hk-CN":"","en-US":"Return","ja-JP":""},"general.tip":{"zh-CN":"提示","tw-CN":"","hk-CN":"","en-US":"Remind","ja-JP":""},"general.submit":{"zh-CN":"提交","tw-CN":"","hk-CN":"","en-US":"Submit","ja-JP":""},"general.submiting":{"zh-CN":"提交中","tw-CN":"","hk-CN":"","en-US":"Submitting","ja-JP":""},"general.onlinesupport":{"zh-CN":"客服","tw-CN":"","hk-CN":"","en-US":"Service","ja-JP":""},"general.about":{"zh-CN":"关于我们","tw-CN":"","hk-CN":"","en-US":"About us","ja-JP":""},"general.exit":{"zh-CN":"注销","tw-CN":"","hk-CN":"","en-US":"Logout","ja-JP":""},"general.confirm":{"zh-CN":"确认","tw-CN":"","hk-CN":"","en-US":"Confirm","ja-JP":""},"general.print":{"zh-CN":"打印","tw-CN":"","hk-CN":"","en-US":"Print","ja-JP":""},"general.modify":{"zh-CN":"修改","tw-CN":"","hk-CN":"","en-US":"Modify","ja-JP":""},"general.comment":{"zh-CN":"备注","tw-CN":"","hk-CN":"","en-US":"Comment","ja-JP":""},"general.gotologin":{"zh-CN":"立即登录","tw-CN":"","hk-CN":"","en-US":"Please login immediately","ja-JP":""},"general.contract.title":{"zh-CN":"条款","tw-CN":"","hk-CN":"","en-US":"Contract ","ja-JP":""},"general.password.middle.invalid":{"zh-CN":"密码必须6-20位，由数字字母（大小写均可）组成","tw-CN":"","hk-CN":"","en-US":"Password must be 6-20 digits and consists of alphanumeric characters (upper and lower case)","ja-JP":""},"general.password.strong.invalid":{"zh-CN":"密码必须8-20位，同时包含数字大小写字母","tw-CN":"","hk-CN":"","en-US":"Password must be  8-20 digits, and contains both uppercase and lowercase letters","ja-JP":""},"general.password.superstrong.invalid":{"zh-CN":"密码必须8-20位，同时包含数字大小写字母和符号","tw-CN":"","hk-CN":"","en-US":"Passwords must be 8-20 digits, and contain both uppercase and lowercase letters and symbols","ja-JP":""},"general.button.ok":{"zh-CN":"确认","tw-CN":"","hk-CN":"","en-US":"Confirm","ja-JP":""},"general.button.cancel":{"zh-CN":"取消","tw-CN":"","hk-CN":"","en-US":"Cancel","ja-JP":""},"user.login.timeout":{"zh-CN":"登陆已超时!","tw-CN":"","hk-CN":"","en-US":"Login has time out!","ja-JP":""},"user.login.invalid":{"zh-CN":"登陆异常，点击确定重新登陆","tw-CN":"","hk-CN":"","en-US":"Invalid login, please click the ok to log in again ","ja-JP":""},"user.login.haslogout":{"zh-CN":"检测到您已登出，点击确定重新登陆","tw-CN":"","hk-CN":"","en-US":"Detected you have logged out, click ok to log in","ja-JP":""},"user.login.multiuser":{"zh-CN":"检测到您登陆了其他用户，建议您关闭此窗口，防止串号","tw-CN":"","hk-CN":"","en-US":"Detecting that you are logged in to another user, we recommend that you close this window to prevent the serial number","ja-JP":""},"menu.personal.name":{"zh-CN":"我的资料","tw-CN":"","hk-CN":"","en-US":"My information","ja-JP":""},"menu.personal.overview":{"zh-CN":"账户总览","tw-CN":"","hk-CN":"","en-US":"Account overview","ja-JP":""},"menu.personal.basicinfo":{"zh-CN":"用户资料","tw-CN":"","hk-CN":"","en-US":"User informaton","ja-JP":""},"menu.personal.acctinfo":{"zh-CN":"账户资料","tw-CN":"","hk-CN":"","en-US":"Account informaton","ja-JP":""},"menu.accountmgmt.name":{"zh-CN":"账户管理","tw-CN":"","hk-CN":"","en-US":"Account management","ja-JP":""},"menu.accountmgmt.openaccount":{"zh-CN":"开立账户","tw-CN":"","hk-CN":"","en-US":"Open an account","ja-JP":""},"menu.modify.password":{"zh-CN":"修改密码","tw-CN":"","hk-CN":"","en-US":"Modify password","ja-JP":""},"menu.adjust.leverage":{"zh-CN":"调整杠杆","tw-CN":"","hk-CN":"","en-US":"Modify leverage","ja-JP":""},"menu.trade.report":{"zh-CN":"交易报表","tw-CN":"","hk-CN":"","en-US":"Trading reprot","ja-JP":""},"menu.fundmgmt.name":{"zh-CN":"资金管理","tw-CN":"","hk-CN":"","en-US":"Fund management","ja-JP":""},"menu.fundmgmt.deposit":{"zh-CN":"在线入金","tw-CN":"","hk-CN":"","en-US":"Online deposit","ja-JP":""},"menu.fundmgmt.withdraw":{"zh-CN":"出金申请","tw-CN":"","hk-CN":"","en-US":"Withdraw application","ja-JP":""},"menu.fundmgmt.transfer":{"zh-CN":"转账汇款","tw-CN":"","hk-CN":"","en-US":"Transfer the remittance","ja-JP":""},"menu.fundmgmt.telegraphic":{"zh-CN":"电汇信息","tw-CN":"","hk-CN":"","en-US":"Telegraphic information","ja-JP":""},"menu.fundmgmt.fundflow":{"zh-CN":"资金流水","tw-CN":"","hk-CN":"","en-US":"Fundflow","ja-JP":""},"menu.relatedmgmt.name":{"zh-CN":"相关管理","tw-CN":"","hk-CN":"","en-US":"Related management ","ja-JP":""},"menu.relatedmgmt.loadcenter":{"zh-CN":"下载中心","tw-CN":"","hk-CN":"","en-US":"Download center","ja-JP":""},"menu.logout":{"zh-CN":"注销","tw-CN":"","hk-CN":"","en-US":"Logout","ja-JP":""},"menu.about.us":{"zh-CN":"关于我们","tw-CN":"","hk-CN":"","en-US":"About us","ja-JP":""},"menu.customer.service":{"zh-CN":"客服","tw-CN":"","hk-CN":"","en-US":"Service","ja-JP":""},"menu.lang.chinese":{"zh-CN":"中文","tw-CN":"","hk-CN":"","en-US":"Chinese","ja-JP":""},"menu.lang.american":{"zh-CN":"英语","tw-CN":"","hk-CN":"","en-US":"English","ja-JP":""},"menu.about":{"zh-CN":"关于","tw-CN":"","hk-CN":"","en-US":"About","ja-JP":""},"menu.address":{"zh-CN":"地址","tw-CN":"","hk-CN":"","en-US":"Address","ja-JP":""},"menu.email":{"zh-CN":"邮箱","tw-CN":"","hk-CN":"","en-US":"Email","ja-JP":""},"menu.phone":{"zh-CN":"电话","tw-CN":"","hk-CN":"","en-US":"Phone","ja-JP":""},"menu.site":{"zh-CN":"网站","tw-CN":"","hk-CN":"","en-US":"Website","ja-JP":""},"login.username":{"zh-CN":"用户名","tw-CN":"","hk-CN":"","en-US":"User name","ja-JP":""},"login.password":{"zh-CN":"密码","tw-CN":"","hk-CN":"","en-US":"Password","ja-JP":""},"login.rememberme":{"zh-CN":"记住我","tw-CN":"","hk-CN":"","en-US":"Remember me ","ja-JP":""},"login.forgetpassword":{"zh-CN":"忘记密码","tw-CN":"","hk-CN":"","en-US":"Forget password","ja-JP":""},"login.register":{"zh-CN":"免费注册","tw-CN":"","hk-CN":"","en-US":"Free registration","ja-JP":""},"login.submit":{"zh-CN":"登录","tw-CN":"","hk-CN":"","en-US":"Login","ja-JP":""},"login.submiting":{"zh-CN":"登录中","tw-CN":"","hk-CN":"","en-US":"Logging in","ja-JP":""},"login.errormsg.username.required":{"zh-CN":"请输入用户名/手机/邮箱","tw-CN":"","hk-CN":"","en-US":"Please enter the user name/Phone number/Email","ja-JP":""},"login.errormsg.password.required":{"zh-CN":"请输入密码","tw-CN":"","hk-CN":"","en-US":"Please enter the password","ja-JP":""},"login.errormsg.login.servererror":{"zh-CN":"登陆失败，服务器错误","tw-CN":"","hk-CN":"","en-US":"Log in failed,server error","ja-JP":""},"login.errormsg.login.validtrytimes":{"zh-CN":"{msgprefix},您还可以输入{times}次!","tw-CN":"","hk-CN":"","en-US":"{msgprefix},You can enter [] times!","ja-JP":""},"signup.email":{"zh-CN":"邮箱","tw-CN":"","hk-CN":"","en-US":"Email","ja-JP":""},"signup.type.mobile":{"zh-CN":"手机注册","tw-CN":"","hk-CN":"","en-US":"Phone registration","ja-JP":""},"signup.type.email":{"zh-CN":"邮箱注册","tw-CN":"","hk-CN":"","en-US":"Email registration","ja-JP":""},"signup.realname":{"zh-CN":"真实姓名","tw-CN":"","hk-CN":"","en-US":"Real name ","ja-JP":""},"signup.resendcaptchalater":{"zh-CN":"{second}秒后重发","tw-CN":"","hk-CN":"","en-US":"{second}, resend ","ja-JP":""},"signup.mobile":{"zh-CN":"手机号","tw-CN":"","hk-CN":"","en-US":"Phone number","ja-JP":""},"signup.password":{"zh-CN":"密码","tw-CN":"","hk-CN":"","en-US":"Password","ja-JP":""},"signup.recommandcode":{"zh-CN":"推荐码","tw-CN":"","hk-CN":"","en-US":"Recommandcode","ja-JP":""},"signup.verifycode":{"zh-CN":"验证码","tw-CN":"","hk-CN":"","en-US":"Verifycoode","ja-JP":""},"signup.getverifycode":{"zh-CN":"获取验证码","tw-CN":"","hk-CN":"","en-US":"Get Verifycode","ja-JP":""},"signup.register":{"zh-CN":"注册","tw-CN":"","hk-CN":"","en-US":"Register","ja-JP":""},"signup.registerinvite.success":{"zh-CN":"恭喜，您已注册成功","tw-CN":"","hk-CN":"","en-US":"","ja-JP":""},"signup.login.now":{"zh-CN":"已有账号，立即登录","tw-CN":"","hk-CN":"","en-US":"If you have a account, plese login now","ja-JP":""},"signup.type.email.activeemailtips":{"zh-CN":"请去您的邮箱激活您的账号。","tw-CN":"","hk-CN":"","en-US":"Please go to your mailbox to active your account.","ja-JP":""},"signup.type.email.activeemailsuccess":{"zh-CN":"邮箱激活成功，请登录。","tw-CN":"","hk-CN":"","en-US":"Active email successfully, please login","ja-JP":""},"signup.type.email.activeemailfailed":{"zh-CN":"邮箱激活失败","tw-CN":"","hk-CN":"","en-US":"Actice email failed","ja-JP":""},"signup.successmsg":{"zh-CN":"恭喜，您已注册成功！","tw-CN":"","hk-CN":"","en-US":"Congratulations, you have registered successfully!","ja-JP":""},"signup.errormsg.realname.required":{"zh-CN":"请输入真实姓名","tw-CN":"","hk-CN":"","en-US":"Please enter your real name","ja-JP":""},"signup.errormsg.email.required":{"zh-CN":"请输入邮箱","tw-CN":"","hk-CN":"","en-US":"Please enter your email","ja-JP":""},"signup.errormsg.email.invalid":{"zh-CN":"请输入正确的邮箱","tw-CN":"","hk-CN":"","en-US":"Please enter the right email","ja-JP":""},"signup.errormsg.password.required":{"zh-CN":"请输入密码","tw-CN":"","hk-CN":"","en-US":"Please enter the password","ja-JP":""},"signup.errormsg.contract.disagreed":{"zh-CN":"未同意使用条款","tw-CN":"","hk-CN":"","en-US":"Do not agree to use Terms","ja-JP":""},"signup.errormsg.mobile.required":{"zh-CN":"请输入手机号","tw-CN":"","hk-CN":"","en-US":"Please enter your phone number","ja-JP":""},"signup.errormsg.mobile.invalid":{"zh-CN":"请输入正确的手机号","tw-CN":"","hk-CN":"","en-US":"Please enter the right phone number","ja-JP":""},"signup.errormsg.verifycode.required":{"zh-CN":"请输入验证码","tw-CN":"","hk-CN":"","en-US":"Please enter the verification code","ja-JP":""},"forgetpwd.title":{"zh-CN":"找回密码","tw-CN":"","hk-CN":"","en-US":"Find the password","ja-JP":""},"forgetpwdstep1.resetpwd":{"zh-CN":"重置密码","tw-CN":"","hk-CN":"","en-US":"Reset the password","ja-JP":""},"forgetpwdstep1.input":{"zh-CN":"手机/邮箱","tw-CN":"","hk-CN":"","en-US":"Phone/email","ja-JP":""},"forgetpwdstep1.next":{"zh-CN":"下一步","tw-CN":"","hk-CN":"","en-US":"Next","ja-JP":""},"forgetpwdstep1.login.now":{"zh-CN":"想起密码，立即登录","tw-CN":"","hk-CN":"","en-US":"Remind your password,please login immediately","ja-JP":""},"fotgetpwdstep2.email.sendemail":{"zh-CN":"发送验证邮件","tw-CN":"","hk-CN":"","en-US":"Send a verification message","ja-JP":""},"fotgetpwdstep2.email.checkemailtips":{"zh-CN":"请查收重置密码邮件","tw-CN":"","hk-CN":"","en-US":"Please check your reset password","ja-JP":""},"forgetpwdstep3.confirm":{"zh-CN":"确认","tw-CN":"","hk-CN":"","en-US":"Confirm","ja-JP":""},"forgetpwdstep3.newpwd":{"zh-CN":"新密码","tw-CN":"","hk-CN":"","en-US":"New password","ja-JP":""},"forgetpwdstep3.confirmpwd":{"zh-CN":"确认新密码","tw-CN":"","hk-CN":"","en-US":"Confirm your new password","ja-JP":""},"forgetpwdstep4.successmsg":{"zh-CN":"恭喜，您的密码已重置成功！","tw-CN":"","hk-CN":"","en-US":"Congratulations, your password has been reset successfully","ja-JP":""},"forgetpwd.errormsg.mobileemail.required":{"zh-CN":"请输入手机或邮箱","tw-CN":"","hk-CN":"","en-US":"Please enter your phone number and email","ja-JP":""},"forgetpwd.errormsg.email.required":{"zh-CN":"请输入邮箱","tw-CN":"","hk-CN":"","en-US":"Please enter your email","ja-JP":""},"forgetpwd.errormsg.mobile.requied":{"zh-CN":"请输入手机号","tw-CN":"","hk-CN":"","en-US":"Please enter your phone number","ja-JP":""},"forgetpwd.errormsg.email.invalid":{"zh-CN":"请输入正确的邮箱","tw-CN":"","hk-CN":"","en-US":"Please enter the right email","ja-JP":""},"forgetpwd.errormsg.mobile.invalid":{"zh-CN":"请输入正确的手机号","tw-CN":"","hk-CN":"","en-US":"Please enter the right phone number","ja-JP":""},"forgetpwd.errormsg.verifycode.required":{"zh-CN":"请输入验证码","tw-CN":"","hk-CN":"","en-US":"Please enter the verification code","ja-JP":""},"forgetpwd.errormsg.newpassword.required":{"zh-CN":"请输入新密码","tw-CN":"","hk-CN":"","en-US":"Please enter the new password","ja-JP":""},"forgetpwd.errormsg.newpasswordverify.required":{"zh-CN":"请输入确认新密码","tw-CN":"","hk-CN":"","en-US":"Please enter and verify the new password","ja-JP":""},"forgetpwd.errormsg.newpasswordverify.inconsistent":{"zh-CN":"请确认两次输入的密码一致","tw-CN":"","hk-CN":"","en-US":"Please make sure the password is the same","ja-JP":""},"userinfo.title":{"zh-CN":"用户资料","tw-CN":"","hk-CN":"","en-US":"User information","ja-JP":""},"userinfo.base.tabtitle":{"zh-CN":"基本资料","tw-CN":"","hk-CN":"","en-US":"Basic information","ja-JP":""},"userinfo.base.username":{"zh-CN":"用户名","tw-CN":"","hk-CN":"","en-US":"User name","ja-JP":""},"userinfo.base.username.savetips":{"zh-CN":"用户名设置后无法修改","tw-CN":"","hk-CN":"","en-US":"User name can not be modified after setting ","ja-JP":""},"userinfo.base.username.required.errormsg":{"zh-CN":"请输入(正确的)用户名","tw-CN":"","hk-CN":"","en-US":"Please enter the (right) user name","ja-JP":""},"userinfo.base.username.saveconfirmmsg":{"zh-CN":"用户名是账号的唯一凭证，只能设置一次，请再次确认用户名：","tw-CN":"","hk-CN":"","en-US":"User name is the only account of the certificate,can only be set once, please confirm the user name again:","ja-JP":""},"userinfo.base.username.saveconfirm.title":{"zh-CN":"提示","tw-CN":"","hk-CN":"","en-US":"Remind","ja-JP":""},"userinfo.base.username.savefailedmsg":{"zh-CN":"设置用户名失败","tw-CN":"","hk-CN":"","en-US":"Failed to set user name","ja-JP":""},"userinfo.base.password":{"zh-CN":"登陆密码","tw-CN":"","hk-CN":"","en-US":"Login password","ja-JP":""},"userinfo.base.password.originalpassword":{"zh-CN":"旧密码","tw-CN":"","hk-CN":"","en-US":"Old password","ja-JP":""},"userinfo.base.password.originalpassword.required.errormsg":{"zh-CN":"请输入旧密码","tw-CN":"","hk-CN":"","en-US":"Please enter the old password","ja-JP":""},"userinfo.base.password.newpassword":{"zh-CN":"新密码","tw-CN":"","hk-CN":"","en-US":"New password","ja-JP":""},"userinfo.base.password.newpassword.required.errormsg":{"zh-CN":"请输入(正确的)新密码","tw-CN":"","hk-CN":"","en-US":"Please enter the (new) password","ja-JP":""},"userinfo.base.password.confirmnewpassword":{"zh-CN":"确认密码","tw-CN":"","hk-CN":"","en-US":"Confirm your password","ja-JP":""},"userinfo.base.password.confirmnewpassword.inconsistent.errormsg":{"zh-CN":"请确认两次输入的密码一致。","tw-CN":"","hk-CN":"","en-US":"Please make sure the password is the same","ja-JP":""},"userinfo.base.password.update.failed":{"zh-CN":"修改密码失败","tw-CN":"","hk-CN":"","en-US":"Modify password failed","ja-JP":""},"userinfo.base.email":{"zh-CN":"绑定邮箱","tw-CN":"","hk-CN":"","en-US":"Bind the mailbox","ja-JP":""},"userinfo.base.email.unbind":{"zh-CN":"未绑定","tw-CN":"","hk-CN":"","en-US":"Unbind","ja-JP":""},"userinfo.base.email.bindemail":{"zh-CN":"当前邮箱","tw-CN":"","hk-CN":"","en-US":"Current email","ja-JP":""},"userinfo.base.email.newemail":{"zh-CN":"新邮箱","tw-CN":"","hk-CN":"","en-US":"New email","ja-JP":""},"userinfo.base.email.newemail.required.errormsg":{"zh-CN":"请输入(正确的)邮箱，不能使用原邮箱","tw-CN":"","hk-CN":"","en-US":"Please enter the (right) email, you can not use the original email","ja-JP":""},"userinfo.base.email.password":{"zh-CN":"登录密码","tw-CN":"","hk-CN":"","en-US":"Login password","ja-JP":""},"userinfo.base.email.password.required.errormsg":{"zh-CN":"请输入密码","tw-CN":"","hk-CN":"","en-US":"Please enter password","ja-JP":""},"userinfo.base.email.sendverification":{"zh-CN":"验证邮箱","tw-CN":"","hk-CN":"","en-US":"Verify the email","ja-JP":""},"userinfo.base.email.bind.success":{"zh-CN":"修改成功","tw-CN":"","hk-CN":"","en-US":"Modify successfully","ja-JP":""},"userinfo.base.email.bind.failed":{"zh-CN":"绑定邮箱失败","tw-CN":"","hk-CN":"","en-US":"Failed to bind the email","ja-JP":""},"userinfo.base.email.verification.hassenttips":{"zh-CN":"已发送验证邮件至：{newemail}，请立即完成验证","tw-CN":"","hk-CN":"","en-US":"Verification has been sent to：{newemail}, please verify now","ja-JP":""},"userinfo.base.email.verification.expirationtips":{"zh-CN":" 验证邮件24小时内有效，请尽快登录您的邮箱点击验证链接完成验证","tw-CN":"","hk-CN":"","en-US":"Validate mail within 24 hours, please log in to your mailbox as soon as possible Click verification link to complete verification","ja-JP":""},"userinfo.base.email.verification.notreceived.hd":{"zh-CN":"没有收到邮件？","tw-CN":"","hk-CN":"","en-US":"Did not receive mail?","ja-JP":""},"userinfo.base.email.verification.notreceived.solution1":{"zh-CN":"1. 请检查邮箱地址是否正确，您可以返回{back}。","tw-CN":"","hk-CN":"","en-US":"1. Please check if the email address is correct, you can go back","ja-JP":""},"userinfo.base.email.verification.notreceived.solution1.back":{"zh-CN":"重新填写","tw-CN":"","hk-CN":"","en-US":"Fill in again","ja-JP":""},"userinfo.base.email.verification.notreceived.solution2":{"zh-CN":"2. 请检查您的垃圾邮箱。","tw-CN":"","hk-CN":"","en-US":"2. Please chech your spam mailbox","ja-JP":""},"userinfo.base.email.verification.notreceived.solution3":{"zh-CN":"3. 若仍未收到确认，请尝试{resend}。","tw-CN":"","hk-CN":"","en-US":"3. If you still have not received your confirmation, try {resend}","ja-JP":""},"userinfo.base.email.verification.notreceived.solution3.resend":{"zh-CN":"重新发送","tw-CN":"","hk-CN":"","en-US":"Resend","ja-JP":""},"userinfo.base.email.verification.notreceived.solution3.resendcountdown":{"zh-CN":"{second}重新发送","tw-CN":"","hk-CN":"","en-US":"{second}resend","ja-JP":""},"userinfo.base.phone":{"zh-CN":"绑定手机","tw-CN":"","hk-CN":"","en-US":"Bind phone number","ja-JP":""},"userinfo.base.phone.unbind":{"zh-CN":"未绑定","tw-CN":"","hk-CN":"","en-US":"Unbind","ja-JP":""},"userinfo.base.phone.bindphone":{"zh-CN":"当前手机","tw-CN":"","hk-CN":"","en-US":"Current phone number","ja-JP":""},"userinfo.base.phone.newphone":{"zh-CN":"绑定手机","tw-CN":"","hk-CN":"","en-US":"Bind your phone","ja-JP":""},"userinfo.base.phone.newphone.invalid.errormsg":{"zh-CN":"请输入与原手机号不同的正确的手机号","tw-CN":"","hk-CN":"","en-US":"Please enter the correct mobile number different from the original phone number","ja-JP":""},"userinfo.base.phone.password":{"zh-CN":"登录密码","tw-CN":"","hk-CN":"","en-US":"Login password","ja-JP":""},"userinfo.base.phone.captcha.required.errormsg":{"zh-CN":"请输入(正确的)验证码","tw-CN":"","hk-CN":"","en-US":"Please enter the (right) verify code","ja-JP":""},"userinfo.base.phone.password.required.errormsg":{"zh-CN":"请输入密码","tw-CN":"","hk-CN":"","en-US":"Please enter the password","ja-JP":""},"userinfo.base.phone.bind.failed":{"zh-CN":"绑定手机失败","tw-CN":"","hk-CN":"","en-US":"Bind the phone failed","ja-JP":""},"userinfo.bank.tabtitle":{"zh-CN":"银行信息","tw-CN":"","hk-CN":"","en-US":"Bank information","ja-JP":""},"userinfo.bank.payee":{"zh-CN":"收款人","tw-CN":"","hk-CN":"","en-US":"Payee","ja-JP":""},"userinfo.bank.payee.required":{"zh-CN":"请输入收款人","tw-CN":"","hk-CN":"","en-US":"Please enter the payee","ja-JP":""},"userinfo.bank.swiftcode":{"zh-CN":"SWIFT代码","tw-CN":"","hk-CN":"","en-US":"SWIFTcode","ja-JP":""},"userinfo.bank.branchname":{"zh-CN":"分支行名称","tw-CN":"","hk-CN":"","en-US":"Branch bank name","ja-JP":""},"userinfo.bank.address":{"zh-CN":"银行地址","tw-CN":"","hk-CN":"","en-US":"Bank address","ja-JP":""},"userinfo.bank.account":{"zh-CN":"银行账号","tw-CN":"","hk-CN":"","en-US":"Bank account","ja-JP":""},"userinfo.banck.account.invalid":{"zh-CN":"请输入（正确的）银行账号","tw-CN":"","hk-CN":"","en-US":"Please enter (the right) bank account","ja-JP":""},"userinfo.bank.name":{"zh-CN":"银行名称","tw-CN":"","hk-CN":"","en-US":"Bank name","ja-JP":""},"userinfo.bank.defaultsymbol":{"zh-CN":"默认","tw-CN":"","hk-CN":"","en-US":"Default","ja-JP":""},"userinfo.bank.update":{"zh-CN":"编辑","tw-CN":"","hk-CN":"","en-US":"Edit","ja-JP":""},"userinfo.bank.update.failed":{"zh-CN":"更新银行卡信息失败","tw-CN":"","hk-CN":"","en-US":"Update card information failed","ja-JP":""},"userinfo.bank.remove":{"zh-CN":"删除","tw-CN":"","hk-CN":"","en-US":"Delete","ja-JP":""},"userinfo.bank.remove.confirm.title":{"zh-CN":"提示","tw-CN":"","hk-CN":"","en-US":"Remind","ja-JP":""},"userinfo.bank.remove.confirm.msg":{"zh-CN":"确认删除当前银行卡？","tw-CN":"","hk-CN":"","en-US":"Confirm to delete the current card?","ja-JP":""},"userinfo.bank.remove.failed":{"zh-CN":"删除银行卡失败","tw-CN":"","hk-CN":"","en-US":"Deleting a bank card failed","ja-JP":""},"userinfo.bank.settodefault.btn":{"zh-CN":"设为默认","tw-CN":"","hk-CN":"","en-US":"Set as Default","ja-JP":""},"userinfo.bank.settodefault.failed":{"zh-CN":"设为默认失败","tw-CN":"","hk-CN":"","en-US":"Set as Default failed","ja-JP":""},"userinfo.bank.settodefault.label":{"zh-CN":"设为默认银行","tw-CN":"","hk-CN":"","en-US":"Set as default bank","ja-JP":""},"userinfo.bank.fetchlist.failed":{"zh-CN":"获取银行卡列表失败","tw-CN":"","hk-CN":"","en-US":"Failed to get bankcard list","ja-JP":""},"userinfo.bank.add":{"zh-CN":"新增银行","tw-CN":"","hk-CN":"","en-US":"Add a new bank","ja-JP":""},"userinfo.bank.add.failed":{"zh-CN":"添加银行卡失败","tw-CN":"","hk-CN":"","en-US":"Adding a bank card failed","ja-JP":""},"userinfo.bank.add.branch.required":{"zh-CN":"选择一个银行","tw-CN":"","hk-CN":"","en-US":"Select a bank","ja-JP":""},"accountinfo.title":{"zh-CN":"账户资料","tw-CN":"","hk-CN":"","en-US":"Account Information","ja-JP":""},"accountinfo.fetch.failed":{"zh-CN":"获取账户资料失败","tw-CN":"","hk-CN":"","en-US":"Failed to get account data","ja-JP":""},"accountinfo.submit.success":{"zh-CN":"您的资料已提交成功，我们将尽快审核","tw-CN":"","hk-CN":"","en-US":"Your data has been submitted successfully and we will review it as soon as possible","ja-JP":""},"accountinfo.submit.failed":{"zh-CN":"提交审核失败","tw-CN":"","hk-CN":"","en-US":"Submit audit failed","ja-JP":""},"accountinfo.submit.confirm.title":{"zh-CN":"修改信息","tw-CN":"","hk-CN":"","en-US":"Your information is as follows, please carefully check and confirm the submission","ja-JP":""},"accountinfo.submit.confirm.viewheader":{"zh-CN":"您的修改信息如下，请仔细核对后确认提交。","tw-CN":"","hk-CN":"","en-US":"","ja-JP":""},"accountinfo.submit.confirm":{"zh-CN":"确认提交","tw-CN":"","hk-CN":"","en-US":"Confirm submission","ja-JP":""},"accountinfo.submit.back":{"zh-CN":"返回修改","tw-CN":"","hk-CN":"","en-US":"Return to modify","ja-JP":""},"accountinfo.profile":{"zh-CN":"账户基本资料","tw-CN":"","hk-CN":"","en-US":"Account Basic Information","ja-JP":""},"accountinfo.financialinfo":{"zh-CN":"账户财务资料","tw-CN":"","hk-CN":"","en-US":"Account Financial Information","ja-JP":""},"accountinfo.idinfo":{"zh-CN":"账户证件信息","tw-CN":"","hk-CN":"","en-US":"Account document information","ja-JP":""},"accountinfo.edit":{"zh-CN":"编辑","tw-CN":"","hk-CN":"","en-US":"Edit","ja-JP":""},"accountinfo.submit":{"zh-CN":"提交审核","tw-CN":"","hk-CN":"","en-US":"Submit review","ja-JP":""},"accountinfo.submit.reviewtips":{"zh-CN":"注：修改账户资料需提交后台审核","tw-CN":"","hk-CN":"","en-US":"Note: Modify the account information to be submitted to the background audit","ja-JP":""},"accountinfo.submit.unmodifiedtips":{"zh-CN":"您的当前资料未发生修改，不需要提交审核","tw-CN":"","hk-CN":"","en-US":"","ja-JP":""},"accountinfo.pending":{"zh-CN":"审核中","tw-CN":"","hk-CN":"","en-US":"Auditting ","ja-JP":""},"account.real.symbol":{"zh-CN":"真实","tw-CN":"","hk-CN":"","en-US":"Real","ja-JP":""},"account.mock.symbol":{"zh-CN":"模拟","tw-CN":"","hk-CN":"","en-US":"Simulation","ja-JP":""},"overview.title":{"zh-CN":"账户总览","tw-CN":"","hk-CN":"","en-US":"Account Overview","ja-JP":""},"overview.welcome":{"zh-CN":"欢迎登录","tw-CN":"","hk-CN":"","en-US":"Welcome to log in","ja-JP":""},"overview.lastlogintime":{"zh-CN":"上次登录：","tw-CN":"","hk-CN":"","en-US":"Last login:","ja-JP":""},"overview.lastlogintime.tips":{"zh-CN":"若发现异常，请及时更改登录密码","tw-CN":"","hk-CN":"","en-US":"If abnormal, please change the login password","ja-JP":""},"overview.realaccount.title":{"zh-CN":"真实账户","tw-CN":"","hk-CN":"","en-US":"Real account","ja-JP":""},"overview.realaccount.blancetips":{"zh-CN":"账户余额为本次登录时间同步结果, 详细实时净值数据请登录交易平台查看","tw-CN":"","hk-CN":"","en-US":"Account balance for the current login time synchronization results, detailed real-time net value of the data, please visit the trading platform","ja-JP":""},"overview.account.table.column.title.platform":{"zh-CN":"平台名称","tw-CN":"","hk-CN":"","en-US":"The platform name","ja-JP":""},"overview.account.table.column.title.accountname":{"zh-CN":"账户名","tw-CN":"","hk-CN":"","en-US":"Account name ","ja-JP":""},"overview.account.table.column.title.account":{"zh-CN":"帐号","tw-CN":"","hk-CN":"","en-US":"Account","ja-JP":""},"overview.account.table.column.title.currency":{"zh-CN":"结算货币","tw-CN":"","hk-CN":"","en-US":"Settlement currency","ja-JP":""},"overview.account.table.column.title.balance":{"zh-CN":"账户余额","tw-CN":"","hk-CN":"","en-US":"Account Balance","ja-JP":""},"overview.account.login":{"zh-CN":"登录","tw-CN":"","hk-CN":"","en-US":"Login","ja-JP":""},"overview.account.logined":{"zh-CN":"已登录","tw-CN":"","hk-CN":"","en-US":"Logined","ja-JP":""},"overview.account.active":{"zh-CN":"激活","tw-CN":"","hk-CN":"","en-US":"Active","ja-JP":""},"overview.account.active.success":{"zh-CN":"账户激活成功","tw-CN":"","hk-CN":"","en-US":"Account activation is successful","ja-JP":""},"overview.account.active.failed":{"zh-CN":"账户激活失败","tw-CN":"","hk-CN":"","en-US":"Account activation failed","ja-JP":""},"overview.mockaccount.title":{"zh-CN":"模拟账户","tw-CN":"","hk-CN":"","en-US":"Demo accoun","ja-JP":""},"overview.account.active.confirm.account":{"zh-CN":"账号","tw-CN":"","hk-CN":"","en-US":"Account number","ja-JP":""},"overview.account.active.confirm.accountname":{"zh-CN":"账户名","tw-CN":"","hk-CN":"","en-US":"Account name","ja-JP":""},"overview.account.active.confirm.password":{"zh-CN":"主密码","tw-CN":"","hk-CN":"","en-US":"Master password","ja-JP":""},"overview.account.active.confirm.title":{"zh-CN":"激活账户","tw-CN":"","hk-CN":"","en-US":"Active the account","ja-JP":""},"overview.account.active.confirm.ok":{"zh-CN":"激活","tw-CN":"","hk-CN":"","en-US":"Active","ja-JP":""},"overview.account.active.confirm.password.required":{"zh-CN":"请填写密码!","tw-CN":"","hk-CN":"","en-US":"Please enter the password","ja-JP":""},"overview.account.switchaccount.success":{"zh-CN":"切换账户成功！","tw-CN":"","hk-CN":"","en-US":"Switch account successfully!","ja-JP":""},"openaccount.list":{"zh-CN":"选择需要开通的交易账户","tw-CN":"","hk-CN":"","en-US":"Select the trading account to be opened","ja-JP":""},"openaccount.liveaccount":{"zh-CN":"真实账户","tw-CN":"","hk-CN":"","en-US":"Real account","ja-JP":""},"openaccount.sameaccount":{"zh-CN":"同名账户","tw-CN":"","hk-CN":"","en-US":"Account with the same name","ja-JP":""},"openaccount.applying":{"zh-CN":"审核中","tw-CN":"","hk-CN":"","en-US":"Auditting","ja-JP":""},"openaccount.login":{"zh-CN":"已登录","tw-CN":"","hk-CN":"","en-US":"Logined","ja-JP":""},"openaccount.back":{"zh-CN":"返回","tw-CN":"","hk-CN":"","en-US":"Return to modify","ja-JP":""},"openaccount.next":{"zh-CN":"下一步","tw-CN":"","hk-CN":"","en-US":"Next","ja-JP":""},"openaccount.previous":{"zh-CN":"上一步","tw-CN":"","hk-CN":"","en-US":"Previous","ja-JP":""},"openaccount.submit":{"zh-CN":"提交","tw-CN":"","hk-CN":"","en-US":"Submit","ja-JP":""},"openaccount.submit.basic":{"zh-CN":"提交基本资料","tw-CN":"","hk-CN":"","en-US":"Submit the basic information","ja-JP":""},"openaccount.append.personal.info":{"zh-CN":"补充个人信息","tw-CN":"","hk-CN":"","en-US":"Supplemental personal information","ja-JP":""},"openaccount.upload.identify":{"zh-CN":"上传身份证明","tw-CN":"","hk-CN":"","en-US":"Upload an ID","ja-JP":""},"openaccount.tip":{"zh-CN":"提示","tw-CN":"","hk-CN":"","en-US":"Remind","ja-JP":""},"openaccount.liveaccount.applying.state":{"zh-CN":"获取申请真实账户状态失败","tw-CN":"","hk-CN":"","en-US":"Failed to get status of real account application","ja-JP":""},"openaccount.demoaccount":{"zh-CN":"模拟账户","tw-CN":"","hk-CN":"","en-US":"Demo account","ja-JP":""},"openaccount.bindaccount":{"zh-CN":"绑定账户","tw-CN":"","hk-CN":"","en-US":"Bind account","ja-JP":""},"openaccount.bindaccount.applying":{"zh-CN":"绑定账户正在审核","tw-CN":"","hk-CN":"","en-US":"Binding account is under review","ja-JP":""},"openaccount.newaccount":{"zh-CN":"开立账户","tw-CN":"","hk-CN":"","en-US":"Open an account","ja-JP":""},"openaccount.open.realaccount":{"zh-CN":"开立真实账户","tw-CN":"","hk-CN":"","en-US":"Open a real account","ja-JP":""},"openaccount.open.demoaccount":{"zh-CN":"开立模拟账户","tw-CN":"","hk-CN":"","en-US":"Open a demo account","ja-JP":""},"openaccount.leverage":{"zh-CN":"调整杠杆","tw-CN":"","hk-CN":"","en-US":"Adjust the leverage","ja-JP":""},"openaccount.modify.password":{"zh-CN":"修改密码","tw-CN":"","hk-CN":"","en-US":"Modify the password","ja-JP":""},"openaccount.preview.audit":{"zh-CN":"账户审核中","tw-CN":"","hk-CN":"","en-US":"Account is in auditting","ja-JP":""},"openaccount.preview.description":{"zh-CN":"您的账户号开立信息正在审核中","tw-CN":"","hk-CN":"","en-US":"Your account information is being reviewed","ja-JP":""},"openaccount.preview.confirm":{"zh-CN":"真实账户开立信息确认","tw-CN":"","hk-CN":"","en-US":"Confirmation of real account opening information","ja-JP":""},"openaccount.protocol":{"zh-CN":"开立真实账户需要您同意协议","tw-CN":"","hk-CN":"","en-US":"Opening a real account requires that you agree to the Agreement","ja-JP":""},"openaccount.protocol1":{"zh-CN":"我已阅读并理解被提供的信息，包括","tw-CN":"","hk-CN":"","en-US":"I have read and understood the information provided, including","ja-JP":""},"openaccount.protocol2":{"zh-CN":"用户协议及风险披露","tw-CN":"","hk-CN":"","en-US":"User Agreement and Risk Disclosure","ja-JP":""},"openaccount.protocol3":{"zh-CN":"声明，并愿意继续开户申请","tw-CN":"","hk-CN":"","en-US":"Statement, and are willing to continue to apply for an account","ja-JP":""},"openaccount.protocol.tip":{"zh-CN":"用户协议及风险提示","tw-CN":"","hk-CN":"","en-US":"User agreement and risk warning","ja-JP":""},"openaccount.print":{"zh-CN":"打印","tw-CN":"","hk-CN":"","en-US":"Print","ja-JP":""},"openaccount.modify":{"zh-CN":"修改","tw-CN":"","hk-CN":"","en-US":"Modify","ja-JP":""},"openaccount.confirm":{"zh-CN":"确认","tw-CN":"","hk-CN":"","en-US":"Confirm","ja-JP":""},"bindaccount.accountname":{"zh-CN":"请输入账户名","tw-CN":"","hk-CN":"","en-US":"Please enter the account name","ja-JP":""},"bindaccount.binding":{"zh-CN":"绑定真实账户","tw-CN":"","hk-CN":"","en-US":"Bind the real account","ja-JP":""},"bindaccount.binding.difference":{"zh-CN":"所绑定的账户名与账户资料中的姓名不一致，请确认是否绑定？","tw-CN":"","hk-CN":"","en-US":"The binding account name does not match the name in the account data, please check if it is bound","ja-JP":""},"bindingaccount.update.info":{"zh-CN":"绑定成功后该账户的账户名将更新为账户资料中的姓名","tw-CN":"","hk-CN":"","en-US":"After the successful binding of the account, account name will be updated to the account information in the name","ja-JP":""},"bindaccount.confirm":{"zh-CN":"确认绑定","tw-CN":"","hk-CN":"","en-US":"Confirm binding","ja-JP":""},"bindaccount.cancel":{"zh-CN":"取消","tw-CN":"","hk-CN":"","en-US":"Cancel","ja-JP":""},"bindaccount.submit":{"zh-CN":"提交","tw-CN":"","hk-CN":"","en-US":"Submit","ja-JP":""},"bindaccount.name":{"zh-CN":"账户名","tw-CN":"","hk-CN":"","en-US":"Account name","ja-JP":""},"bindaccount.name.tip":{"zh-CN":"请输入账户名","tw-CN":"","hk-CN":"","en-US":"Please enter the account name","ja-JP":""},"bindaccount.account":{"zh-CN":"账户","tw-CN":"","hk-CN":"","en-US":"Account","ja-JP":""},"bindaccount.account.tip":{"zh-CN":"请输入交易账户","tw-CN":"","hk-CN":"","en-US":"Please enter the trading account","ja-JP":""},"bindaccount.main.password":{"zh-CN":"主密码","tw-CN":"","hk-CN":"","en-US":"Main password","ja-JP":""},"bindaccount.main.password.tip":{"zh-CN":"请输入主密码","tw-CN":"","hk-CN":"","en-US":"Please enter the main password","ja-JP":""},"bindaccount.server":{"zh-CN":"服务器","tw-CN":"","hk-CN":"","en-US":"Server","ja-JP":""},"bindaccount.applying.remark":{"zh-CN":"申请备注","tw-CN":"","hk-CN":"","en-US":"Application note","ja-JP":""},"bindaccount.applying.remark.tip":{"zh-CN":"请填写申请备注","tw-CN":"","hk-CN":"","en-US":"Please fill in the application note","ja-JP":""},"bindaccount.binding.realaccount":{"zh-CN":"绑定真实账户","tw-CN":"","hk-CN":"","en-US":"Bind the real account","ja-JP":""},"bindaccount.applying.success":{"zh-CN":"绑定账户申请发送成功","tw-CN":"","hk-CN":"","en-US":"Bind the account request to send successfully","ja-JP":""},"bindaccount.applying.failed":{"zh-CN":"绑定和账户申请发送失败","tw-CN":"","hk-CN":"","en-US":"Binding and account request send failed","ja-JP":""},"realaccount.description":{"zh-CN":"请认真填写以下表单，审核通过后开户信息将发至您的电子邮箱。","tw-CN":"","hk-CN":"","en-US":"Please fill in the following form carefully, after passing the audit, information will be sent to your e-mail","ja-JP":""},"realaccount.basic":{"zh-CN":"基本资料","tw-CN":"","hk-CN":"","en-US":"Basic information","ja-JP":""},"realaccount.personal.info":{"zh-CN":"个人信息","tw-CN":"","hk-CN":"","en-US":"Personal information","ja-JP":""},"realaccount.finance":{"zh-CN":"财务资料","tw-CN":"","hk-CN":"","en-US":"Financial Information","ja-JP":""},"realaccount.file":{"zh-CN":"身份证明","tw-CN":"","hk-CN":"","en-US":"Personal I.D","ja-JP":""},"realaccount.next":{"zh-CN":"保存并下一步","tw-CN":"","hk-CN":"","en-US":"Save and then click Next","ja-JP":""},"realaccount.prev":{"zh-CN":"上一步","tw-CN":"","hk-CN":"","en-US":"Previous","ja-JP":""},"realaccount.confirm":{"zh-CN":"确认","tw-CN":"","hk-CN":"","en-US":"Confirm","ja-JP":""},"realaccount.applying":{"zh-CN":"您的开立真实交易账户申请已经提交审核，审核通过后，账户信息将发至您的邮箱，请注意查收。","tw-CN":"","hk-CN":"","en-US":"Your opening of a real trading account application has been submitted for review, after the audit, the account information will be sent to your mailbox, please pay attention to check.","ja-JP":""},"realaccount.applying.success":{"zh-CN":"真实账户开立成功","tw-CN":"","hk-CN":"","en-US":"The real account opened successfully","ja-JP":""},"realaccount.applying.failed":{"zh-CN":"申请开立账户失败","tw-CN":"","hk-CN":"","en-US":"Application to open an account failed","ja-JP":""},"realaccount.applying.tip1":{"zh-CN":"您的真实交易账户已经成功开立，","tw-CN":"","hk-CN":"","en-US":"Your real trading account has been successfully opened,","ja-JP":""},"realaccount.applying.tip2":{"zh-CN":"账户信息已发送至您的注册邮箱","tw-CN":"","hk-CN":"","en-US":"Account information has been sent to your registration email","ja-JP":""},"realaccount.applying.tip3":{"zh-CN":"请注意查收。","tw-CN":"","hk-CN":"","en-US":"Please pay attention to check.","ja-JP":""},"sameaccount.applying.failed":{"zh-CN":"初始化申请同名账户失败","tw-CN":"","hk-CN":"","en-US":"Initialization application failed for account with the same name","ja-JP":""},"sameaccount.applying.info":{"zh-CN":"同名账户开立信息","tw-CN":"","hk-CN":"","en-US":"The same name to open the account information","ja-JP":""},"sameaccount.basic":{"zh-CN":"基本资料","tw-CN":"","hk-CN":"","en-US":"Basic information","ja-JP":""},"sameaccount.finance":{"zh-CN":"财务资料","tw-CN":"","hk-CN":"","en-US":"Financial Information","ja-JP":""},"sameaccount.file":{"zh-CN":"身份证明","tw-CN":"","hk-CN":"","en-US":"Personal I.D","ja-JP":""},"sameaccount.cancel":{"zh-CN":"取消","tw-CN":"","hk-CN":"","en-US":"Cancel","ja-JP":""},"sameaccount.confirm.submit":{"zh-CN":"确认提交","tw-CN":"","hk-CN":"","en-US":"Confirm to submit","ja-JP":""},"sameaccount.print":{"zh-CN":"打印","tw-CN":"","hk-CN":"","en-US":"Print","ja-JP":""},"sameaccount.modify":{"zh-CN":"修改","tw-CN":"","hk-CN":"","en-US":"Modify","ja-JP":""},"sameaccount.confirm":{"zh-CN":"确认","tw-CN":"","hk-CN":"","en-US":"Confirm","ja-JP":""},"sameaccount.apply.success":{"zh-CN":"您的同名账户申请已经提交审核，审核通过后，账户信息将发至您的邮箱，请注意查收。","tw-CN":"","hk-CN":"","en-US":"Your account with the same name has been submitted for review, after the audit, the account information will be sent to your mailbox, please note that check.","ja-JP":""},"sameaccount.apply.failed":{"zh-CN":"申请开立同名账户失败","tw-CN":"","hk-CN":"","en-US":"Application to open an account with the same name failed","ja-JP":""},"sameaccount.info.confirm":{"zh-CN":"您的同名账户申请资料信息如下，请仔细核对后确认提交","tw-CN":"","hk-CN":"","en-US":"Your application for the same account information is as follows, please carefully check and confirm the submission","ja-JP":""},"sameaccount.tip":{"zh-CN":"提示","tw-CN":"","hk-CN":"","en-US":"Remind","ja-JP":""},"mockaccount.description":{"zh-CN":"请认真填写以下表单，审核通过后开户信息将发至您的电子邮箱。","tw-CN":"","hk-CN":"","en-US":"Please fill in the following form carefully, after passing the audit, information will be sent to your e-mail.","ja-JP":""},"mockaccount.name":{"zh-CN":"账户名","tw-CN":"","hk-CN":"","en-US":"Account name","ja-JP":""},"mockaccount.name.tip":{"zh-CN":"请填写正确的账户名","tw-CN":"","hk-CN":"","en-US":"Please fill in the correct account name","ja-JP":""},"mockaccount.email":{"zh-CN":"邮箱","tw-CN":"","hk-CN":"","en-US":"Email","ja-JP":""},"mockaccount.email.tip":{"zh-CN":"请填写正确的邮箱","tw-CN":"","hk-CN":"","en-US":"Please enter the correct email","ja-JP":""},"mockaccount.phone":{"zh-CN":"电话","tw-CN":"","hk-CN":"","en-US":"Phone number","ja-JP":""},"mockaccount.phone.tip":{"zh-CN":"请填写正确的电话","tw-CN":"","hk-CN":"","en-US":"Please enter the correct phone number","ja-JP":""},"mockaccount.type":{"zh-CN":"账户类型","tw-CN":"","hk-CN":"","en-US":"Acount type","ja-JP":""},"mockaccount.applying.failed":{"zh-CN":"模拟帐户申请出错","tw-CN":"","hk-CN":"","en-US":"An impersonation request has occurred","ja-JP":""},"mockaccount.applying.success":{"zh-CN":"模拟帐户开户成功","tw-CN":"","hk-CN":"","en-US":"Demo account opening successful","ja-JP":""},"mockaccount.tip.info1":{"zh-CN":"您的模拟交易账户已经成功开立，","tw-CN":"","hk-CN":"","en-US":"Your demo trading account has been successfully opened,","ja-JP":""},"mockaccount.tip.info2":{"zh-CN":"账户信息已发送至您的注册邮箱","tw-CN":"","hk-CN":"","en-US":"Account information has been sent to your registration email","ja-JP":""},"mockaccount.tip.info3":{"zh-CN":"请注意查收。","tw-CN":"","hk-CN":"","en-US":"Please pay attention to check","ja-JP":""},"mockaccount.confirm":{"zh-CN":"确认","tw-CN":"","hk-CN":"","en-US":"Confirm","ja-JP":""},"mockaccount.submit":{"zh-CN":"提交","tw-CN":"","hk-CN":"","en-US":"Submit","ja-JP":""},"leverage.no.new.levarage":{"zh-CN":"没有选择新杠杆指","tw-CN":"","hk-CN":"","en-US":"No new leverage is selected","ja-JP":""},"leverage.no.account":{"zh-CN":"没有账户信息","tw-CN":"","hk-CN":"","en-US":"No account information","ja-JP":""},"leverage.different.leverage":{"zh-CN":"请选择不同的杠杆值","tw-CN":"","hk-CN":"","en-US":"Please choose a different leverage","ja-JP":""},"leverage.adjust.sended":{"zh-CN":"杠杆调整申请已发送","tw-CN":"","hk-CN":"","en-US":"Leverage adjustment request has been sent","ja-JP":""},"leverage.adjust.failed":{"zh-CN":"调整杠杆请求失败","tw-CN":"","hk-CN":"","en-US":"Adjustment lever request failed","ja-JP":""},"leverage.trade.account":{"zh-CN":"交易账号","tw-CN":"","hk-CN":"","en-US":"Trading account","ja-JP":""},"leverage.current.levarage":{"zh-CN":"当前杠杆","tw-CN":"","hk-CN":"","en-US":"Current levarage","ja-JP":""},"leverage.expected.levarage":{"zh-CN":"期望杠杆","tw-CN":"","hk-CN":"","en-US":"Expeced levarage","ja-JP":""},"leverage.remark":{"zh-CN":"备注","tw-CN":"","hk-CN":"","en-US":"Comment","ja-JP":""},"leverage.submit":{"zh-CN":"提交","tw-CN":"","hk-CN":"","en-US":"Submit","ja-JP":""},"resetpassword":{"zh-CN":"重置密码","tw-CN":"","hk-CN":"","en-US":"Reset password","ja-JP":""},"resetpassword.reset.success":{"zh-CN":"恭喜，您的密码已重置成功！","tw-CN":"","hk-CN":"","en-US":"Congratulations, your password has been reset successfaully!","ja-JP":""},"resetpassword.newpassword.required":{"zh-CN":"请输入新密码","tw-CN":"","hk-CN":"","en-US":"Please enter a new password","ja-JP":""},"resetpassword.confirmnewpassword.required":{"zh-CN":"请输入确认新密码","tw-CN":"","hk-CN":"","en-US":"Please enter and confirm the new password","ja-JP":""},"resetpassword.confirmnewpassword.inconsistent":{"zh-CN":"请确认两次输入的密码一致","tw-CN":"","hk-CN":"","en-US":"Please make sure the password is the same","ja-JP":""},"password.tip":{"zh-CN":"确认密码为必填项","tw-CN":"","hk-CN":"","en-US":"Confirm the password is required","ja-JP":""},"password.required":{"zh-CN":"确认密码为必填项","tw-CN":"","hk-CN":"","en-US":"Confirm the password is required","ja-JP":""},"password.required.tip":{"zh-CN":"两次输入密码不一致","tw-CN":"","hk-CN":"","en-US":"The two passwords are not the same","ja-JP":""},"password.modify.success":{"zh-CN":"修改密码成功","tw-CN":"","hk-CN":"","en-US":"Change the password successfully","ja-JP":""},"password.modify.failed":{"zh-CN":"修改密码失败","tw-CN":"","hk-CN":"","en-US":"Failed to modify password","ja-JP":""},"password.middle":{"zh-CN":"密码规则：6-20位，必须包含数字和字母","tw-CN":"","hk-CN":"","en-US":"Password rules: 6-20 digits, must contain numbers and letters","ja-JP":""},"password.strong":{"zh-CN":"密码规则：8-20位，必须包含数字、大小写字母","tw-CN":"","hk-CN":"","en-US":"Password rules: 8-20 digits, must contain numbers, uppercase and lowercase letters","ja-JP":""},"password.super.strong":{"zh-CN":"密码规则：8-20位，必须包含数字、大小写字母和特殊字符","tw-CN":"","hk-CN":"","en-US":"Password rules: 8-20 digits, must contain numbers, uppercase and lowercase letters and special characters","ja-JP":""},"password.trade.account":{"zh-CN":"交易账号","tw-CN":"","hk-CN":"","en-US":"Trading account","ja-JP":""},"password.type":{"zh-CN":"密码类型","tw-CN":"","hk-CN":"","en-US":"Password type","ja-JP":""},"password.type.trade":{"zh-CN":"交易主密码","tw-CN":"","hk-CN":"","en-US":"Trading main report","ja-JP":""},"password.type.investment":{"zh-CN":"投资者密码","tw-CN":"","hk-CN":"","en-US":"Investment password","ja-JP":""},"password.current":{"zh-CN":"当前密码","tw-CN":"","hk-CN":"","en-US":"Current password","ja-JP":""},"password.current.tip":{"zh-CN":"旧密码为必填项","tw-CN":"","hk-CN":"","en-US":"The old password is required","ja-JP":""},"password.new":{"zh-CN":"新密码","tw-CN":"","hk-CN":"","en-US":"New password","ja-JP":""},"password.new.tip":{"zh-CN":"密码长度有误或密码设置过于简单","tw-CN":"","hk-CN":"","en-US":"The password length is incorrect or the password setting is too simple","ja-JP":""},"password.confirm":{"zh-CN":"确认密码","tw-CN":"","hk-CN":"","en-US":"Confirm password","ja-JP":""},"password.submit":{"zh-CN":"提交","tw-CN":"","hk-CN":"","en-US":"Submit","ja-JP":""},"tradereport.order.number":{"zh-CN":"订单号","tw-CN":"","hk-CN":"","en-US":"Order number","ja-JP":""},"tradereport.total":{"zh-CN":"合计","tw-CN":"","hk-CN":"","en-US":"Total","ja-JP":""},"tradereport.account":{"zh-CN":"账号","tw-CN":"","hk-CN":"","en-US":"Account","ja-JP":""},"tradereport.type":{"zh-CN":"类型","tw-CN":"","hk-CN":"","en-US":"Type","ja-JP":""},"tradereport.variety":{"zh-CN":"品种","tw-CN":"","hk-CN":"","en-US":"Veriety","ja-JP":""},"tradereport.volum":{"zh-CN":"交易量","tw-CN":"","hk-CN":"","en-US":"Trading Volum","ja-JP":""},"tradereport.open.price":{"zh-CN":"开仓价","tw-CN":"","hk-CN":"","en-US":"Opening price","ja-JP":""},"tradereport.open.time":{"zh-CN":"开仓时间","tw-CN":"","hk-CN":"","en-US":"Opening time","ja-JP":""},"tradereport.exit.price":{"zh-CN":"平仓价","tw-CN":"","hk-CN":"","en-US":"Closing price","ja-JP":""},"tradereport.exit.time":{"zh-CN":"平仓时间","tw-CN":"","hk-CN":"","en-US":"Closing time","ja-JP":""},"tradereport.stop.loss":{"zh-CN":"止损","tw-CN":"","hk-CN":"","en-US":"Stop loss","ja-JP":""},"tradereport.take.profit":{"zh-CN":"止盈","tw-CN":"","hk-CN":"","en-US":"Only profit","ja-JP":""},"tradereport.commission":{"zh-CN":"佣金","tw-CN":"","hk-CN":"","en-US":"Commission","ja-JP":""},"tradereport.interest":{"zh-CN":"利息","tw-CN":"","hk-CN":"","en-US":"Interest","ja-JP":""},"tradereport.gain":{"zh-CN":"盈利","tw-CN":"","hk-CN":"","en-US":"Profit","ja-JP":""},"tradereport.resting.price":{"zh-CN":"挂单价","tw-CN":"","hk-CN":"","en-US":"Resting price","ja-JP":""},"tradereport.resting.time":{"zh-CN":"挂单时间","tw-CN":"","hk-CN":"","en-US":"Resting time","ja-JP":""},"tradereport.login":{"zh-CN":"请登录用户","tw-CN":"","hk-CN":"","en-US":"Please login account","ja-JP":""},"tradereport.reports":{"zh-CN":"交易报表","tw-CN":"","hk-CN":"","en-US":"Trading report","ja-JP":""},"tradereport.trade.history":{"zh-CN":"交易历史","tw-CN":"","hk-CN":"","en-US":"Trading history","ja-JP":""},"tradereport.position.query":{"zh-CN":"持仓查询","tw-CN":"","hk-CN":"","en-US":"Position query","ja-JP":""},"tradereport.restingorder.query":{"zh-CN":"挂单查询","tw-CN":"","hk-CN":"","en-US":"Resting order query","ja-JP":""},"deposit.account":{"zh-CN":"存入账户","tw-CN":"","hk-CN":"","en-US":"Deposit into account","ja-JP":""},"deposit.accountName":{"zh-CN":"账户姓名","tw-CN":"","hk-CN":"","en-US":"Account name","ja-JP":""},"deposit.currency":{"zh-CN":"存款货币","tw-CN":"","hk-CN":"","en-US":"Deposit currency","ja-JP":""},"deposit.depositAmount":{"zh-CN":"存款金额","tw-CN":"","hk-CN":"","en-US":"Deposit amount","ja-JP":""},"deposit.depositAmount.prompt.low":{"zh-CN":"最低存款金额","tw-CN":"","hk-CN":"","en-US":"Minimum deposit amount","ja-JP":""},"deposit.depositAmount.prompt.high":{"zh-CN":"最高存款金额","tw-CN":"","hk-CN":"","en-US":"Highest Deposit Amount","ja-JP":""},"deposit.depositAmount.errMsg":{"zh-CN":"请参照右边提示，正确填写金额","tw-CN":"","hk-CN":"","en-US":"Please refer to the prompt on the right to fill in the amount correctly","ja-JP":""},"deposit.paymentPlat":{"zh-CN":"支付平台","tw-CN":"","hk-CN":"","en-US":"Payment platform","ja-JP":""},"deposit.paymentAmount":{"zh-CN":"支付金额","tw-CN":"","hk-CN":"","en-US":"Payment amount","ja-JP":""},"deposit.paymentAmount.placeHolder":{"zh-CN":"将根据正确的存款金额自动计算","tw-CN":"","hk-CN":"","en-US":"Will automatically be calculated based on the correct deposit amount","ja-JP":""},"deposit.hasCharge":{"zh-CN":"含手续费","tw-CN":"","hk-CN":"","en-US":"Including service charge","ja-JP":""},"deposit.realTimeExchange":{"zh-CN":"实时汇率","tw-CN":"","hk-CN":"","en-US":"Real - time exchange rate","ja-JP":""},"deposit.convert":{"zh-CN":"兑","tw-CN":"","hk-CN":"","en-US":"Convert","ja-JP":""},"deposit.information":{"zh-CN":"在线入金申请信息","tw-CN":"","hk-CN":"","en-US":"Online deposit application information","ja-JP":""},"deposit.confirmView.title":{"zh-CN":"请确认您的入金信息，我们将尽快审核，请耐心等待","tw-CN":"","hk-CN":"","en-US":"Please confirm your deposit information, we will review as soon as possible, please be patient","ja-JP":""},"withdraw.account":{"zh-CN":"取款账户","tw-CN":"","hk-CN":"","en-US":"Withdraw account","ja-JP":""},"withdraw.accountName":{"zh-CN":"账户姓名","tw-CN":"","hk-CN":"","en-US":"Account name","ja-JP":""},"withdraw.currency":{"zh-CN":"账户货币","tw-CN":"","hk-CN":"","en-US":"Account currency","ja-JP":""},"withdraw.balance":{"zh-CN":"账户余额","tw-CN":"","hk-CN":"","en-US":"Account Balance","ja-JP":""},"withdraw.amount":{"zh-CN":"出金金额","tw-CN":"","hk-CN":"","en-US":"Balance of withdrawal","ja-JP":""},"withdraw.amount.errMsg":{"zh-CN":"取款金额必须是有效的数字，不可超过账户余额","tw-CN":"","hk-CN":"","en-US":"The withdrawal amount must be a valid number and can not exceed the balance of the account","ja-JP":""},"withdraw.receiver":{"zh-CN":"收款人","tw-CN":"","hk-CN":"","en-US":"Payee","ja-JP":""},"withdraw.receiver.errMsg":{"zh-CN":"收款人不能为空","tw-CN":"","hk-CN":"","en-US":"Payee can not be empty","ja-JP":""},"withdraw.bankNumber":{"zh-CN":"银行账号","tw-CN":"","hk-CN":"","en-US":"Bank Account","ja-JP":""},"withdraw.bankNumber.errMsg":{"zh-CN":"请选择或输入一个格式正确的银行账号","tw-CN":"","hk-CN":"","en-US":"Please select or enter a properly formatted bank account number","ja-JP":""},"withdraw.bankName":{"zh-CN":"银行名称","tw-CN":"","hk-CN":"","en-US":"Bank name","ja-JP":""},"withdraw.bankName.errMsg":{"zh-CN":"请选择一个银行名称","tw-CN":"","hk-CN":"","en-US":"Please select a bank name","ja-JP":""},"withdraw.bankBranchName":{"zh-CN":"分支行名称","tw-CN":"","hk-CN":"","en-US":"The name of the branch bank","ja-JP":""},"withdraw.bankBranchName.errMsg":{"zh-CN":"分支行名称不能为空","tw-CN":"","hk-CN":"","en-US":"The name of the branch bank can not be empty","ja-JP":""},"withdraw.swiftCode":{"zh-CN":"SWIFT代码","tw-CN":"","hk-CN":"","en-US":"SWIFT code","ja-JP":""},"withdraw.swiftCode.errMsg":{"zh-CN":"请输入正确的SWIFT代码","tw-CN":"","hk-CN":"","en-US":"Please enter the correct SWIFT code","ja-JP":""},"withdraw.bankAddress":{"zh-CN":"银行地址","tw-CN":"","hk-CN":"","en-US":"Bank address","ja-JP":""},"withdraw.bankAddress.errMsg":{"zh-CN":"银行地址不能为空","tw-CN":"","hk-CN":"","en-US":"The bank address can not be empty","ja-JP":""},"withdraw.lastBankNumber":{"zh-CN":"尾号","tw-CN":"","hk-CN":"","en-US":"Tail number","ja-JP":""},"withdraw.message.errTip1":{"zh-CN":"获取相关数据失败","tw-CN":"","hk-CN":"","en-US":"Failed to get related data","ja-JP":""},"withdraw.message.succTip1":{"zh-CN":"出金申请成功","tw-CN":"","hk-CN":"","en-US":"Withdraw application was successful","ja-JP":""},"withdraw.confirmView.title":{"zh-CN":"您的出金申请信息如下，请仔细核对后确认提交","tw-CN":"","hk-CN":"","en-US":"Your withdraw application information is as follows, please carefully check and confirm the submission","ja-JP":""},"withdraw.information":{"zh-CN":"出金申请信息","tw-CN":"","hk-CN":"","en-US":"Withdraw application information","ja-JP":""},"transfer.transferAccount":{"zh-CN":"转出账户","tw-CN":"","hk-CN":"","en-US":"Transfer account","ja-JP":""},"transfer.transferAccountName":{"zh-CN":"账户姓名","tw-CN":"","hk-CN":"","en-US":"Account name","ja-JP":""},"transfer.currency":{"zh-CN":"账户货币","tw-CN":"","hk-CN":"","en-US":"Account currency","ja-JP":""},"transfer.balance":{"zh-CN":"账户余额","tw-CN":"","hk-CN":"","en-US":"Account Balance","ja-JP":""},"transfer.amount":{"zh-CN":"转账金额","tw-CN":"","hk-CN":"","en-US":"Transfer amount","ja-JP":""},"transfer.transferAmount":{"zh-CN":"取款金额","tw-CN":"","hk-CN":"","en-US":"Withdraw amount","ja-JP":""},"transfer.amount.errMsg":{"zh-CN":"转账金额必须是有效的数字，不可超过账户余额","tw-CN":"","hk-CN":"","en-US":"The transfer amount must be a valid number and can not exceed the account balance","ja-JP":""},"transfer.transferredAccount":{"zh-CN":"转入账户","tw-CN":"","hk-CN":"","en-US":"Transferred Account","ja-JP":""},"transfer.transferredAccountNum":{"zh-CN":"转入账户账号","tw-CN":"","hk-CN":"","en-US":"The account number transferred to the account","ja-JP":""},"transfer.transferredAccountNum.errMsg":{"zh-CN":"转入账户账号应为数字类型，且不能和转出账户相同","tw-CN":"","hk-CN":"","en-US":"The account to be transferred to the account should be of a numeric type and can not be the same as the outgoing account","ja-JP":""},"transfer.transferredAccountName":{"zh-CN":"转入账户姓名","tw-CN":"","hk-CN":"","en-US":"Transfer the account name","ja-JP":""},"transfer.transferredAccountName.errMsg":{"zh-CN":"请输入转入账户姓名","tw-CN":"","hk-CN":"","en-US":"Please enter the name of the transferred account","ja-JP":""},"transfer.transferredAccountServer":{"zh-CN":"转入账户服务器","tw-CN":"","hk-CN":"","en-US":"Transfer into the account server","ja-JP":""},"transfer.other":{"zh-CN":"其他","tw-CN":"","hk-CN":"","en-US":"Other","ja-JP":""},"transfer.confirmSubmit":{"zh-CN":"确认提交","tw-CN":"","hk-CN":"","en-US":"Confirm submission","ja-JP":""},"transfer.read":{"zh-CN":"我已阅读并理解","tw-CN":"","hk-CN":"","en-US":"I have read and understood","ja-JP":""},"transfer.agreement":{"zh-CN":"第三方汇款转账协议","tw-CN":"","hk-CN":"","en-US":"Third Party Remittance Transfer Agreement","ja-JP":""},"transfer.agreeTransfer":{"zh-CN":"并愿意继续转账","tw-CN":"","hk-CN":"","en-US":"And is willing to continue to transfer","ja-JP":""},"transfer.remittance.information":{"zh-CN":"转账汇款信息","tw-CN":"","hk-CN":"","en-US":"Remittance information","ja-JP":""},"transfer.tipContent":{"zh-CN":"当前操作需要您同意第三方汇款转账协议","tw-CN":"","hk-CN":"","en-US":"You agree to the Third Party Remittance Transfer Agreement for the current operation","ja-JP":""},"transfer.confirmViewTitle":{"zh-CN":"您的转账信息如下，请仔细核对后确认提交","tw-CN":"","hk-CN":"","en-US":"Your transfer information is as follows, please carefully check and confirm the submission","ja-JP":""},"transfer.message.errTip1":{"zh-CN":"当前只有一个真实账户无法内部转账","tw-CN":"","hk-CN":"","en-US":"Currently only one real account can not be transferred internally","ja-JP":""},"transfer.message.errTip2":{"zh-CN":"读取转入账户服务器列表失败","tw-CN":"","hk-CN":"","en-US":"Failed to read list of servers transferred to account","ja-JP":""},"transfer.message.errTip3":{"zh-CN":"转账申请失败","tw-CN":"","hk-CN":"","en-US":"Transfer request failed","ja-JP":""},"transfer.message.errTip4":{"zh-CN":"转入账户信息不匹配，请重新核对","tw-CN":"","hk-CN":"","en-US":"Transferred to account information does not match, please re-check","ja-JP":""},"transfer.message.succTip1":{"zh-CN":"转账申请成功","tw-CN":"","hk-CN":"","en-US":"Transfer successful","ja-JP":""},"fundflow.serialNumber":{"zh-CN":"流水号","tw-CN":"","hk-CN":"","en-US":"SerailNumber","ja-JP":""},"fundflow.account":{"zh-CN":"账户","tw-CN":"","hk-CN":"","en-US":"Account","ja-JP":""},"fundflow.tradeType":{"zh-CN":"交易类型","tw-CN":"","hk-CN":"","en-US":"Trading Type","ja-JP":""},"fundflow.tradeType.all":{"zh-CN":"全部","tw-CN":"","hk-CN":"","en-US":"All","ja-JP":""},"fundflow.tradeType.deposit":{"zh-CN":"存款","tw-CN":"","hk-CN":"","en-US":"Deposit","ja-JP":""},"fundflow.tradeType.withdraw":{"zh-CN":"取款","tw-CN":"","hk-CN":"","en-US":"Withdraw","ja-JP":""},"fundflow.tradeType.transfer":{"zh-CN":"转账","tw-CN":"","hk-CN":"","en-US":"Transfer","ja-JP":""},"fundflow.tradeAmount":{"zh-CN":"交易金额","tw-CN":"","hk-CN":"","en-US":"Trading amount","ja-JP":""},"fundflow.tradeState":{"zh-CN":"交易状态","tw-CN":"","hk-CN":"","en-US":"Trading state","ja-JP":""},"fundflow.tradeState.submited":{"zh-CN":"已提交","tw-CN":"","hk-CN":"","en-US":"Submited","ja-JP":""},"fundflow.tradeState.dealed":{"zh-CN":"处理中","tw-CN":"","hk-CN":"","en-US":"Dealing","ja-JP":""},"fundflow.tradeState.finished":{"zh-CN":"已完成","tw-CN":"","hk-CN":"","en-US":"Finished","ja-JP":""},"fundflow.tradeState.rejected":{"zh-CN":"已拒绝","tw-CN":"","hk-CN":"","en-US":"Rejected","ja-JP":""},"fundflow.tradeTime":{"zh-CN":"交易时间","tw-CN":"","hk-CN":"","en-US":"Trading time","ja-JP":""},"fundflow.message.errTip":{"zh-CN":"资金流水读取数据失败","tw-CN":"","hk-CN":"","en-US":"Money flow read data failed","ja-JP":""},"formfieldcomponent.text.invalid":{"zh-CN":"输入的格式有误","tw-CN":"","hk-CN":"","en-US":"The format you entered is incorrect","ja-JP":""},"downloadcenter.title":{"zh-CN":"下载中心","tw-CN":"","hk-CN":"","en-US":"Download center","ja-JP":""},"downloadcenter.fetch.failed":{"zh-CN":"获取下载中心资源失败","tw-CN":"","hk-CN":"","en-US":"Failed to download center resource","ja-JP":""}}
+{
+    "general.captcha.loading": {
+        "zh-CN": "验证码加载中",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "The captcha is in loading",
+        "ja-JP": ""
+    },
+    "general.captcha.loadfailed": {
+        "zh-CN": "验证码加载失败",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "The captcha loaded failed",
+        "ja-JP": ""
+    },
+    "general.captcha.refresh": {
+        "zh-CN": "刷新",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Refresh",
+        "ja-JP": ""
+    },
+    "general.captcha.uninitialized": {
+        "zh-CN": "请等待验证码加载后，输入验证码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter the captcha after the captcha loaded",
+        "ja-JP": ""
+    },
+    "general.captcha.invalid": {
+        "zh-CN": "请先完成验证",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please finish the verification first",
+        "ja-JP": ""
+    },
+    "general.register": {
+        "zh-CN": "注册",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Login",
+        "ja-JP": ""
+    },
+    "general.verifycode": {
+        "zh-CN": "验证码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Captcha",
+        "ja-JP": ""
+    },
+    "general.getverifycode": {
+        "zh-CN": "获取验证码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Get the captcha",
+        "ja-JP": ""
+    },
+    "general.resend": {
+        "zh-CN": "秒后重发",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Resend",
+        "ja-JP": ""
+    },
+    "general.auditing": {
+        "zh-CN": "审核中",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Auditting ",
+        "ja-JP": ""
+    },
+    "general.back": {
+        "zh-CN": "返回",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Return",
+        "ja-JP": ""
+    },
+    "general.tip": {
+        "zh-CN": "提示",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Remind",
+        "ja-JP": ""
+    },
+    "general.submit": {
+        "zh-CN": "提交",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Submit",
+        "ja-JP": ""
+    },
+    "general.submiting": {
+        "zh-CN": "提交中",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Submitting",
+        "ja-JP": ""
+    },
+    "general.onlinesupport": {
+        "zh-CN": "客服",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Service",
+        "ja-JP": ""
+    },
+    "general.about": {
+        "zh-CN": "关于我们",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "About us",
+        "ja-JP": ""
+    },
+    "general.exit": {
+        "zh-CN": "注销",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Logout",
+        "ja-JP": ""
+    },
+    "general.confirm": {
+        "zh-CN": "确认",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Confirm",
+        "ja-JP": ""
+    },
+    "general.print": {
+        "zh-CN": "打印",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Print",
+        "ja-JP": ""
+    },
+    "general.modify": {
+        "zh-CN": "修改",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Modify",
+        "ja-JP": ""
+    },
+    "general.comment": {
+        "zh-CN": "备注",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Comment",
+        "ja-JP": ""
+    },
+    "general.gotologin": {
+        "zh-CN": "立即登录",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please login immediately",
+        "ja-JP": ""
+    },
+    "general.contract.title": {
+        "zh-CN": "条款",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Contract ",
+        "ja-JP": ""
+    },
+    "general.password.middle.invalid": {
+        "zh-CN": "密码必须6-20位，由数字字母（大小写均可）组成",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Password must be 6-20 digits and consists of alphanumeric characters (upper and lower case)",
+        "ja-JP": ""
+    },
+    "general.password.strong.invalid": {
+        "zh-CN": "密码必须8-20位，同时包含数字大小写字母",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Password must be  8-20 digits, and contains both uppercase and lowercase letters",
+        "ja-JP": ""
+    },
+    "general.password.superstrong.invalid": {
+        "zh-CN": "密码必须8-20位，同时包含数字大小写字母和符号",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Passwords must be 8-20 digits, and contain both uppercase and lowercase letters and symbols",
+        "ja-JP": ""
+    },
+    "general.button.ok": {
+        "zh-CN": "确认",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Confirm",
+        "ja-JP": ""
+    },
+    "general.button.cancel": {
+        "zh-CN": "取消",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Cancel",
+        "ja-JP": ""
+    },
+    "user.login.timeout": {
+        "zh-CN": "登陆已超时!",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Login has time out!",
+        "ja-JP": ""
+    },
+    "user.login.invalid": {
+        "zh-CN": "登陆异常，点击确定重新登陆",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Invalid login, please click the ok to log in again ",
+        "ja-JP": ""
+    },
+    "user.login.haslogout": {
+        "zh-CN": "检测到您已登出，点击确定重新登陆",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Detected you have logged out, click ok to log in",
+        "ja-JP": ""
+    },
+    "user.login.multiuser": {
+        "zh-CN": "检测到您登陆了其他用户，建议您关闭此窗口，防止串号",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Detecting that you are logged in to another user, we recommend that you close this window to prevent the serial number",
+        "ja-JP": ""
+    },
+    "menu.personal.name": {
+        "zh-CN": "我的资料",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "My information",
+        "ja-JP": ""
+    },
+    "menu.personal.overview": {
+        "zh-CN": "账户总览",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account overview",
+        "ja-JP": ""
+    },
+    "menu.personal.basicinfo": {
+        "zh-CN": "用户资料",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "User informaton",
+        "ja-JP": ""
+    },
+    "menu.personal.acctinfo": {
+        "zh-CN": "账户资料",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account informaton",
+        "ja-JP": ""
+    },
+    "menu.accountmgmt.name": {
+        "zh-CN": "账户管理",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account management",
+        "ja-JP": ""
+    },
+    "menu.accountmgmt.openaccount": {
+        "zh-CN": "开立账户",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Open an account",
+        "ja-JP": ""
+    },
+    "menu.modify.password": {
+        "zh-CN": "修改密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Modify password",
+        "ja-JP": ""
+    },
+    "menu.adjust.leverage": {
+        "zh-CN": "调整杠杆",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Modify leverage",
+        "ja-JP": ""
+    },
+    "menu.trade.report": {
+        "zh-CN": "交易报表",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Trading reprot",
+        "ja-JP": ""
+    },
+    "menu.fundmgmt.name": {
+        "zh-CN": "资金管理",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Fund management",
+        "ja-JP": ""
+    },
+    "menu.fundmgmt.deposit": {
+        "zh-CN": "在线入金",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Online deposit",
+        "ja-JP": ""
+    },
+    "menu.fundmgmt.withdraw": {
+        "zh-CN": "出金申请",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Withdraw application",
+        "ja-JP": ""
+    },
+    "menu.fundmgmt.transfer": {
+        "zh-CN": "转账汇款",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Transfer the remittance",
+        "ja-JP": ""
+    },
+    "menu.fundmgmt.telegraphic": {
+        "zh-CN": "电汇信息",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Telegraphic information",
+        "ja-JP": ""
+    },
+    "menu.fundmgmt.fundflow": {
+        "zh-CN": "资金流水",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Fundflow",
+        "ja-JP": ""
+    },
+    "menu.relatedmgmt.name": {
+        "zh-CN": "相关管理",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Related management ",
+        "ja-JP": ""
+    },
+    "menu.relatedmgmt.loadcenter": {
+        "zh-CN": "下载中心",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Download center",
+        "ja-JP": ""
+    },
+    "menu.logout": {
+        "zh-CN": "注销",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Logout",
+        "ja-JP": ""
+    },
+    "menu.about.us": {
+        "zh-CN": "关于我们",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "About us",
+        "ja-JP": ""
+    },
+    "menu.customer.service": {
+        "zh-CN": "客服",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Service",
+        "ja-JP": ""
+    },
+    "menu.lang.chinese": {
+        "zh-CN": "中文",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Chinese",
+        "ja-JP": ""
+    },
+    "menu.lang.american": {
+        "zh-CN": "英语",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "English",
+        "ja-JP": ""
+    },
+    "menu.about": {
+        "zh-CN": "关于",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "About",
+        "ja-JP": ""
+    },
+    "menu.address": {
+        "zh-CN": "地址",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Address",
+        "ja-JP": ""
+    },
+    "menu.email": {
+        "zh-CN": "邮箱",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Email",
+        "ja-JP": ""
+    },
+    "menu.phone": {
+        "zh-CN": "电话",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Phone",
+        "ja-JP": ""
+    },
+    "menu.site": {
+        "zh-CN": "网站",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Website",
+        "ja-JP": ""
+    },
+    "login.username": {
+        "zh-CN": "用户名",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "User name",
+        "ja-JP": ""
+    },
+    "login.password": {
+        "zh-CN": "密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Password",
+        "ja-JP": ""
+    },
+    "login.rememberme": {
+        "zh-CN": "记住我",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Remember me ",
+        "ja-JP": ""
+    },
+    "login.forgetpassword": {
+        "zh-CN": "忘记密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Forget password",
+        "ja-JP": ""
+    },
+    "login.register": {
+        "zh-CN": "免费注册",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Free registration",
+        "ja-JP": ""
+    },
+    "login.submit": {
+        "zh-CN": "登录",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Login",
+        "ja-JP": ""
+    },
+    "login.submiting": {
+        "zh-CN": "登录中",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Logging in",
+        "ja-JP": ""
+    },
+    "login.errormsg.username.required": {
+        "zh-CN": "请输入用户名/手机/邮箱",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter the user name/Phone number/Email",
+        "ja-JP": ""
+    },
+    "login.errormsg.password.required": {
+        "zh-CN": "请输入密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter the password",
+        "ja-JP": ""
+    },
+    "login.errormsg.login.servererror": {
+        "zh-CN": "登陆失败，服务器错误",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Log in failed,server error",
+        "ja-JP": ""
+    },
+    "login.errormsg.login.validtrytimes": {
+        "zh-CN": "{msgprefix},您还可以输入{times}次!",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "{msgprefix},You can enter [] times!",
+        "ja-JP": ""
+    },
+    "signup.email": {
+        "zh-CN": "邮箱",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Email",
+        "ja-JP": ""
+    },
+    "signup.type.mobile": {
+        "zh-CN": "手机注册",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Phone registration",
+        "ja-JP": ""
+    },
+    "signup.type.email": {
+        "zh-CN": "邮箱注册",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Email registration",
+        "ja-JP": ""
+    },
+    "signup.realname": {
+        "zh-CN": "真实姓名",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Real name ",
+        "ja-JP": ""
+    },
+    "signup.resendcaptchalater": {
+        "zh-CN": "{second}秒后重发",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "{second}, resend ",
+        "ja-JP": ""
+    },
+    "signup.mobile": {
+        "zh-CN": "手机号",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Phone number",
+        "ja-JP": ""
+    },
+    "signup.password": {
+        "zh-CN": "密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Password",
+        "ja-JP": ""
+    },
+    "signup.recommandcode": {
+        "zh-CN": "推荐码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Recommandcode",
+        "ja-JP": ""
+    },
+    "signup.verifycode": {
+        "zh-CN": "验证码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Verifycoode",
+        "ja-JP": ""
+    },
+    "signup.getverifycode": {
+        "zh-CN": "获取验证码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Get Verifycode",
+        "ja-JP": ""
+    },
+    "signup.register": {
+        "zh-CN": "注册",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Register",
+        "ja-JP": ""
+    },
+    "signup.registerinvite.success": {
+        "zh-CN": "恭喜，您已注册成功",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "",
+        "ja-JP": ""
+    },
+    "signup.login.now": {
+        "zh-CN": "已有账号，立即登录",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "If you have a account, plese login now",
+        "ja-JP": ""
+    },
+    "signup.type.email.activeemailtips": {
+        "zh-CN": "请去您的邮箱激活您的账号。",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please go to your mailbox to active your account.",
+        "ja-JP": ""
+    },
+    "signup.type.email.activeemailsuccess": {
+        "zh-CN": "邮箱激活成功，请登录。",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Active email successfully, please login",
+        "ja-JP": ""
+    },
+    "signup.type.email.activeemailfailed": {
+        "zh-CN": "邮箱激活失败",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Actice email failed",
+        "ja-JP": ""
+    },
+    "signup.successmsg": {
+        "zh-CN": "恭喜，您已注册成功！",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Congratulations, you have registered successfully!",
+        "ja-JP": ""
+    },
+    "signup.errormsg.realname.required": {
+        "zh-CN": "请输入真实姓名",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter your real name",
+        "ja-JP": ""
+    },
+    "signup.errormsg.email.required": {
+        "zh-CN": "请输入邮箱",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter your email",
+        "ja-JP": ""
+    },
+    "signup.errormsg.email.invalid": {
+        "zh-CN": "请输入正确的邮箱",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter the right email",
+        "ja-JP": ""
+    },
+    "signup.errormsg.password.required": {
+        "zh-CN": "请输入密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter the password",
+        "ja-JP": ""
+    },
+    "signup.errormsg.contract.disagreed": {
+        "zh-CN": "未同意使用条款",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Do not agree to use Terms",
+        "ja-JP": ""
+    },
+    "signup.errormsg.mobile.required": {
+        "zh-CN": "请输入手机号",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter your phone number",
+        "ja-JP": ""
+    },
+    "signup.errormsg.mobile.invalid": {
+        "zh-CN": "请输入正确的手机号",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter the right phone number",
+        "ja-JP": ""
+    },
+    "signup.errormsg.verifycode.required": {
+        "zh-CN": "请输入验证码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter the verification code",
+        "ja-JP": ""
+    },
+    "forgetpwd.title": {
+        "zh-CN": "找回密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Find the password",
+        "ja-JP": ""
+    },
+    "forgetpwdstep1.resetpwd": {
+        "zh-CN": "重置密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Reset the password",
+        "ja-JP": ""
+    },
+    "forgetpwdstep1.input": {
+        "zh-CN": "手机/邮箱",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Phone/email",
+        "ja-JP": ""
+    },
+    "forgetpwdstep1.next": {
+        "zh-CN": "下一步",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Next",
+        "ja-JP": ""
+    },
+    "forgetpwdstep1.login.now": {
+        "zh-CN": "想起密码，立即登录",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Remind your password,please login immediately",
+        "ja-JP": ""
+    },
+    "fotgetpwdstep2.email.sendemail": {
+        "zh-CN": "发送验证邮件",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Send a verification message",
+        "ja-JP": ""
+    },
+    "fotgetpwdstep2.email.checkemailtips": {
+        "zh-CN": "请查收重置密码邮件",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please check your reset password",
+        "ja-JP": ""
+    },
+    "forgetpwdstep3.confirm": {
+        "zh-CN": "确认",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Confirm",
+        "ja-JP": ""
+    },
+    "forgetpwdstep3.newpwd": {
+        "zh-CN": "新密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "New password",
+        "ja-JP": ""
+    },
+    "forgetpwdstep3.confirmpwd": {
+        "zh-CN": "确认新密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Confirm your new password",
+        "ja-JP": ""
+    },
+    "forgetpwdstep4.successmsg": {
+        "zh-CN": "恭喜，您的密码已重置成功！",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Congratulations, your password has been reset successfully",
+        "ja-JP": ""
+    },
+    "forgetpwd.errormsg.mobileemail.required": {
+        "zh-CN": "请输入手机或邮箱",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter your phone number and email",
+        "ja-JP": ""
+    },
+    "forgetpwd.errormsg.email.required": {
+        "zh-CN": "请输入邮箱",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter your email",
+        "ja-JP": ""
+    },
+    "forgetpwd.errormsg.mobile.requied": {
+        "zh-CN": "请输入手机号",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter your phone number",
+        "ja-JP": ""
+    },
+    "forgetpwd.errormsg.email.invalid": {
+        "zh-CN": "请输入正确的邮箱",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter the right email",
+        "ja-JP": ""
+    },
+    "forgetpwd.errormsg.mobile.invalid": {
+        "zh-CN": "请输入正确的手机号",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter the right phone number",
+        "ja-JP": ""
+    },
+    "forgetpwd.errormsg.verifycode.required": {
+        "zh-CN": "请输入验证码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter the verification code",
+        "ja-JP": ""
+    },
+    "forgetpwd.errormsg.newpassword.required": {
+        "zh-CN": "请输入新密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter the new password",
+        "ja-JP": ""
+    },
+    "forgetpwd.errormsg.newpasswordverify.required": {
+        "zh-CN": "请输入确认新密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter and verify the new password",
+        "ja-JP": ""
+    },
+    "forgetpwd.errormsg.newpasswordverify.inconsistent": {
+        "zh-CN": "请确认两次输入的密码一致",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please make sure the password is the same",
+        "ja-JP": ""
+    },
+    "userinfo.title": {
+        "zh-CN": "用户资料",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "User information",
+        "ja-JP": ""
+    },
+    "userinfo.base.tabtitle": {
+        "zh-CN": "基本资料",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Basic information",
+        "ja-JP": ""
+    },
+    "userinfo.base.username": {
+        "zh-CN": "用户名",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "User name",
+        "ja-JP": ""
+    },
+    "userinfo.base.username.savetips": {
+        "zh-CN": "用户名设置后无法修改",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "User name can not be modified after setting ",
+        "ja-JP": ""
+    },
+    "userinfo.base.username.required.errormsg": {
+        "zh-CN": "请输入(正确的)用户名",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter the (right) user name",
+        "ja-JP": ""
+    },
+    "userinfo.base.username.saveconfirmmsg": {
+        "zh-CN": "用户名是账号的唯一凭证，只能设置一次，请再次确认用户名：",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "User name is the only account of the certificate,can only be set once, please confirm the user name again:",
+        "ja-JP": ""
+    },
+    "userinfo.base.username.saveconfirm.title": {
+        "zh-CN": "提示",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Remind",
+        "ja-JP": ""
+    },
+    "userinfo.base.username.savefailedmsg": {
+        "zh-CN": "设置用户名失败",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Failed to set user name",
+        "ja-JP": ""
+    },
+    "userinfo.base.password": {
+        "zh-CN": "登陆密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Login password",
+        "ja-JP": ""
+    },
+    "userinfo.base.password.originalpassword": {
+        "zh-CN": "旧密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Old password",
+        "ja-JP": ""
+    },
+    "userinfo.base.password.originalpassword.required.errormsg": {
+        "zh-CN": "请输入旧密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter the old password",
+        "ja-JP": ""
+    },
+    "userinfo.base.password.newpassword": {
+        "zh-CN": "新密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "New password",
+        "ja-JP": ""
+    },
+    "userinfo.base.password.newpassword.required.errormsg": {
+        "zh-CN": "请输入(正确的)新密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter the (new) password",
+        "ja-JP": ""
+    },
+    "userinfo.base.password.confirmnewpassword": {
+        "zh-CN": "确认密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Confirm your password",
+        "ja-JP": ""
+    },
+    "userinfo.base.password.confirmnewpassword.inconsistent.errormsg": {
+        "zh-CN": "请确认两次输入的密码一致。",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please make sure the password is the same",
+        "ja-JP": ""
+    },
+    "userinfo.base.password.update.failed": {
+        "zh-CN": "修改密码失败",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Modify password failed",
+        "ja-JP": ""
+    },
+    "userinfo.base.email": {
+        "zh-CN": "绑定邮箱",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Bind the mailbox",
+        "ja-JP": ""
+    },
+    "userinfo.base.email.unbind": {
+        "zh-CN": "未绑定",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Unbind",
+        "ja-JP": ""
+    },
+    "userinfo.base.email.bindemail": {
+        "zh-CN": "当前邮箱",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Current email",
+        "ja-JP": ""
+    },
+    "userinfo.base.email.newemail": {
+        "zh-CN": "新邮箱",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "New email",
+        "ja-JP": ""
+    },
+    "userinfo.base.email.newemail.required.errormsg": {
+        "zh-CN": "请输入(正确的)邮箱，不能使用原邮箱",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter the (right) email, you can not use the original email",
+        "ja-JP": ""
+    },
+    "userinfo.base.email.password": {
+        "zh-CN": "登录密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Login password",
+        "ja-JP": ""
+    },
+    "userinfo.base.email.password.required.errormsg": {
+        "zh-CN": "请输入密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter password",
+        "ja-JP": ""
+    },
+    "userinfo.base.email.sendverification": {
+        "zh-CN": "验证邮箱",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Verify the email",
+        "ja-JP": ""
+    },
+    "userinfo.base.email.bind.success": {
+        "zh-CN": "修改成功",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Modify successfully",
+        "ja-JP": ""
+    },
+    "userinfo.base.email.bind.failed": {
+        "zh-CN": "绑定邮箱失败",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Failed to bind the email",
+        "ja-JP": ""
+    },
+    "userinfo.base.email.verification.hassenttips": {
+        "zh-CN": "已发送验证邮件至：{newemail}，请立即完成验证",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Verification has been sent to：{newemail}, please verify now",
+        "ja-JP": ""
+    },
+    "userinfo.base.email.verification.expirationtips": {
+        "zh-CN": " 验证邮件24小时内有效，请尽快登录您的邮箱点击验证链接完成验证",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Validate mail within 24 hours, please log in to your mailbox as soon as possible Click verification link to complete verification",
+        "ja-JP": ""
+    },
+    "userinfo.base.email.verification.notreceived.hd": {
+        "zh-CN": "没有收到邮件？",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Did not receive mail?",
+        "ja-JP": ""
+    },
+    "userinfo.base.email.verification.notreceived.solution1": {
+        "zh-CN": "1. 请检查邮箱地址是否正确，您可以返回{back}。",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "1. Please check if the email address is correct, you can go back",
+        "ja-JP": ""
+    },
+    "userinfo.base.email.verification.notreceived.solution1.back": {
+        "zh-CN": "重新填写",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Fill in again",
+        "ja-JP": ""
+    },
+    "userinfo.base.email.verification.notreceived.solution2": {
+        "zh-CN": "2. 请检查您的垃圾邮箱。",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "2. Please chech your spam mailbox",
+        "ja-JP": ""
+    },
+    "userinfo.base.email.verification.notreceived.solution3": {
+        "zh-CN": "3. 若仍未收到确认，请尝试{resend}。",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "3. If you still have not received your confirmation, try {resend}",
+        "ja-JP": ""
+    },
+    "userinfo.base.email.verification.notreceived.solution3.resend": {
+        "zh-CN": "重新发送",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Resend",
+        "ja-JP": ""
+    },
+    "userinfo.base.email.verification.notreceived.solution3.resendcountdown": {
+        "zh-CN": "{second}重新发送",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "{second}resend",
+        "ja-JP": ""
+    },
+    "userinfo.base.phone": {
+        "zh-CN": "绑定手机",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Bind phone number",
+        "ja-JP": ""
+    },
+    "userinfo.base.phone.unbind": {
+        "zh-CN": "未绑定",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Unbind",
+        "ja-JP": ""
+    },
+    "userinfo.base.phone.bindphone": {
+        "zh-CN": "当前手机",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Current phone number",
+        "ja-JP": ""
+    },
+    "userinfo.base.phone.newphone": {
+        "zh-CN": "绑定手机",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Bind your phone",
+        "ja-JP": ""
+    },
+    "userinfo.base.phone.newphone.invalid.errormsg": {
+        "zh-CN": "请输入与原手机号不同的正确的手机号",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter the correct mobile number different from the original phone number",
+        "ja-JP": ""
+    },
+    "userinfo.base.phone.password": {
+        "zh-CN": "登录密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Login password",
+        "ja-JP": ""
+    },
+    "userinfo.base.phone.captcha.required.errormsg": {
+        "zh-CN": "请输入(正确的)验证码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter the (right) verify code",
+        "ja-JP": ""
+    },
+    "userinfo.base.phone.password.required.errormsg": {
+        "zh-CN": "请输入密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter the password",
+        "ja-JP": ""
+    },
+    "userinfo.base.phone.bind.failed": {
+        "zh-CN": "绑定手机失败",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Bind the phone failed",
+        "ja-JP": ""
+    },
+    "userinfo.bank.tabtitle": {
+        "zh-CN": "银行信息",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Bank information",
+        "ja-JP": ""
+    },
+    "userinfo.bank.payee": {
+        "zh-CN": "收款人",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Payee",
+        "ja-JP": ""
+    },
+    "userinfo.bank.payee.required": {
+        "zh-CN": "请输入收款人",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter the payee",
+        "ja-JP": ""
+    },
+    "userinfo.bank.swiftcode": {
+        "zh-CN": "SWIFT代码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "SWIFTcode",
+        "ja-JP": ""
+    },
+    "userinfo.bank.branchname": {
+        "zh-CN": "分支行名称",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Branch bank name",
+        "ja-JP": ""
+    },
+    "userinfo.bank.address": {
+        "zh-CN": "银行地址",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Bank address",
+        "ja-JP": ""
+    },
+    "userinfo.bank.account": {
+        "zh-CN": "银行账号",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Bank account",
+        "ja-JP": ""
+    },
+    "userinfo.banck.account.invalid": {
+        "zh-CN": "请输入（正确的）银行账号",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter (the right) bank account",
+        "ja-JP": ""
+    },
+    "userinfo.bank.name": {
+        "zh-CN": "银行名称",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Bank name",
+        "ja-JP": ""
+    },
+    "userinfo.bank.defaultsymbol": {
+        "zh-CN": "默认",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Default",
+        "ja-JP": ""
+    },
+    "userinfo.bank.update": {
+        "zh-CN": "编辑",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Edit",
+        "ja-JP": ""
+    },
+    "userinfo.bank.update.failed": {
+        "zh-CN": "更新银行卡信息失败",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Update card information failed",
+        "ja-JP": ""
+    },
+    "userinfo.bank.remove": {
+        "zh-CN": "删除",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Delete",
+        "ja-JP": ""
+    },
+    "userinfo.bank.remove.confirm.title": {
+        "zh-CN": "提示",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Remind",
+        "ja-JP": ""
+    },
+    "userinfo.bank.remove.confirm.msg": {
+        "zh-CN": "确认删除当前银行卡？",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Confirm to delete the current card?",
+        "ja-JP": ""
+    },
+    "userinfo.bank.remove.failed": {
+        "zh-CN": "删除银行卡失败",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Deleting a bank card failed",
+        "ja-JP": ""
+    },
+    "userinfo.bank.settodefault.btn": {
+        "zh-CN": "设为默认",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Set as Default",
+        "ja-JP": ""
+    },
+    "userinfo.bank.settodefault.failed": {
+        "zh-CN": "设为默认失败",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Set as Default failed",
+        "ja-JP": ""
+    },
+    "userinfo.bank.settodefault.label": {
+        "zh-CN": "设为默认银行",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Set as default bank",
+        "ja-JP": ""
+    },
+    "userinfo.bank.fetchlist.failed": {
+        "zh-CN": "获取银行卡列表失败",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Failed to get bankcard list",
+        "ja-JP": ""
+    },
+    "userinfo.bank.add": {
+        "zh-CN": "新增银行",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Add a new bank",
+        "ja-JP": ""
+    },
+    "userinfo.bank.add.failed": {
+        "zh-CN": "添加银行卡失败",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Adding a bank card failed",
+        "ja-JP": ""
+    },
+    "userinfo.bank.add.branch.required": {
+        "zh-CN": "选择一个银行",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Select a bank",
+        "ja-JP": ""
+    },
+    "accountinfo.title": {
+        "zh-CN": "账户资料",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account Information",
+        "ja-JP": ""
+    },
+    "accountinfo.fetch.failed": {
+        "zh-CN": "获取账户资料失败",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Failed to get account data",
+        "ja-JP": ""
+    },
+    "accountinfo.submit.success": {
+        "zh-CN": "您的资料已提交成功，我们将尽快审核",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Your data has been submitted successfully and we will review it as soon as possible",
+        "ja-JP": ""
+    },
+    "accountinfo.submit.failed": {
+        "zh-CN": "提交审核失败",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Submit audit failed",
+        "ja-JP": ""
+    },
+    "accountinfo.submit.confirm.title": {
+        "zh-CN": "修改信息",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Your information is as follows, please carefully check and confirm the submission",
+        "ja-JP": ""
+    },
+    "accountinfo.submit.confirm.viewheader": {
+        "zh-CN": "您的修改信息如下，请仔细核对后确认提交。",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "",
+        "ja-JP": ""
+    },
+    "accountinfo.submit.confirm": {
+        "zh-CN": "确认提交",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Confirm submission",
+        "ja-JP": ""
+    },
+    "accountinfo.submit.back": {
+        "zh-CN": "返回修改",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Return to modify",
+        "ja-JP": ""
+    },
+    "accountinfo.profile": {
+        "zh-CN": "账户基本资料",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account Basic Information",
+        "ja-JP": ""
+    },
+    "accountinfo.financialinfo": {
+        "zh-CN": "账户财务资料",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account Financial Information",
+        "ja-JP": ""
+    },
+    "accountinfo.idinfo": {
+        "zh-CN": "账户证件信息",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account document information",
+        "ja-JP": ""
+    },
+    "accountinfo.edit": {
+        "zh-CN": "编辑",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Edit",
+        "ja-JP": ""
+    },
+    "accountinfo.submit": {
+        "zh-CN": "提交审核",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Submit review",
+        "ja-JP": ""
+    },
+    "accountinfo.submit.reviewtips": {
+        "zh-CN": "注：修改账户资料需提交后台审核",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Note: Modify the account information to be submitted to the background audit",
+        "ja-JP": ""
+    },
+    "accountinfo.submit.unmodifiedtips": {
+        "zh-CN": "您的当前资料未发生修改，不需要提交审核",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "",
+        "ja-JP": ""
+    },
+    "accountinfo.pending": {
+        "zh-CN": "审核中",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Auditting ",
+        "ja-JP": ""
+    },
+    "account.real.symbol": {
+        "zh-CN": "真实",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Real",
+        "ja-JP": ""
+    },
+    "account.mock.symbol": {
+        "zh-CN": "模拟",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Simulation",
+        "ja-JP": ""
+    },
+    "overview.title": {
+        "zh-CN": "账户总览",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account Overview",
+        "ja-JP": ""
+    },
+    "overview.welcome": {
+        "zh-CN": "欢迎登录",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Welcome to log in",
+        "ja-JP": ""
+    },
+    "overview.lastlogintime": {
+        "zh-CN": "上次登录：",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Last login:",
+        "ja-JP": ""
+    },
+    "overview.lastlogintime.tips": {
+        "zh-CN": "若发现异常，请及时更改登录密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "If abnormal, please change the login password",
+        "ja-JP": ""
+    },
+    "overview.realaccount.title": {
+        "zh-CN": "真实账户",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Real account",
+        "ja-JP": ""
+    },
+    "overview.realaccount.blancetips": {
+        "zh-CN": "账户余额为本次登录时间同步结果, 详细实时净值数据请登录交易平台查看",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account balance for the current login time synchronization results, detailed real-time net value of the data, please visit the trading platform",
+        "ja-JP": ""
+    },
+    "overview.account.table.column.title.platform": {
+        "zh-CN": "平台名称",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "The platform name",
+        "ja-JP": ""
+    },
+    "overview.account.table.column.title.accountname": {
+        "zh-CN": "账户名",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account name ",
+        "ja-JP": ""
+    },
+    "overview.account.table.column.title.account": {
+        "zh-CN": "帐号",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account",
+        "ja-JP": ""
+    },
+    "overview.account.table.column.title.currency": {
+        "zh-CN": "结算货币",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Settlement currency",
+        "ja-JP": ""
+    },
+    "overview.account.table.column.title.balance": {
+        "zh-CN": "账户余额",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account Balance",
+        "ja-JP": ""
+    },
+    "overview.account.login": {
+        "zh-CN": "登录",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Login",
+        "ja-JP": ""
+    },
+    "overview.account.logined": {
+        "zh-CN": "已登录",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Logined",
+        "ja-JP": ""
+    },
+    "overview.account.active": {
+        "zh-CN": "激活",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Active",
+        "ja-JP": ""
+    },
+    "overview.account.active.success": {
+        "zh-CN": "账户激活成功",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account activation is successful",
+        "ja-JP": ""
+    },
+    "overview.account.active.failed": {
+        "zh-CN": "账户激活失败",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account activation failed",
+        "ja-JP": ""
+    },
+    "overview.mockaccount.title": {
+        "zh-CN": "模拟账户",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Demo accoun",
+        "ja-JP": ""
+    },
+    "overview.account.active.confirm.account": {
+        "zh-CN": "账号",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account number",
+        "ja-JP": ""
+    },
+    "overview.account.active.confirm.accountname": {
+        "zh-CN": "账户名",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account name",
+        "ja-JP": ""
+    },
+    "overview.account.active.confirm.password": {
+        "zh-CN": "主密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Master password",
+        "ja-JP": ""
+    },
+    "overview.account.active.confirm.title": {
+        "zh-CN": "激活账户",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Active the account",
+        "ja-JP": ""
+    },
+    "overview.account.active.confirm.ok": {
+        "zh-CN": "激活",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Active",
+        "ja-JP": ""
+    },
+    "overview.account.active.confirm.password.required": {
+        "zh-CN": "请填写密码!",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter the password",
+        "ja-JP": ""
+    },
+    "overview.account.switchaccount.success": {
+        "zh-CN": "切换账户成功！",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Switch account successfully!",
+        "ja-JP": ""
+    },
+    "openaccount.list": {
+        "zh-CN": "选择需要开通的交易账户",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Select the trading account to be opened",
+        "ja-JP": ""
+    },
+    "openaccount.liveaccount": {
+        "zh-CN": "真实账户",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Real account",
+        "ja-JP": ""
+    },
+    "openaccount.sameaccount": {
+        "zh-CN": "同名账户",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account with the same name",
+        "ja-JP": ""
+    },
+    "openaccount.applying": {
+        "zh-CN": "审核中",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Auditting",
+        "ja-JP": ""
+    },
+    "openaccount.login": {
+        "zh-CN": "已登录",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Logined",
+        "ja-JP": ""
+    },
+    "openaccount.back": {
+        "zh-CN": "返回",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Return to modify",
+        "ja-JP": ""
+    },
+    "openaccount.next": {
+        "zh-CN": "下一步",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Next",
+        "ja-JP": ""
+    },
+    "openaccount.previous": {
+        "zh-CN": "上一步",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Previous",
+        "ja-JP": ""
+    },
+    "openaccount.submit": {
+        "zh-CN": "提交",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Submit",
+        "ja-JP": ""
+    },
+    "openaccount.submit.basic": {
+        "zh-CN": "提交基本资料",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Submit the basic information",
+        "ja-JP": ""
+    },
+    "openaccount.append.personal.info": {
+        "zh-CN": "补充个人信息",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Supplemental personal information",
+        "ja-JP": ""
+    },
+    "openaccount.upload.identify": {
+        "zh-CN": "上传身份证明",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Upload an ID",
+        "ja-JP": ""
+    },
+    "openaccount.tip": {
+        "zh-CN": "提示",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Remind",
+        "ja-JP": ""
+    },
+    "openaccount.liveaccount.applying.state": {
+        "zh-CN": "获取申请真实账户状态失败",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Failed to get status of real account application",
+        "ja-JP": ""
+    },
+    "openaccount.demoaccount": {
+        "zh-CN": "模拟账户",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Demo account",
+        "ja-JP": ""
+    },
+    "openaccount.bindaccount": {
+        "zh-CN": "绑定账户",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Bind account",
+        "ja-JP": ""
+    },
+    "openaccount.bindaccount.applying": {
+        "zh-CN": "绑定账户正在审核",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Binding account is under review",
+        "ja-JP": ""
+    },
+    "openaccount.newaccount": {
+        "zh-CN": "开立账户",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Open an account",
+        "ja-JP": ""
+    },
+    "openaccount.open.realaccount": {
+        "zh-CN": "开立真实账户",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Open a real account",
+        "ja-JP": ""
+    },
+    "openaccount.open.demoaccount": {
+        "zh-CN": "开立模拟账户",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Open a demo account",
+        "ja-JP": ""
+    },
+    "openaccount.leverage": {
+        "zh-CN": "调整杠杆",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Adjust the leverage",
+        "ja-JP": ""
+    },
+    "openaccount.modify.password": {
+        "zh-CN": "修改密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Modify the password",
+        "ja-JP": ""
+    },
+    "openaccount.preview.audit": {
+        "zh-CN": "账户审核中",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account is in auditting",
+        "ja-JP": ""
+    },
+    "openaccount.preview.description": {
+        "zh-CN": "您的账户号开立信息正在审核中",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Your account information is being reviewed",
+        "ja-JP": ""
+    },
+    "openaccount.preview.confirm": {
+        "zh-CN": "真实账户开立信息确认",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Confirmation of real account opening information",
+        "ja-JP": ""
+    },
+    "openaccount.protocol": {
+        "zh-CN": "开立真实账户需要您同意协议",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Opening a real account requires that you agree to the Agreement",
+        "ja-JP": ""
+    },
+    "openaccount.protocol1": {
+        "zh-CN": "我已阅读并理解被提供的信息，包括",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "I have read and understood the information provided, including",
+        "ja-JP": ""
+    },
+    "openaccount.protocol2": {
+        "zh-CN": "用户协议及风险披露",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "User Agreement and Risk Disclosure",
+        "ja-JP": ""
+    },
+    "openaccount.protocol3": {
+        "zh-CN": "声明，并愿意继续开户申请",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Statement, and are willing to continue to apply for an account",
+        "ja-JP": ""
+    },
+    "openaccount.protocol.tip": {
+        "zh-CN": "用户协议及风险提示",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "User agreement and risk warning",
+        "ja-JP": ""
+    },
+    "openaccount.print": {
+        "zh-CN": "打印",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Print",
+        "ja-JP": ""
+    },
+    "openaccount.modify": {
+        "zh-CN": "修改",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Modify",
+        "ja-JP": ""
+    },
+    "openaccount.confirm": {
+        "zh-CN": "确认",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Confirm",
+        "ja-JP": ""
+    },
+    "bindaccount.accountname": {
+        "zh-CN": "请输入账户名",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter the account name",
+        "ja-JP": ""
+    },
+    "bindaccount.binding": {
+        "zh-CN": "绑定真实账户",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Bind the real account",
+        "ja-JP": ""
+    },
+    "bindaccount.binding.difference": {
+        "zh-CN": "所绑定的账户名与账户资料中的姓名不一致，请确认是否绑定？",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "The binding account name does not match the name in the account data, please check if it is bound",
+        "ja-JP": ""
+    },
+    "bindingaccount.update.info": {
+        "zh-CN": "绑定成功后该账户的账户名将更新为账户资料中的姓名",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "After the successful binding of the account, account name will be updated to the account information in the name",
+        "ja-JP": ""
+    },
+    "bindaccount.confirm": {
+        "zh-CN": "确认绑定",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Confirm binding",
+        "ja-JP": ""
+    },
+    "bindaccount.cancel": {
+        "zh-CN": "取消",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Cancel",
+        "ja-JP": ""
+    },
+    "bindaccount.submit": {
+        "zh-CN": "提交",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Submit",
+        "ja-JP": ""
+    },
+    "bindaccount.name": {
+        "zh-CN": "账户名",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account name",
+        "ja-JP": ""
+    },
+    "bindaccount.name.tip": {
+        "zh-CN": "请输入账户名",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter the account name",
+        "ja-JP": ""
+    },
+    "bindaccount.account": {
+        "zh-CN": "账户",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account",
+        "ja-JP": ""
+    },
+    "bindaccount.account.tip": {
+        "zh-CN": "请输入交易账户",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter the trading account",
+        "ja-JP": ""
+    },
+    "bindaccount.main.password": {
+        "zh-CN": "主密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Main password",
+        "ja-JP": ""
+    },
+    "bindaccount.main.password.tip": {
+        "zh-CN": "请输入主密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter the main password",
+        "ja-JP": ""
+    },
+    "bindaccount.server": {
+        "zh-CN": "服务器",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Server",
+        "ja-JP": ""
+    },
+    "bindaccount.applying.remark": {
+        "zh-CN": "申请备注",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Application note",
+        "ja-JP": ""
+    },
+    "bindaccount.applying.remark.tip": {
+        "zh-CN": "请填写申请备注",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please fill in the application note",
+        "ja-JP": ""
+    },
+    "bindaccount.binding.realaccount": {
+        "zh-CN": "绑定真实账户",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Bind the real account",
+        "ja-JP": ""
+    },
+    "bindaccount.applying.success": {
+        "zh-CN": "绑定账户申请发送成功",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Bind the account request to send successfully",
+        "ja-JP": ""
+    },
+    "bindaccount.applying.failed": {
+        "zh-CN": "绑定和账户申请发送失败",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Binding and account request send failed",
+        "ja-JP": ""
+    },
+    "realaccount.description": {
+        "zh-CN": "请认真填写以下表单，审核通过后开户信息将发至您的电子邮箱。",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please fill in the following form carefully, after passing the audit, information will be sent to your e-mail",
+        "ja-JP": ""
+    },
+    "realaccount.basic": {
+        "zh-CN": "基本资料",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Basic information",
+        "ja-JP": ""
+    },
+    "realaccount.personal.info": {
+        "zh-CN": "个人信息",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Personal information",
+        "ja-JP": ""
+    },
+    "realaccount.finance": {
+        "zh-CN": "财务资料",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Financial Information",
+        "ja-JP": ""
+    },
+    "realaccount.file": {
+        "zh-CN": "身份证明",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Personal I.D",
+        "ja-JP": ""
+    },
+    "realaccount.next": {
+        "zh-CN": "保存并下一步",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Save and then click Next",
+        "ja-JP": ""
+    },
+    "realaccount.prev": {
+        "zh-CN": "上一步",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Previous",
+        "ja-JP": ""
+    },
+    "realaccount.confirm": {
+        "zh-CN": "确认",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Confirm",
+        "ja-JP": ""
+    },
+    "realaccount.applying": {
+        "zh-CN": "您的开立真实交易账户申请已经提交审核，审核通过后，账户信息将发至您的邮箱，请注意查收。",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Your opening of a real trading account application has been submitted for review, after the audit, the account information will be sent to your mailbox, please pay attention to check.",
+        "ja-JP": ""
+    },
+    "realaccount.applying.success": {
+        "zh-CN": "真实账户开立成功",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "The real account opened successfully",
+        "ja-JP": ""
+    },
+    "realaccount.applying.failed": {
+        "zh-CN": "申请开立账户失败",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Application to open an account failed",
+        "ja-JP": ""
+    },
+    "realaccount.applying.tip1": {
+        "zh-CN": "您的真实交易账户已经成功开立，",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Your real trading account has been successfully opened,",
+        "ja-JP": ""
+    },
+    "realaccount.applying.tip2": {
+        "zh-CN": "账户信息已发送至您的注册邮箱",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account information has been sent to your registration email",
+        "ja-JP": ""
+    },
+    "realaccount.applying.tip3": {
+        "zh-CN": "请注意查收。",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please pay attention to check.",
+        "ja-JP": ""
+    },
+    "sameaccount.applying.failed": {
+        "zh-CN": "初始化申请同名账户失败",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Initialization application failed for account with the same name",
+        "ja-JP": ""
+    },
+    "sameaccount.applying.info": {
+        "zh-CN": "同名账户开立信息",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "The same name to open the account information",
+        "ja-JP": ""
+    },
+    "sameaccount.basic": {
+        "zh-CN": "基本资料",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Basic information",
+        "ja-JP": ""
+    },
+    "sameaccount.finance": {
+        "zh-CN": "财务资料",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Financial Information",
+        "ja-JP": ""
+    },
+    "sameaccount.file": {
+        "zh-CN": "身份证明",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Personal I.D",
+        "ja-JP": ""
+    },
+    "sameaccount.cancel": {
+        "zh-CN": "取消",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Cancel",
+        "ja-JP": ""
+    },
+    "sameaccount.confirm.submit": {
+        "zh-CN": "确认提交",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Confirm to submit",
+        "ja-JP": ""
+    },
+    "sameaccount.print": {
+        "zh-CN": "打印",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Print",
+        "ja-JP": ""
+    },
+    "sameaccount.modify": {
+        "zh-CN": "修改",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Modify",
+        "ja-JP": ""
+    },
+    "sameaccount.confirm": {
+        "zh-CN": "确认",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Confirm",
+        "ja-JP": ""
+    },
+    "sameaccount.apply.success": {
+        "zh-CN": "您的同名账户申请已经提交审核，审核通过后，账户信息将发至您的邮箱，请注意查收。",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Your account with the same name has been submitted for review, after the audit, the account information will be sent to your mailbox, please note that check.",
+        "ja-JP": ""
+    },
+    "sameaccount.apply.failed": {
+        "zh-CN": "申请开立同名账户失败",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Application to open an account with the same name failed",
+        "ja-JP": ""
+    },
+    "sameaccount.info.confirm": {
+        "zh-CN": "您的同名账户申请资料信息如下，请仔细核对后确认提交",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Your application for the same account information is as follows, please carefully check and confirm the submission",
+        "ja-JP": ""
+    },
+    "sameaccount.tip": {
+        "zh-CN": "提示",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Remind",
+        "ja-JP": ""
+    },
+    "mockaccount.description": {
+        "zh-CN": "请认真填写以下表单，审核通过后开户信息将发至您的电子邮箱。",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please fill in the following form carefully, after passing the audit, information will be sent to your e-mail.",
+        "ja-JP": ""
+    },
+    "mockaccount.name": {
+        "zh-CN": "账户名",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account name",
+        "ja-JP": ""
+    },
+    "mockaccount.name.tip": {
+        "zh-CN": "请填写正确的账户名",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please fill in the correct account name",
+        "ja-JP": ""
+    },
+    "mockaccount.email": {
+        "zh-CN": "邮箱",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Email",
+        "ja-JP": ""
+    },
+    "mockaccount.email.tip": {
+        "zh-CN": "请填写正确的邮箱",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter the correct email",
+        "ja-JP": ""
+    },
+    "mockaccount.phone": {
+        "zh-CN": "电话",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Phone number",
+        "ja-JP": ""
+    },
+    "mockaccount.phone.tip": {
+        "zh-CN": "请填写正确的电话",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter the correct phone number",
+        "ja-JP": ""
+    },
+    "mockaccount.type": {
+        "zh-CN": "账户类型",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Acount type",
+        "ja-JP": ""
+    },
+    "mockaccount.applying.failed": {
+        "zh-CN": "模拟帐户申请出错",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "An impersonation request has occurred",
+        "ja-JP": ""
+    },
+    "mockaccount.applying.success": {
+        "zh-CN": "模拟帐户开户成功",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Demo account opening successful",
+        "ja-JP": ""
+    },
+    "mockaccount.tip.info1": {
+        "zh-CN": "您的模拟交易账户已经成功开立，",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Your demo trading account has been successfully opened,",
+        "ja-JP": ""
+    },
+    "mockaccount.tip.info2": {
+        "zh-CN": "账户信息已发送至您的注册邮箱",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account information has been sent to your registration email",
+        "ja-JP": ""
+    },
+    "mockaccount.tip.info3": {
+        "zh-CN": "请注意查收。",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please pay attention to check",
+        "ja-JP": ""
+    },
+    "mockaccount.confirm": {
+        "zh-CN": "确认",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Confirm",
+        "ja-JP": ""
+    },
+    "mockaccount.submit": {
+        "zh-CN": "提交",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Submit",
+        "ja-JP": ""
+    },
+    "leverage.no.new.levarage": {
+        "zh-CN": "没有选择新杠杆指",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "No new leverage is selected",
+        "ja-JP": ""
+    },
+    "leverage.no.account": {
+        "zh-CN": "没有账户信息",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "No account information",
+        "ja-JP": ""
+    },
+    "leverage.different.leverage": {
+        "zh-CN": "请选择不同的杠杆值",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please choose a different leverage",
+        "ja-JP": ""
+    },
+    "leverage.adjust.sended": {
+        "zh-CN": "杠杆调整申请已发送",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Leverage adjustment request has been sent",
+        "ja-JP": ""
+    },
+    "leverage.adjust.failed": {
+        "zh-CN": "调整杠杆请求失败",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Adjustment lever request failed",
+        "ja-JP": ""
+    },
+    "leverage.trade.account": {
+        "zh-CN": "交易账号",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Trading account",
+        "ja-JP": ""
+    },
+    "leverage.current.levarage": {
+        "zh-CN": "当前杠杆",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Current levarage",
+        "ja-JP": ""
+    },
+    "leverage.expected.levarage": {
+        "zh-CN": "期望杠杆",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Expeced levarage",
+        "ja-JP": ""
+    },
+    "leverage.remark": {
+        "zh-CN": "备注",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Comment",
+        "ja-JP": ""
+    },
+    "leverage.submit": {
+        "zh-CN": "提交",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Submit",
+        "ja-JP": ""
+    },
+    "resetpassword": {
+        "zh-CN": "重置密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Reset password",
+        "ja-JP": ""
+    },
+    "resetpassword.reset.success": {
+        "zh-CN": "恭喜，您的密码已重置成功！",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Congratulations, your password has been reset successfaully!",
+        "ja-JP": ""
+    },
+    "resetpassword.newpassword.required": {
+        "zh-CN": "请输入新密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter a new password",
+        "ja-JP": ""
+    },
+    "resetpassword.confirmnewpassword.required": {
+        "zh-CN": "请输入确认新密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter and confirm the new password",
+        "ja-JP": ""
+    },
+    "resetpassword.confirmnewpassword.inconsistent": {
+        "zh-CN": "请确认两次输入的密码一致",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please make sure the password is the same",
+        "ja-JP": ""
+    },
+    "password.tip": {
+        "zh-CN": "确认密码为必填项",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Confirm the password is required",
+        "ja-JP": ""
+    },
+    "password.required": {
+        "zh-CN": "确认密码为必填项",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Confirm the password is required",
+        "ja-JP": ""
+    },
+    "password.required.tip": {
+        "zh-CN": "两次输入密码不一致",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "The two passwords are not the same",
+        "ja-JP": ""
+    },
+    "password.modify.success": {
+        "zh-CN": "修改密码成功",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Change the password successfully",
+        "ja-JP": ""
+    },
+    "password.modify.failed": {
+        "zh-CN": "修改密码失败",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Failed to modify password",
+        "ja-JP": ""
+    },
+    "password.middle": {
+        "zh-CN": "密码规则：6-20位，必须包含数字和字母",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Password rules: 6-20 digits, must contain numbers and letters",
+        "ja-JP": ""
+    },
+    "password.strong": {
+        "zh-CN": "密码规则：8-20位，必须包含数字、大小写字母",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Password rules: 8-20 digits, must contain numbers, uppercase and lowercase letters",
+        "ja-JP": ""
+    },
+    "password.super.strong": {
+        "zh-CN": "密码规则：8-20位，必须包含数字、大小写字母和特殊字符",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Password rules: 8-20 digits, must contain numbers, uppercase and lowercase letters and special characters",
+        "ja-JP": ""
+    },
+    "password.trade.account": {
+        "zh-CN": "交易账号",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Trading account",
+        "ja-JP": ""
+    },
+    "password.type": {
+        "zh-CN": "密码类型",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Password type",
+        "ja-JP": ""
+    },
+    "password.type.trade": {
+        "zh-CN": "交易主密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Trading main report",
+        "ja-JP": ""
+    },
+    "password.type.investment": {
+        "zh-CN": "投资者密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Investment password",
+        "ja-JP": ""
+    },
+    "password.current": {
+        "zh-CN": "当前密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Current password",
+        "ja-JP": ""
+    },
+    "password.current.tip": {
+        "zh-CN": "旧密码为必填项",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "The old password is required",
+        "ja-JP": ""
+    },
+    "password.new": {
+        "zh-CN": "新密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "New password",
+        "ja-JP": ""
+    },
+    "password.new.tip": {
+        "zh-CN": "密码长度有误或密码设置过于简单",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "The password length is incorrect or the password setting is too simple",
+        "ja-JP": ""
+    },
+    "password.confirm": {
+        "zh-CN": "确认密码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Confirm password",
+        "ja-JP": ""
+    },
+    "password.submit": {
+        "zh-CN": "提交",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Submit",
+        "ja-JP": ""
+    },
+    "tradereport.order.number": {
+        "zh-CN": "订单号",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Order number",
+        "ja-JP": ""
+    },
+    "tradereport.total": {
+        "zh-CN": "合计",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Total",
+        "ja-JP": ""
+    },
+    "tradereport.account": {
+        "zh-CN": "账号",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account",
+        "ja-JP": ""
+    },
+    "tradereport.type": {
+        "zh-CN": "类型",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Type",
+        "ja-JP": ""
+    },
+    "tradereport.variety": {
+        "zh-CN": "品种",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Veriety",
+        "ja-JP": ""
+    },
+    "tradereport.volum": {
+        "zh-CN": "交易量",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Trading Volum",
+        "ja-JP": ""
+    },
+    "tradereport.open.price": {
+        "zh-CN": "开仓价",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Opening price",
+        "ja-JP": ""
+    },
+    "tradereport.open.time": {
+        "zh-CN": "开仓时间",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Opening time",
+        "ja-JP": ""
+    },
+    "tradereport.exit.price": {
+        "zh-CN": "平仓价",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Closing price",
+        "ja-JP": ""
+    },
+    "tradereport.exit.time": {
+        "zh-CN": "平仓时间",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Closing time",
+        "ja-JP": ""
+    },
+    "tradereport.stop.loss": {
+        "zh-CN": "止损",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Stop loss",
+        "ja-JP": ""
+    },
+    "tradereport.take.profit": {
+        "zh-CN": "止盈",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Only profit",
+        "ja-JP": ""
+    },
+    "tradereport.commission": {
+        "zh-CN": "佣金",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Commission",
+        "ja-JP": ""
+    },
+    "tradereport.interest": {
+        "zh-CN": "利息",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Interest",
+        "ja-JP": ""
+    },
+    "tradereport.gain": {
+        "zh-CN": "盈利",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Profit",
+        "ja-JP": ""
+    },
+    "tradereport.resting.price": {
+        "zh-CN": "挂单价",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Resting price",
+        "ja-JP": ""
+    },
+    "tradereport.resting.time": {
+        "zh-CN": "挂单时间",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Resting time",
+        "ja-JP": ""
+    },
+    "tradereport.login": {
+        "zh-CN": "请登录用户",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please login account",
+        "ja-JP": ""
+    },
+    "tradereport.reports": {
+        "zh-CN": "交易报表",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Trading report",
+        "ja-JP": ""
+    },
+    "tradereport.trade.history": {
+        "zh-CN": "交易历史",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Trading history",
+        "ja-JP": ""
+    },
+    "tradereport.position.query": {
+        "zh-CN": "持仓查询",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Position query",
+        "ja-JP": ""
+    },
+    "tradereport.restingorder.query": {
+        "zh-CN": "挂单查询",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Resting order query",
+        "ja-JP": ""
+    },
+    "deposit.account": {
+        "zh-CN": "存入账户",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Deposit into account",
+        "ja-JP": ""
+    },
+    "deposit.accountName": {
+        "zh-CN": "账户姓名",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account name",
+        "ja-JP": ""
+    },
+    "deposit.currency": {
+        "zh-CN": "存款货币",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Deposit currency",
+        "ja-JP": ""
+    },
+    "deposit.depositAmount": {
+        "zh-CN": "存款金额",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Deposit amount",
+        "ja-JP": ""
+    },
+    "deposit.depositAmount.prompt.low": {
+        "zh-CN": "最低存款金额",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Minimum deposit amount",
+        "ja-JP": ""
+    },
+    "deposit.depositAmount.prompt.high": {
+        "zh-CN": "最高存款金额",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Highest Deposit Amount",
+        "ja-JP": ""
+    },
+    "deposit.depositAmount.errMsg": {
+        "zh-CN": "请参照右边提示，正确填写金额",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please refer to the prompt on the right to fill in the amount correctly",
+        "ja-JP": ""
+    },
+    "deposit.paymentPlat": {
+        "zh-CN": "支付平台",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Payment platform",
+        "ja-JP": ""
+    },
+    "deposit.paymentAmount": {
+        "zh-CN": "支付金额",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Payment amount",
+        "ja-JP": ""
+    },
+    "deposit.paymentAmount.placeHolder": {
+        "zh-CN": "将根据正确的存款金额自动计算",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Will automatically be calculated based on the correct deposit amount",
+        "ja-JP": ""
+    },
+    "deposit.hasCharge": {
+        "zh-CN": "含手续费",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Including service charge",
+        "ja-JP": ""
+    },
+    "deposit.realTimeExchange": {
+        "zh-CN": "实时汇率",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Real - time exchange rate",
+        "ja-JP": ""
+    },
+    "deposit.convert": {
+        "zh-CN": "兑",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Convert",
+        "ja-JP": ""
+    },
+    "deposit.information": {
+        "zh-CN": "在线入金申请信息",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Online deposit application information",
+        "ja-JP": ""
+    },
+    "deposit.confirmView.title": {
+        "zh-CN": "请确认您的入金信息，我们将尽快审核，请耐心等待",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please confirm your deposit information, we will review as soon as possible, please be patient",
+        "ja-JP": ""
+    },
+    "withdraw.account": {
+        "zh-CN": "取款账户",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Withdraw account",
+        "ja-JP": ""
+    },
+    "withdraw.accountName": {
+        "zh-CN": "账户姓名",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account name",
+        "ja-JP": ""
+    },
+    "withdraw.currency": {
+        "zh-CN": "账户货币",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account currency",
+        "ja-JP": ""
+    },
+    "withdraw.balance": {
+        "zh-CN": "账户余额",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account Balance",
+        "ja-JP": ""
+    },
+    "withdraw.amount": {
+        "zh-CN": "出金金额",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Balance of withdrawal",
+        "ja-JP": ""
+    },
+    "withdraw.amount.errMsg": {
+        "zh-CN": "取款金额必须是有效的数字，不可超过账户余额",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "The withdrawal amount must be a valid number and can not exceed the balance of the account",
+        "ja-JP": ""
+    },
+    "withdraw.receiver": {
+        "zh-CN": "收款人",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Payee",
+        "ja-JP": ""
+    },
+    "withdraw.receiver.errMsg": {
+        "zh-CN": "收款人不能为空",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Payee can not be empty",
+        "ja-JP": ""
+    },
+    "withdraw.bankNumber": {
+        "zh-CN": "银行账号",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Bank Account",
+        "ja-JP": ""
+    },
+    "withdraw.bankNumber.errMsg": {
+        "zh-CN": "请选择或输入一个格式正确的银行账号",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please select or enter a properly formatted bank account number",
+        "ja-JP": ""
+    },
+    "withdraw.bankName": {
+        "zh-CN": "银行名称",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Bank name",
+        "ja-JP": ""
+    },
+    "withdraw.bankName.errMsg": {
+        "zh-CN": "请选择一个银行名称",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please select a bank name",
+        "ja-JP": ""
+    },
+    "withdraw.bankBranchName": {
+        "zh-CN": "分支行名称",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "The name of the branch bank",
+        "ja-JP": ""
+    },
+    "withdraw.bankBranchName.errMsg": {
+        "zh-CN": "分支行名称不能为空",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "The name of the branch bank can not be empty",
+        "ja-JP": ""
+    },
+    "withdraw.swiftCode": {
+        "zh-CN": "SWIFT代码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "SWIFT code",
+        "ja-JP": ""
+    },
+    "withdraw.swiftCode.errMsg": {
+        "zh-CN": "请输入正确的SWIFT代码",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter the correct SWIFT code",
+        "ja-JP": ""
+    },
+    "withdraw.bankAddress": {
+        "zh-CN": "银行地址",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Bank address",
+        "ja-JP": ""
+    },
+    "withdraw.bankAddress.errMsg": {
+        "zh-CN": "银行地址不能为空",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "The bank address can not be empty",
+        "ja-JP": ""
+    },
+    "withdraw.lastBankNumber": {
+        "zh-CN": "尾号",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Tail number",
+        "ja-JP": ""
+    },
+    "withdraw.message.errTip1": {
+        "zh-CN": "获取相关数据失败",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Failed to get related data",
+        "ja-JP": ""
+    },
+    "withdraw.message.succTip1": {
+        "zh-CN": "出金申请成功",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Withdraw application was successful",
+        "ja-JP": ""
+    },
+    "withdraw.confirmView.title": {
+        "zh-CN": "您的出金申请信息如下，请仔细核对后确认提交",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Your withdraw application information is as follows, please carefully check and confirm the submission",
+        "ja-JP": ""
+    },
+    "withdraw.information": {
+        "zh-CN": "出金申请信息",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Withdraw application information",
+        "ja-JP": ""
+    },
+    "transfer.transferAccount": {
+        "zh-CN": "转出账户",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Transfer account",
+        "ja-JP": ""
+    },
+    "transfer.transferAccountName": {
+        "zh-CN": "账户姓名",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account name",
+        "ja-JP": ""
+    },
+    "transfer.currency": {
+        "zh-CN": "账户货币",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account currency",
+        "ja-JP": ""
+    },
+    "transfer.balance": {
+        "zh-CN": "账户余额",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account Balance",
+        "ja-JP": ""
+    },
+    "transfer.amount": {
+        "zh-CN": "转账金额",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Transfer amount",
+        "ja-JP": ""
+    },
+    "transfer.transferAmount": {
+        "zh-CN": "取款金额",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Withdraw amount",
+        "ja-JP": ""
+    },
+    "transfer.amount.errMsg": {
+        "zh-CN": "转账金额必须是有效的数字，不可超过账户余额",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "The transfer amount must be a valid number and can not exceed the account balance",
+        "ja-JP": ""
+    },
+    "transfer.transferredAccount": {
+        "zh-CN": "转入账户",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Transferred Account",
+        "ja-JP": ""
+    },
+    "transfer.transferredAccountNum": {
+        "zh-CN": "转入账户账号",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "The account number transferred to the account",
+        "ja-JP": ""
+    },
+    "transfer.transferredAccountNum.errMsg": {
+        "zh-CN": "转入账户账号应为数字类型，且不能和转出账户相同",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "The account to be transferred to the account should be of a numeric type and can not be the same as the outgoing account",
+        "ja-JP": ""
+    },
+    "transfer.transferredAccountName": {
+        "zh-CN": "转入账户姓名",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Transfer the account name",
+        "ja-JP": ""
+    },
+    "transfer.transferredAccountName.errMsg": {
+        "zh-CN": "请输入转入账户姓名",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Please enter the name of the transferred account",
+        "ja-JP": ""
+    },
+    "transfer.transferredAccountServer": {
+        "zh-CN": "转入账户服务器",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Transfer into the account server",
+        "ja-JP": ""
+    },
+    "transfer.other": {
+        "zh-CN": "其他",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Other",
+        "ja-JP": ""
+    },
+    "transfer.confirmSubmit": {
+        "zh-CN": "确认提交",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Confirm submission",
+        "ja-JP": ""
+    },
+    "transfer.read": {
+        "zh-CN": "我已阅读并理解",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "I have read and understood",
+        "ja-JP": ""
+    },
+    "transfer.agreement": {
+        "zh-CN": "第三方汇款转账协议",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Third Party Remittance Transfer Agreement",
+        "ja-JP": ""
+    },
+    "transfer.agreeTransfer": {
+        "zh-CN": "并愿意继续转账",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "And is willing to continue to transfer",
+        "ja-JP": ""
+    },
+    "transfer.remittance.information": {
+        "zh-CN": "转账汇款信息",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Remittance information",
+        "ja-JP": ""
+    },
+    "transfer.tipContent": {
+        "zh-CN": "当前操作需要您同意第三方汇款转账协议",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "You agree to the Third Party Remittance Transfer Agreement for the current operation",
+        "ja-JP": ""
+    },
+    "transfer.confirmViewTitle": {
+        "zh-CN": "您的转账信息如下，请仔细核对后确认提交",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Your transfer information is as follows, please carefully check and confirm the submission",
+        "ja-JP": ""
+    },
+    "transfer.message.errTip1": {
+        "zh-CN": "当前只有一个真实账户无法内部转账",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Currently only one real account can not be transferred internally",
+        "ja-JP": ""
+    },
+    "transfer.message.errTip2": {
+        "zh-CN": "读取转入账户服务器列表失败",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Failed to read list of servers transferred to account",
+        "ja-JP": ""
+    },
+    "transfer.message.errTip3": {
+        "zh-CN": "转账申请失败",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Transfer request failed",
+        "ja-JP": ""
+    },
+    "transfer.message.errTip4": {
+        "zh-CN": "转入账户信息不匹配，请重新核对",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Transferred to account information does not match, please re-check",
+        "ja-JP": ""
+    },
+    "transfer.message.succTip1": {
+        "zh-CN": "转账申请成功",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Transfer successful",
+        "ja-JP": ""
+    },
+    "fundflow.serialNumber": {
+        "zh-CN": "流水号",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "SerailNumber",
+        "ja-JP": ""
+    },
+    "fundflow.account": {
+        "zh-CN": "账户",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Account",
+        "ja-JP": ""
+    },
+    "fundflow.tradeType": {
+        "zh-CN": "交易类型",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Trading Type",
+        "ja-JP": ""
+    },
+    "fundflow.tradeType.all": {
+        "zh-CN": "全部",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "All",
+        "ja-JP": ""
+    },
+    "fundflow.tradeType.deposit": {
+        "zh-CN": "存款",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Deposit",
+        "ja-JP": ""
+    },
+    "fundflow.tradeType.withdraw": {
+        "zh-CN": "取款",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Withdraw",
+        "ja-JP": ""
+    },
+    "fundflow.tradeType.transfer": {
+        "zh-CN": "转账",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Transfer",
+        "ja-JP": ""
+    },
+    "fundflow.tradeAmount": {
+        "zh-CN": "交易金额",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Trading amount",
+        "ja-JP": ""
+    },
+    "fundflow.tradeState": {
+        "zh-CN": "交易状态",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Trading state",
+        "ja-JP": ""
+    },
+    "fundflow.tradeState.submited": {
+        "zh-CN": "已提交",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Submited",
+        "ja-JP": ""
+    },
+    "fundflow.tradeState.dealed": {
+        "zh-CN": "处理中",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Dealing",
+        "ja-JP": ""
+    },
+    "fundflow.tradeState.finished": {
+        "zh-CN": "已完成",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Finished",
+        "ja-JP": ""
+    },
+    "fundflow.tradeState.rejected": {
+        "zh-CN": "已拒绝",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Rejected",
+        "ja-JP": ""
+    },
+    "fundflow.tradeTime": {
+        "zh-CN": "交易时间",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Trading time",
+        "ja-JP": ""
+    },
+    "fundflow.message.errTip": {
+        "zh-CN": "资金流水读取数据失败",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Money flow read data failed",
+        "ja-JP": ""
+    },
+    "formfieldcomponent.text.invalid": {
+        "zh-CN": "输入的格式有误",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "The format you entered is incorrect",
+        "ja-JP": ""
+    },
+    "downloadcenter.title": {
+        "zh-CN": "下载中心",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Download center",
+        "ja-JP": ""
+    },
+    "downloadcenter.fetch.failed": {
+        "zh-CN": "获取下载中心资源失败",
+        "tw-CN": "",
+        "hk-CN": "",
+        "en-US": "Failed to download center resource",
+        "ja-JP": ""
+    }
+}
