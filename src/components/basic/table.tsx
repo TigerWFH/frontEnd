@@ -42,6 +42,12 @@ export class Table extends React.Component<TableProps, TableState>{
             data: this.props.data || this.props.defaultData
         };
     }
+    clearSort = () => {
+        this.setState({
+            sortDataIndex: null,
+            sortDirection: null
+        });
+    }
     _sortData = (data: Array<any>, dataIndex: string, direction: SortDirection) => {
         let _data = data;
         let _dataIndex = dataIndex;
@@ -98,9 +104,23 @@ export class Table extends React.Component<TableProps, TableState>{
                             }
                             value.headerClickHandler && value.headerClickHandler(value, direction, self);
                         } : undefined;
+                        let _sortClass: any;
+                        if (!_state.sortDirection) {
+                            _sortClass = 'sort';
+                        }
+                        else if (_state.sortDirection === SortDirection.Asc && _state.sortDataIndex === value.dataIndex) {
+                            _sortClass = 'sortAsc';
+                        }
+                        else if (_state.sortDirection === SortDirection.Desc && _state.sortDataIndex === value.dataIndex) {
+                            _sortClass = 'sortDesc';
+                        }
                         return <th className="headerCell" onClick={_clickHandler}
                             key={'th-' + value.key}>
-                            {(value.renderHeader && value.renderHeader(value.title)) || value.title}
+                            {
+                                <span className={_sortClass}>
+                                    {(value.renderHeader && value.renderHeader(value.title)) || value.title}
+                                </span>
+                            }
                         </th>
                     })
                 }
