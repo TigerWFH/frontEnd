@@ -53,12 +53,21 @@ var Tools = (function () {
                 }
                 // 生成对应的文件结构
                 var destObj_1 = _this._produceObject(Object.keys(_files[0]));
+                var keysOfDest_1 = Object.keys(destObj_1);
                 if (_type && _type instanceof Array) {
                     _files.forEach(function (value, index) {
                         var keyList = Object.keys(value);
                         keyList.forEach(function (item) {
-                            destObj_1[item][_type[index]] = value[item];
+                            if (!destObj_1[item]) {
+                                console.log('第' + index + '个文件的，key为' + item + '的项没有添加到目的文件中');
+                            }
+                            else {
+                                destObj_1[item][_type[index]] = value[item];
+                            }
                         });
+                        if (keyList.length < keysOfDest_1.length) {
+                            console.log('转换文件项少于目标文件项');
+                        }
                     });
                 }
                 else if (_type && typeof _type === 'string') {

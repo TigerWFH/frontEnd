@@ -57,12 +57,21 @@ export class Tools {
             }
             // 生成对应的文件结构
             let destObj = this._produceObject(Object.keys(_files[0]));
+            let keysOfDest = Object.keys(destObj);
             if (_type && _type instanceof Array) {
                 _files.forEach((value: any, index: number) => {
                     let keyList = Object.keys(value);
                     keyList.forEach((item: string) => {
-                        destObj[item][_type[index]] = value[item]
+                        if (!destObj[item]) {
+                            console.log('第' + index + '个文件的，key为' + item + '的项没有添加到目的文件中');
+                        }
+                        else {
+                            destObj[item][_type[index]] = value[item]
+                        }
                     });
+                    if (keyList.length < keysOfDest.length) {
+                        console.log('转换文件项少于目标文件项');
+                    }
                 });
             }
             else if (_type && typeof _type === 'string') {

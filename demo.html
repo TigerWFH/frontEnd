@@ -11,6 +11,20 @@
     *{
         box-sizing: border-box;
     }
+    #main{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        background: red;
+    }
+    #first{
+        position: absolute;
+        top: 1000px;
+        left:700px;
+        width:100px;
+        height: 100px;
+        background: yellow;
+    }
     </style>
 <script>
     var isIE = (function () {
@@ -51,71 +65,17 @@
 <body>
     <!--<img src="./images/test.jpg" class="image" />
     <img src="./images/test.jpg" />-->
-    <!--<div id="main">
-        <a href="#first">单页面1</a>
-    </div>
-    <div id="first">
-        <a href="#main">单页面2</a>
-    </div>-->
-    <!--<table>
-        <tr>
-            <th>Month</th>
-            <th>Price</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>td</td>
-        </tr>
-    </table>
-    <table>
-        <thead>
-            <tr>
-                <th>Month</th>
-                <th>Price</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                    first
-                </td>
-                <td>
-                    second
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    first
-                </td>
-                <td>
-                    second
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    first
-                </td>
-                <td>
-                    second
-                </td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td>total</td>
-            </tr>
-        </tfoot>
-    </table>
-    <div class="wrapper">
-        <div class="box">
-            ceshi
-        </div>
-    </div>-->
-    <div class="cc">
-        <div class="dd">
+    <div id="main">
+        <button id="btn">跳转second</button>
+        <div id="first">
 
         </div>
     </div>
+    <script>
+        document.getElementById('btn').onclick = function () {
+            window.location.href = "#first";
+        }
+    </script>
 </body>
 
 </html>
