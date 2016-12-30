@@ -23,6 +23,13 @@ interface TableProps {
     data?: Array<any>;//数据
     defaultData?: Array<any>;
     columns?: Array<TableColumnsOptions>;
+    tableStyle?: React.CSSProperties;
+    headerStyle?: React.CSSProperties;
+    headerCellStyle?: React.CSSProperties;
+    footerStyle?: React.CSSProperties;
+    footerCellStyle?: React.CSSProperties;
+    bodyStyle?: React.CSSProperties;
+    bodyCellStyle?: React.CSSProperties;
 }
 interface TableState {
     data?: Array<any>;
@@ -77,7 +84,7 @@ export class Table extends React.Component<TableProps, TableState>{
         let _hasHeader = _columns.some(value => !!value.renderHeader || !!value.title);
         let _state = this.state;
         let _element: React.ReactNode = _hasHeader && <thead>
-            <tr className="defaultHeader">
+            <tr className="defaultHeader" style={this.props.headerStyle}>
                 {
                     _columns.map((value: TableColumnsOptions) => {
                         let _sortClass: string;
@@ -115,7 +122,9 @@ export class Table extends React.Component<TableProps, TableState>{
                         else if (_state.sortDirection === SortDirection.Desc && _state.sortDataIndex === value.dataIndex) {
                             _sortClass = 'sortDesc';
                         }
-                        return <th className="headerCell" onClick={_clickHandler}
+                        return <th className="headerCell"
+                            style={this.props.headerCellStyle}
+                            onClick={_clickHandler}
                             key={'th-' + value.key}>
                             {
                                 <span className={_state.sortDataIndex === value.dataIndex ? _sortClass : value.sortable && 'sort'}>
@@ -136,10 +145,13 @@ export class Table extends React.Component<TableProps, TableState>{
         }
         let hasFooter = _columns.some(value => !!value.renderFooter)
         let element: React.ReactNode = hasFooter && <tfoot>
-            <tr className="defaultFooter">
+            <tr className="defaultFooter"
+                style={this.props.footerStyle}>
                 {
                     _columns.map((value: TableColumnsOptions, index: number) => {
-                        return <td className="footerCell" key={"cell-" + index}>
+                        return <td className="footerCell"
+                            style={this.props.footerCellStyle}
+                            key={"cell-" + index}>
                             {value.renderFooter && value.renderFooter()}
                         </td>
                     })
@@ -162,7 +174,9 @@ export class Table extends React.Component<TableProps, TableState>{
             _data = this._sortData(_data, _state.sortDataIndex, _state.sortDirection);
         }
         let _rowList = _data.map((rowData: any, index: number) => {
-            return <tr className="defaultBody" key={'row-' + index} >
+            return <tr className="defaultBody"
+                style={this.props.bodyStyle}
+                key={'row-' + index} >
                 {this._createTableCells(rowData, index, _columns)}
             </tr>;
         });
@@ -190,7 +204,9 @@ export class Table extends React.Component<TableProps, TableState>{
             let _dataIndex = header.dataIndex;
             let _value = _rowData[_dataIndex];
             let _renderCell = header.renderCell ? header.renderCell(_rowData, _dataIndex, this) : _value;
-            return <td className="bodyCell" key={'cell-' + _rowIndex + '-' + colIndex}>
+            return <td className="bodyCell"
+                style={this.props.bodyCellStyle}
+                key={'cell-' + _rowIndex + '-' + colIndex}>
                 {_renderCell}
             </td>;
         });
@@ -205,7 +221,7 @@ export class Table extends React.Component<TableProps, TableState>{
 
             }
         })
-        return <table className="monkeyTableWrapper">
+        return <table className="monkeyTableWrapper" style={this.props.tableStyle}>
             {this._createTableHeader(this.props.columns)}
             {this._createTableFooter(this.props.columns)}
             {this._createTableBody(this.state.data, this.props.columns)}
