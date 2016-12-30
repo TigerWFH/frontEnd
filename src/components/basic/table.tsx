@@ -80,6 +80,7 @@ export class Table extends React.Component<TableProps, TableState>{
             <tr className="defaultHeader">
                 {
                     _columns.map((value: TableColumnsOptions) => {
+                        let _sortClass: string;
                         let _clickHandler = value.sortable ? () => {
                             let direction = SortDirection.Desc;
                             if (value.dataIndex === _state.sortDataIndex) {
@@ -89,7 +90,6 @@ export class Table extends React.Component<TableProps, TableState>{
                             else {
                                 direction = SortDirection.Asc;
                             }
-                            console.log('direction-->', direction);
                             if (_state.sortDataIndex !== value.dataIndex || _state.sortDirection !== direction) {
                                 this.setState({
                                     sortDataIndex: value.dataIndex,
@@ -102,9 +102,10 @@ export class Table extends React.Component<TableProps, TableState>{
                                     sortFunction: value.sortFunction
                                 });
                             }
+                            _sortClass = direction === SortDirection.Asc ? 'sortAsc' : 'sortDesc';
                             value.headerClickHandler && value.headerClickHandler(value, direction, self);
                         } : undefined;
-                        let _sortClass: any;
+
                         if (!_state.sortDirection) {
                             _sortClass = 'sort';
                         }
@@ -117,7 +118,7 @@ export class Table extends React.Component<TableProps, TableState>{
                         return <th className="headerCell" onClick={_clickHandler}
                             key={'th-' + value.key}>
                             {
-                                <span className={_sortClass}>
+                                <span className={_state.sortDataIndex === value.dataIndex ? _sortClass : value.sortable && 'sort'}>
                                     {(value.renderHeader && value.renderHeader(value.title)) || value.title}
                                 </span>
                             }
