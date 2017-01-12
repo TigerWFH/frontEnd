@@ -25,3 +25,4 @@
   model-->模型;模特（麻豆）
   modal-->模态（某豆）
 10.inline images页内图片，就像将图片转换成base64代码
+11.测试git branch合并
