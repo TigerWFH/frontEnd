@@ -87,25 +87,30 @@
     </div>
 
     <script>
-        var main = document.getElementById('main');
-        function first() {
-            console.log('first-this--->', this);
+        function Person(name, age) {
+            this.name = name;
+            this.age = age;
         }
-        function second() {
-            first();
-            console.log('second-this--->', this);
+        Person.prototype.log = function () {
+            console.log('name--->', this.name);
+            console.log('age--->', this.age);
         }
-        function third() {
-            second();
-            console.log('third-this--->', this);
+        function Student(num, sex) {
+            this.num = num;
+            this.gender = sex;
         }
-        var o = {};
-        o.sayColor = third;
-        console.log('调用结果--->');
-        first();
-        second();
-        third();
-        o.sayColor();
+        Student.prototype = new Person('monokey', 12);
+        Student.prototype.log = function () {
+            console.log('name--->', this.name);
+            console.log('age--->', this.age);
+            console.log('num--->', this.num);
+            console.log('gender--->', this.gender);
+        };
+        var person = new Person('Tom', 13);
+        person.log();
+        var student = new Student(12, 'boy');
+        student.log();
+        console.log(person, student);
     </script>
 </body>
 
